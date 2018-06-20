@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction\InterfaceAndAbstraction\InterfaceAndAbstraction\bin\Debug\netcoreapp2.0\InterfaceAndAbstraction.deps.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction\InterfaceAndAbstraction\InterfaceAndAbstraction\bin\Debug\netcoreapp2.0\InterfaceAndAbstraction.runtimeconfig.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction\InterfaceAndAbstraction\InterfaceAndAbstraction\bin\Debug\netcoreapp2.0\InterfaceAndAbstraction.runtimeconfig.dev.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction\InterfaceAndAbstraction\InterfaceAndAbstraction\bin\Debug\netcoreapp2.0\InterfaceAndAbstraction.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction\InterfaceAndAbstraction\InterfaceAndAbstraction\bin\Debug\netcoreapp2.0\InterfaceAndAbstraction.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction\InterfaceAndAbstraction\InterfaceAndAbstraction\obj\Debug\netcoreapp2.0\InterfaceAndAbstraction.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction\InterfaceAndAbstraction\InterfaceAndAbstraction\obj\Debug\netcoreapp2.0\InterfaceAndAbstraction.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction\InterfaceAndAbstraction\InterfaceAndAbstraction\obj\Debug\netcoreapp2.0\InterfaceAndAbstraction.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction\InterfaceAndAbstraction\InterfaceAndAbstraction\obj\Debug\netcoreapp2.0\InterfaceAndAbstraction.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction\InterfaceAndAbstraction\InterfaceAndAbstraction\obj\Debug\netcoreapp2.0\InterfaceAndAbstraction.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction\InterfaceAndAbstraction\InterfaceAndAbstraction\obj\Debug\netcoreapp2.0\InterfaceAndAbstraction.pdb

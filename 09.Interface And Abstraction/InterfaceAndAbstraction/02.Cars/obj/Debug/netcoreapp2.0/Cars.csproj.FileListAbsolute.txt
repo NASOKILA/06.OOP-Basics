@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction\InterfaceAndAbstraction\02.Cars\bin\Debug\netcoreapp2.0\Cars.deps.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction\InterfaceAndAbstraction\02.Cars\bin\Debug\netcoreapp2.0\Cars.runtimeconfig.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction\InterfaceAndAbstraction\02.Cars\bin\Debug\netcoreapp2.0\Cars.runtimeconfig.dev.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction\InterfaceAndAbstraction\02.Cars\bin\Debug\netcoreapp2.0\Cars.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction\InterfaceAndAbstraction\02.Cars\bin\Debug\netcoreapp2.0\Cars.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction\InterfaceAndAbstraction\02.Cars\obj\Debug\netcoreapp2.0\Cars.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction\InterfaceAndAbstraction\02.Cars\obj\Debug\netcoreapp2.0\Cars.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction\InterfaceAndAbstraction\02.Cars\obj\Debug\netcoreapp2.0\Cars.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction\InterfaceAndAbstraction\02.Cars\obj\Debug\netcoreapp2.0\Cars.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction\InterfaceAndAbstraction\02.Cars\obj\Debug\netcoreapp2.0\Cars.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction\InterfaceAndAbstraction\02.Cars\obj\Debug\netcoreapp2.0\Cars.pdb

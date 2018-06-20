@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction\InterfaceAndAbstraction\01.Shapes\bin\Debug\netcoreapp2.0\Shapes.deps.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction\InterfaceAndAbstraction\01.Shapes\bin\Debug\netcoreapp2.0\Shapes.runtimeconfig.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction\InterfaceAndAbstraction\01.Shapes\bin\Debug\netcoreapp2.0\Shapes.runtimeconfig.dev.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction\InterfaceAndAbstraction\01.Shapes\bin\Debug\netcoreapp2.0\Shapes.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction\InterfaceAndAbstraction\01.Shapes\bin\Debug\netcoreapp2.0\Shapes.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction\InterfaceAndAbstraction\01.Shapes\obj\Debug\netcoreapp2.0\Shapes.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction\InterfaceAndAbstraction\01.Shapes\obj\Debug\netcoreapp2.0\Shapes.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction\InterfaceAndAbstraction\01.Shapes\obj\Debug\netcoreapp2.0\Shapes.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction\InterfaceAndAbstraction\01.Shapes\obj\Debug\netcoreapp2.0\Shapes.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction\InterfaceAndAbstraction\01.Shapes\obj\Debug\netcoreapp2.0\Shapes.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction\InterfaceAndAbstraction\01.Shapes\obj\Debug\netcoreapp2.0\Shapes.pdb
