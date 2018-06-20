@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\02.ClassBoxDataValidation\bin\Debug\netcoreapp2.0\02.ClassBoxDataValidation.deps.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\02.ClassBoxDataValidation\bin\Debug\netcoreapp2.0\02.ClassBoxDataValidation.runtimeconfig.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\02.ClassBoxDataValidation\bin\Debug\netcoreapp2.0\02.ClassBoxDataValidation.runtimeconfig.dev.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\02.ClassBoxDataValidation\bin\Debug\netcoreapp2.0\02.ClassBoxDataValidation.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\02.ClassBoxDataValidation\bin\Debug\netcoreapp2.0\02.ClassBoxDataValidation.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\02.ClassBoxDataValidation\obj\Debug\netcoreapp2.0\02.ClassBoxDataValidation.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\02.ClassBoxDataValidation\obj\Debug\netcoreapp2.0\02.ClassBoxDataValidation.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\02.ClassBoxDataValidation\obj\Debug\netcoreapp2.0\02.ClassBoxDataValidation.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\02.ClassBoxDataValidation\obj\Debug\netcoreapp2.0\02.ClassBoxDataValidation.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\02.ClassBoxDataValidation\obj\Debug\netcoreapp2.0\02.ClassBoxDataValidation.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\02.ClassBoxDataValidation\obj\Debug\netcoreapp2.0\02.ClassBoxDataValidation.csprojResolveAssemblyReference.cache

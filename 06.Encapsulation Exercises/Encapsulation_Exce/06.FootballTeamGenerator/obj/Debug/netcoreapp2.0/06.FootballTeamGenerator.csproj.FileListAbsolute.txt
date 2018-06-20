@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\06.FootballTeamGenerator\bin\Debug\netcoreapp2.0\06.FootballTeamGenerator.deps.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\06.FootballTeamGenerator\bin\Debug\netcoreapp2.0\06.FootballTeamGenerator.runtimeconfig.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\06.FootballTeamGenerator\bin\Debug\netcoreapp2.0\06.FootballTeamGenerator.runtimeconfig.dev.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\06.FootballTeamGenerator\bin\Debug\netcoreapp2.0\06.FootballTeamGenerator.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\06.FootballTeamGenerator\bin\Debug\netcoreapp2.0\06.FootballTeamGenerator.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\06.FootballTeamGenerator\obj\Debug\netcoreapp2.0\06.FootballTeamGenerator.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\06.FootballTeamGenerator\obj\Debug\netcoreapp2.0\06.FootballTeamGenerator.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\06.FootballTeamGenerator\obj\Debug\netcoreapp2.0\06.FootballTeamGenerator.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\06.FootballTeamGenerator\obj\Debug\netcoreapp2.0\06.FootballTeamGenerator.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\06.FootballTeamGenerator\obj\Debug\netcoreapp2.0\06.FootballTeamGenerator.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\06.FootballTeamGenerator\obj\Debug\netcoreapp2.0\06.FootballTeamGenerator.pdb

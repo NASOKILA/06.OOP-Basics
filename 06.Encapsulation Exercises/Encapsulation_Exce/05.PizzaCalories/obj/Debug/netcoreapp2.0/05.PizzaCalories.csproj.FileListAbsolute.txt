@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\05.PizzaCalories\bin\Debug\netcoreapp2.0\05.PizzaCalories.deps.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\05.PizzaCalories\bin\Debug\netcoreapp2.0\05.PizzaCalories.runtimeconfig.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\05.PizzaCalories\bin\Debug\netcoreapp2.0\05.PizzaCalories.runtimeconfig.dev.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\05.PizzaCalories\bin\Debug\netcoreapp2.0\05.PizzaCalories.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\05.PizzaCalories\bin\Debug\netcoreapp2.0\05.PizzaCalories.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\05.PizzaCalories\obj\Debug\netcoreapp2.0\05.PizzaCalories.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\05.PizzaCalories\obj\Debug\netcoreapp2.0\05.PizzaCalories.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\05.PizzaCalories\obj\Debug\netcoreapp2.0\05.PizzaCalories.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\05.PizzaCalories\obj\Debug\netcoreapp2.0\05.PizzaCalories.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\05.PizzaCalories\obj\Debug\netcoreapp2.0\05.PizzaCalories.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\05.PizzaCalories\obj\Debug\netcoreapp2.0\05.PizzaCalories.pdb

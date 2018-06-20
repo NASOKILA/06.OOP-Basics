@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\01.ClassBox\bin\Debug\netcoreapp2.0\01.ClassBox.deps.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\01.ClassBox\bin\Debug\netcoreapp2.0\01.ClassBox.runtimeconfig.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\01.ClassBox\bin\Debug\netcoreapp2.0\01.ClassBox.runtimeconfig.dev.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\01.ClassBox\bin\Debug\netcoreapp2.0\01.ClassBox.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\01.ClassBox\bin\Debug\netcoreapp2.0\01.ClassBox.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\01.ClassBox\obj\Debug\netcoreapp2.0\01.ClassBox.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\01.ClassBox\obj\Debug\netcoreapp2.0\01.ClassBox.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\01.ClassBox\obj\Debug\netcoreapp2.0\01.ClassBox.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\01.ClassBox\obj\Debug\netcoreapp2.0\01.ClassBox.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\01.ClassBox\obj\Debug\netcoreapp2.0\01.ClassBox.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\06.Encapsulation_Exce\Encapsulation_Exce\01.ClassBox\obj\Debug\netcoreapp2.0\01.ClassBox.pdb
