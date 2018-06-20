@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P04_Hospital\bin\Debug\netcoreapp2.0\P04_Hospital.deps.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P04_Hospital\bin\Debug\netcoreapp2.0\P04_Hospital.runtimeconfig.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P04_Hospital\bin\Debug\netcoreapp2.0\P04_Hospital.runtimeconfig.dev.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P04_Hospital\bin\Debug\netcoreapp2.0\P04_Hospital.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P04_Hospital\bin\Debug\netcoreapp2.0\P04_Hospital.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P04_Hospital\obj\Debug\netcoreapp2.0\P04_Hospital.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P04_Hospital\obj\Debug\netcoreapp2.0\P04_Hospital.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P04_Hospital\obj\Debug\netcoreapp2.0\P04_Hospital.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P04_Hospital\obj\Debug\netcoreapp2.0\P04_Hospital.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P04_Hospital\obj\Debug\netcoreapp2.0\P04_Hospital.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P04_Hospital\obj\Debug\netcoreapp2.0\P04_Hospital.csprojResolveAssemblyReference.cache

@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P05_GreedyTimes\bin\Debug\netcoreapp2.0\P05_GreedyTimes.deps.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P05_GreedyTimes\bin\Debug\netcoreapp2.0\P05_GreedyTimes.runtimeconfig.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P05_GreedyTimes\bin\Debug\netcoreapp2.0\P05_GreedyTimes.runtimeconfig.dev.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P05_GreedyTimes\bin\Debug\netcoreapp2.0\P05_GreedyTimes.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P05_GreedyTimes\bin\Debug\netcoreapp2.0\P05_GreedyTimes.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P05_GreedyTimes\obj\Debug\netcoreapp2.0\P05_GreedyTimes.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P05_GreedyTimes\obj\Debug\netcoreapp2.0\P05_GreedyTimes.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P05_GreedyTimes\obj\Debug\netcoreapp2.0\P05_GreedyTimes.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P05_GreedyTimes\obj\Debug\netcoreapp2.0\P05_GreedyTimes.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P05_GreedyTimes\obj\Debug\netcoreapp2.0\P05_GreedyTimes.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P05_GreedyTimes\obj\Debug\netcoreapp2.0\P05_GreedyTimes.pdb

@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P07_FamilyTree\bin\Debug\netcoreapp2.0\P07_FamilyTree.deps.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P07_FamilyTree\bin\Debug\netcoreapp2.0\P07_FamilyTree.runtimeconfig.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P07_FamilyTree\bin\Debug\netcoreapp2.0\P07_FamilyTree.runtimeconfig.dev.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P07_FamilyTree\bin\Debug\netcoreapp2.0\P07_FamilyTree.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P07_FamilyTree\bin\Debug\netcoreapp2.0\P07_FamilyTree.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P07_FamilyTree\obj\Debug\netcoreapp2.0\P07_FamilyTree.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P07_FamilyTree\obj\Debug\netcoreapp2.0\P07_FamilyTree.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P07_FamilyTree\obj\Debug\netcoreapp2.0\P07_FamilyTree.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P07_FamilyTree\obj\Debug\netcoreapp2.0\P07_FamilyTree.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P07_FamilyTree\obj\Debug\netcoreapp2.0\P07_FamilyTree.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P07_FamilyTree\obj\Debug\netcoreapp2.0\P07_FamilyTree.pdb

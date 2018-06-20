@@ -1,0 +1,10 @@
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P02_CarsSalesman\bin\Debug\netcoreapp2.0\P02_CarsSalesman.deps.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P02_CarsSalesman\bin\Debug\netcoreapp2.0\P02_CarsSalesman.runtimeconfig.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P02_CarsSalesman\bin\Debug\netcoreapp2.0\P02_CarsSalesman.runtimeconfig.dev.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P02_CarsSalesman\bin\Debug\netcoreapp2.0\P02_CarsSalesman.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P02_CarsSalesman\bin\Debug\netcoreapp2.0\P02_CarsSalesman.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P02_CarsSalesman\obj\Debug\netcoreapp2.0\P02_CarsSalesman.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P02_CarsSalesman\obj\Debug\netcoreapp2.0\P02_CarsSalesman.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P02_CarsSalesman\obj\Debug\netcoreapp2.0\P02_CarsSalesman.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P02_CarsSalesman\obj\Debug\netcoreapp2.0\P02_CarsSalesman.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\04.Working_With_Abstraction_Exce\P02_CarsSalesman\obj\Debug\netcoreapp2.0\P02_CarsSalesman.pdb
