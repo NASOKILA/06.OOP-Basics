@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\DefiningClassessLab\DefiningClassessLab\bin\Debug\DefiningClassessLab.exe.config
+C:\Users\user\Desktop\DefiningClassessLab\DefiningClassessLab\bin\Debug\DefiningClassessLab.exe
+C:\Users\user\Desktop\DefiningClassessLab\DefiningClassessLab\bin\Debug\DefiningClassessLab.pdb
+C:\Users\user\Desktop\DefiningClassessLab\DefiningClassessLab\obj\Debug\DefiningClassessLab.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\DefiningClassessLab\DefiningClassessLab\obj\Debug\DefiningClassessLab.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\DefiningClassessLab\DefiningClassessLab\obj\Debug\DefiningClassessLab.exe
+C:\Users\user\Desktop\DefiningClassessLab\DefiningClassessLab\obj\Debug\DefiningClassessLab.pdb

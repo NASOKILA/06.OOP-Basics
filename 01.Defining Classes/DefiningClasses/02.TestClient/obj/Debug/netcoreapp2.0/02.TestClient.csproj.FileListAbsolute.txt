@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\1.Defining_Classes\DefiningClasses\02.TestClient\bin\Debug\netcoreapp2.0\02.TestClient.deps.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\1.Defining_Classes\DefiningClasses\02.TestClient\bin\Debug\netcoreapp2.0\02.TestClient.runtimeconfig.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\1.Defining_Classes\DefiningClasses\02.TestClient\bin\Debug\netcoreapp2.0\02.TestClient.runtimeconfig.dev.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\1.Defining_Classes\DefiningClasses\02.TestClient\bin\Debug\netcoreapp2.0\02.TestClient.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\1.Defining_Classes\DefiningClasses\02.TestClient\bin\Debug\netcoreapp2.0\02.TestClient.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\1.Defining_Classes\DefiningClasses\02.TestClient\obj\Debug\netcoreapp2.0\02.TestClient.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\1.Defining_Classes\DefiningClasses\02.TestClient\obj\Debug\netcoreapp2.0\02.TestClient.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\1.Defining_Classes\DefiningClasses\02.TestClient\obj\Debug\netcoreapp2.0\02.TestClient.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\1.Defining_Classes\DefiningClasses\02.TestClient\obj\Debug\netcoreapp2.0\02.TestClient.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\1.Defining_Classes\DefiningClasses\02.TestClient\obj\Debug\netcoreapp2.0\02.TestClient.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\1.Defining_Classes\DefiningClasses\02.TestClient\obj\Debug\netcoreapp2.0\02.TestClient.csprojResolveAssemblyReference.cache

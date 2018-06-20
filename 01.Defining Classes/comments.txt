@@ -1,0 +1,54 @@
+
+OOP:
+	Klasove, Poleta, Konstruktori, Propertita, Metodi.
+	
+
+	1.Abstraktni tipove danni,
+	2.Obiknovenni klasove, 
+	3. Konstrukturi i dr.
+
+Abstraktni tipove danni:
+	Tova sa ni neshtata koito ni raprezentirat obekta.
+	Pishem neshta koito znaem che shte gi polzvame
+	Pishem neshtata maximalno prosto
+	Klasovete se pishat v otdelni failove.
+	
+
+konstrukturite mogat da e naledqvat
+ :this() nasledqva purviq konstruktor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

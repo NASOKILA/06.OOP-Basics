@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\1.Defining_Classes\DefiningClasses\01.Bank Account\bin\Debug\netcoreapp2.0\01.Bank Account.deps.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\1.Defining_Classes\DefiningClasses\01.Bank Account\bin\Debug\netcoreapp2.0\01.Bank Account.runtimeconfig.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\1.Defining_Classes\DefiningClasses\01.Bank Account\bin\Debug\netcoreapp2.0\01.Bank Account.runtimeconfig.dev.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\1.Defining_Classes\DefiningClasses\01.Bank Account\bin\Debug\netcoreapp2.0\01.Bank Account.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\1.Defining_Classes\DefiningClasses\01.Bank Account\bin\Debug\netcoreapp2.0\01.Bank Account.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\1.Defining_Classes\DefiningClasses\01.Bank Account\obj\Debug\netcoreapp2.0\01.Bank Account.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\1.Defining_Classes\DefiningClasses\01.Bank Account\obj\Debug\netcoreapp2.0\01.Bank Account.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\1.Defining_Classes\DefiningClasses\01.Bank Account\obj\Debug\netcoreapp2.0\01.Bank Account.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\1.Defining_Classes\DefiningClasses\01.Bank Account\obj\Debug\netcoreapp2.0\01.Bank Account.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\1.Defining_Classes\DefiningClasses\01.Bank Account\obj\Debug\netcoreapp2.0\01.Bank Account.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\1.Defining_Classes\DefiningClasses\01.Bank Account\obj\Debug\netcoreapp2.0\01.Bank Account.pdb
