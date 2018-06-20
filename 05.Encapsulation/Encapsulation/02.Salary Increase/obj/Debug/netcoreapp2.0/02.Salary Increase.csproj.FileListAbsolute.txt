@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\02.Salary Increase\bin\Debug\netcoreapp2.0\02.Salary Increase.deps.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\02.Salary Increase\bin\Debug\netcoreapp2.0\02.Salary Increase.runtimeconfig.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\02.Salary Increase\bin\Debug\netcoreapp2.0\02.Salary Increase.runtimeconfig.dev.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\02.Salary Increase\bin\Debug\netcoreapp2.0\02.Salary Increase.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\02.Salary Increase\bin\Debug\netcoreapp2.0\02.Salary Increase.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\02.Salary Increase\obj\Debug\netcoreapp2.0\02.Salary Increase.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\02.Salary Increase\obj\Debug\netcoreapp2.0\02.Salary Increase.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\02.Salary Increase\obj\Debug\netcoreapp2.0\02.Salary Increase.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\02.Salary Increase\obj\Debug\netcoreapp2.0\02.Salary Increase.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\02.Salary Increase\obj\Debug\netcoreapp2.0\02.Salary Increase.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\02.Salary Increase\obj\Debug\netcoreapp2.0\02.Salary Increase.pdb

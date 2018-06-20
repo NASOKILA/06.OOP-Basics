@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\Encapsulation\bin\Debug\netcoreapp2.0\Encapsulation.deps.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\Encapsulation\bin\Debug\netcoreapp2.0\Encapsulation.runtimeconfig.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\Encapsulation\bin\Debug\netcoreapp2.0\Encapsulation.runtimeconfig.dev.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\Encapsulation\bin\Debug\netcoreapp2.0\Encapsulation.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\Encapsulation\bin\Debug\netcoreapp2.0\Encapsulation.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\Encapsulation\obj\Debug\netcoreapp2.0\Encapsulation.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\Encapsulation\obj\Debug\netcoreapp2.0\Encapsulation.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\Encapsulation\obj\Debug\netcoreapp2.0\Encapsulation.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\Encapsulation\obj\Debug\netcoreapp2.0\Encapsulation.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\Encapsulation\obj\Debug\netcoreapp2.0\Encapsulation.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\Encapsulation\obj\Debug\netcoreapp2.0\Encapsulation.pdb

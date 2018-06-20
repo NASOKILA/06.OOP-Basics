@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\04.First And Reserve Team\bin\Debug\netcoreapp2.0\04.First And Reserve Team.deps.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\04.First And Reserve Team\bin\Debug\netcoreapp2.0\04.First And Reserve Team.runtimeconfig.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\04.First And Reserve Team\bin\Debug\netcoreapp2.0\04.First And Reserve Team.runtimeconfig.dev.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\04.First And Reserve Team\bin\Debug\netcoreapp2.0\04.First And Reserve Team.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\04.First And Reserve Team\bin\Debug\netcoreapp2.0\04.First And Reserve Team.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\04.First And Reserve Team\obj\Debug\netcoreapp2.0\04.First And Reserve Team.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\04.First And Reserve Team\obj\Debug\netcoreapp2.0\04.First And Reserve Team.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\04.First And Reserve Team\obj\Debug\netcoreapp2.0\04.First And Reserve Team.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\04.First And Reserve Team\obj\Debug\netcoreapp2.0\04.First And Reserve Team.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\04.First And Reserve Team\obj\Debug\netcoreapp2.0\04.First And Reserve Team.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\04.First And Reserve Team\obj\Debug\netcoreapp2.0\04.First And Reserve Team.pdb

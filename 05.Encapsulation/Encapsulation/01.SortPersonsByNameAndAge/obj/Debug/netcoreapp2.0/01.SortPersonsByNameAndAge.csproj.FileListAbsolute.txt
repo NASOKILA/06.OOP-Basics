@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\01.SortPersonsByNameAndAge\bin\Debug\netcoreapp2.0\01.SortPersonsByNameAndAge.deps.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\01.SortPersonsByNameAndAge\bin\Debug\netcoreapp2.0\01.SortPersonsByNameAndAge.runtimeconfig.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\01.SortPersonsByNameAndAge\bin\Debug\netcoreapp2.0\01.SortPersonsByNameAndAge.runtimeconfig.dev.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\01.SortPersonsByNameAndAge\bin\Debug\netcoreapp2.0\01.SortPersonsByNameAndAge.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\01.SortPersonsByNameAndAge\bin\Debug\netcoreapp2.0\01.SortPersonsByNameAndAge.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\01.SortPersonsByNameAndAge\obj\Debug\netcoreapp2.0\01.SortPersonsByNameAndAge.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\01.SortPersonsByNameAndAge\obj\Debug\netcoreapp2.0\01.SortPersonsByNameAndAge.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\01.SortPersonsByNameAndAge\obj\Debug\netcoreapp2.0\01.SortPersonsByNameAndAge.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\01.SortPersonsByNameAndAge\obj\Debug\netcoreapp2.0\01.SortPersonsByNameAndAge.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\01.SortPersonsByNameAndAge\obj\Debug\netcoreapp2.0\01.SortPersonsByNameAndAge.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\01.SortPersonsByNameAndAge\obj\Debug\netcoreapp2.0\01.SortPersonsByNameAndAge.pdb

@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\03.Validation Of Data\bin\Debug\netcoreapp2.0\03.Validation Of Data.deps.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\03.Validation Of Data\bin\Debug\netcoreapp2.0\03.Validation Of Data.runtimeconfig.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\03.Validation Of Data\bin\Debug\netcoreapp2.0\03.Validation Of Data.runtimeconfig.dev.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\03.Validation Of Data\bin\Debug\netcoreapp2.0\03.Validation Of Data.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\03.Validation Of Data\bin\Debug\netcoreapp2.0\03.Validation Of Data.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\03.Validation Of Data\obj\Debug\netcoreapp2.0\03.Validation Of Data.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\03.Validation Of Data\obj\Debug\netcoreapp2.0\03.Validation Of Data.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\03.Validation Of Data\obj\Debug\netcoreapp2.0\03.Validation Of Data.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\03.Validation Of Data\obj\Debug\netcoreapp2.0\03.Validation Of Data.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\03.Validation Of Data\obj\Debug\netcoreapp2.0\03.Validation Of Data.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\05.Encapsulation\Encapsulation\03.Validation Of Data\obj\Debug\netcoreapp2.0\03.Validation Of Data.pdb
