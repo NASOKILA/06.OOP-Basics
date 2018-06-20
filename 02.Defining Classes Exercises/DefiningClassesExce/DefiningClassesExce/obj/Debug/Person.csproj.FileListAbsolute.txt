@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\DefiningClassesExce\DefiningClassesExce\bin\Debug\DefiningClassesExce.exe.config
+C:\Users\user\Desktop\DefiningClassesExce\DefiningClassesExce\bin\Debug\DefiningClassesExce.exe
+C:\Users\user\Desktop\DefiningClassesExce\DefiningClassesExce\bin\Debug\DefiningClassesExce.pdb
+C:\Users\user\Desktop\DefiningClassesExce\DefiningClassesExce\obj\Debug\Person.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\DefiningClassesExce\DefiningClassesExce\obj\Debug\Person.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\DefiningClassesExce\DefiningClassesExce\obj\Debug\DefiningClassesExce.exe
+C:\Users\user\Desktop\DefiningClassesExce\DefiningClassesExce\obj\Debug\DefiningClassesExce.pdb

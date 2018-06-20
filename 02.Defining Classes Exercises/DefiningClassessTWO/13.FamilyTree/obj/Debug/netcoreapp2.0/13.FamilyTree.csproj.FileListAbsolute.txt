@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\13.FamilyTree\bin\Debug\netcoreapp2.0\13.FamilyTree.deps.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\13.FamilyTree\bin\Debug\netcoreapp2.0\13.FamilyTree.runtimeconfig.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\13.FamilyTree\bin\Debug\netcoreapp2.0\13.FamilyTree.runtimeconfig.dev.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\13.FamilyTree\bin\Debug\netcoreapp2.0\13.FamilyTree.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\13.FamilyTree\bin\Debug\netcoreapp2.0\13.FamilyTree.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\13.FamilyTree\obj\Debug\netcoreapp2.0\13.FamilyTree.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\13.FamilyTree\obj\Debug\netcoreapp2.0\13.FamilyTree.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\13.FamilyTree\obj\Debug\netcoreapp2.0\13.FamilyTree.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\13.FamilyTree\obj\Debug\netcoreapp2.0\13.FamilyTree.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\13.FamilyTree\obj\Debug\netcoreapp2.0\13.FamilyTree.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\13.FamilyTree\obj\Debug\netcoreapp2.0\13.FamilyTree.pdb

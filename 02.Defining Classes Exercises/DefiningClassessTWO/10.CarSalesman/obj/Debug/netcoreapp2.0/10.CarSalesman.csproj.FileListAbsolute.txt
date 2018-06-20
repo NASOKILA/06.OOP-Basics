@@ -1,0 +1,10 @@
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\10.CarSalesman\bin\Debug\netcoreapp2.0\10.CarSalesman.deps.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\10.CarSalesman\bin\Debug\netcoreapp2.0\10.CarSalesman.runtimeconfig.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\10.CarSalesman\bin\Debug\netcoreapp2.0\10.CarSalesman.runtimeconfig.dev.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\10.CarSalesman\bin\Debug\netcoreapp2.0\10.CarSalesman.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\10.CarSalesman\bin\Debug\netcoreapp2.0\10.CarSalesman.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\10.CarSalesman\obj\Debug\netcoreapp2.0\10.CarSalesman.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\10.CarSalesman\obj\Debug\netcoreapp2.0\10.CarSalesman.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\10.CarSalesman\obj\Debug\netcoreapp2.0\10.CarSalesman.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\10.CarSalesman\obj\Debug\netcoreapp2.0\10.CarSalesman.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\10.CarSalesman\obj\Debug\netcoreapp2.0\10.CarSalesman.pdb

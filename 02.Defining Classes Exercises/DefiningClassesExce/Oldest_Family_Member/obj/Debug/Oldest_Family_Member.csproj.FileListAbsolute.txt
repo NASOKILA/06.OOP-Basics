@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\DefiningClassesExce\Oldest_Family_Member\bin\Debug\Oldest_Family_Member.exe.config
+C:\Users\user\Desktop\DefiningClassesExce\Oldest_Family_Member\bin\Debug\Oldest_Family_Member.exe
+C:\Users\user\Desktop\DefiningClassesExce\Oldest_Family_Member\bin\Debug\Oldest_Family_Member.pdb
+C:\Users\user\Desktop\DefiningClassesExce\Oldest_Family_Member\obj\Debug\Oldest_Family_Member.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\DefiningClassesExce\Oldest_Family_Member\obj\Debug\Oldest_Family_Member.exe
+C:\Users\user\Desktop\DefiningClassesExce\Oldest_Family_Member\obj\Debug\Oldest_Family_Member.pdb

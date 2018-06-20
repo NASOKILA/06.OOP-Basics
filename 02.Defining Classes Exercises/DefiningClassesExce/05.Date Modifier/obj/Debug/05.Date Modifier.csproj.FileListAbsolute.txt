@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\DefiningClassesExce\05.Date Modifier\bin\Debug\05.Date Modifier.exe.config
+C:\Users\user\Desktop\DefiningClassesExce\05.Date Modifier\bin\Debug\05.Date Modifier.exe
+C:\Users\user\Desktop\DefiningClassesExce\05.Date Modifier\bin\Debug\05.Date Modifier.pdb
+C:\Users\user\Desktop\DefiningClassesExce\05.Date Modifier\obj\Debug\05.Date Modifier.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\DefiningClassesExce\05.Date Modifier\obj\Debug\05.Date Modifier.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\DefiningClassesExce\05.Date Modifier\obj\Debug\05.Date Modifier.exe
+C:\Users\user\Desktop\DefiningClassesExce\05.Date Modifier\obj\Debug\05.Date Modifier.pdb

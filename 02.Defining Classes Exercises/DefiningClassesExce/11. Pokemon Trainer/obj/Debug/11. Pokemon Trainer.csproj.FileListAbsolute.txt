@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\DefiningClassesExce\11. Pokemon Trainer\bin\Debug\_11.Pokemon_Trainer.exe.config
+C:\Users\user\Desktop\DefiningClassesExce\11. Pokemon Trainer\bin\Debug\_11.Pokemon_Trainer.exe
+C:\Users\user\Desktop\DefiningClassesExce\11. Pokemon Trainer\bin\Debug\_11.Pokemon_Trainer.pdb
+C:\Users\user\Desktop\DefiningClassesExce\11. Pokemon Trainer\obj\Debug\11. Pokemon Trainer.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\DefiningClassesExce\11. Pokemon Trainer\obj\Debug\11. Pokemon Trainer.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\DefiningClassesExce\11. Pokemon Trainer\obj\Debug\_11.Pokemon_Trainer.exe
+C:\Users\user\Desktop\DefiningClassesExce\11. Pokemon Trainer\obj\Debug\_11.Pokemon_Trainer.pdb

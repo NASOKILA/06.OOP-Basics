@@ -1,0 +1,10 @@
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\15.DrawingTool\bin\Debug\netcoreapp2.0\15.DrawingTool.deps.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\15.DrawingTool\bin\Debug\netcoreapp2.0\15.DrawingTool.runtimeconfig.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\15.DrawingTool\bin\Debug\netcoreapp2.0\15.DrawingTool.runtimeconfig.dev.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\15.DrawingTool\bin\Debug\netcoreapp2.0\15.DrawingTool.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\15.DrawingTool\bin\Debug\netcoreapp2.0\15.DrawingTool.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\15.DrawingTool\obj\Debug\netcoreapp2.0\15.DrawingTool.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\15.DrawingTool\obj\Debug\netcoreapp2.0\15.DrawingTool.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\15.DrawingTool\obj\Debug\netcoreapp2.0\15.DrawingTool.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\15.DrawingTool\obj\Debug\netcoreapp2.0\15.DrawingTool.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\15.DrawingTool\obj\Debug\netcoreapp2.0\15.DrawingTool.pdb

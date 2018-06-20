@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\DefiningClassesExce\06.CompanyRoster\bin\Debug\06.CompanyRoster.exe.config
+C:\Users\user\Desktop\DefiningClassesExce\06.CompanyRoster\bin\Debug\06.CompanyRoster.exe
+C:\Users\user\Desktop\DefiningClassesExce\06.CompanyRoster\bin\Debug\06.CompanyRoster.pdb
+C:\Users\user\Desktop\DefiningClassesExce\06.CompanyRoster\obj\Debug\06.CompanyRoster.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\DefiningClassesExce\06.CompanyRoster\obj\Debug\06.CompanyRoster.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\DefiningClassesExce\06.CompanyRoster\obj\Debug\06.CompanyRoster.exe
+C:\Users\user\Desktop\DefiningClassesExce\06.CompanyRoster\obj\Debug\06.CompanyRoster.pdb

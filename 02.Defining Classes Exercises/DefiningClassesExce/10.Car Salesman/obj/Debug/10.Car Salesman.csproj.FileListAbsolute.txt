@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\DefiningClassesExce\10.Car Salesman\obj\Debug\10.Car Salesman.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\DefiningClassesExce\10.Car Salesman\obj\Debug\10.Car Salesman.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\DefiningClassesExce\10.Car Salesman\bin\Debug\10.Car Salesman.exe.config
+C:\Users\user\Desktop\DefiningClassesExce\10.Car Salesman\bin\Debug\10.Car Salesman.exe
+C:\Users\user\Desktop\DefiningClassesExce\10.Car Salesman\bin\Debug\10.Car Salesman.pdb
+C:\Users\user\Desktop\DefiningClassesExce\10.Car Salesman\obj\Debug\10.Car Salesman.exe
+C:\Users\user\Desktop\DefiningClassesExce\10.Car Salesman\obj\Debug\10.Car Salesman.pdb

@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\DefiningClassesExce\08.RawData\bin\Debug\08.RawData.exe.config
+C:\Users\user\Desktop\DefiningClassesExce\08.RawData\bin\Debug\08.RawData.exe
+C:\Users\user\Desktop\DefiningClassesExce\08.RawData\bin\Debug\08.RawData.pdb
+C:\Users\user\Desktop\DefiningClassesExce\08.RawData\obj\Debug\08.RawData.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\DefiningClassesExce\08.RawData\obj\Debug\08.RawData.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\DefiningClassesExce\08.RawData\obj\Debug\08.RawData.exe
+C:\Users\user\Desktop\DefiningClassesExce\08.RawData\obj\Debug\08.RawData.pdb

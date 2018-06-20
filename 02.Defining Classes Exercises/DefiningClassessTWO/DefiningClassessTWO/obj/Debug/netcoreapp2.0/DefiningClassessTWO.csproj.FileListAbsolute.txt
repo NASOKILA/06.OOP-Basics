@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\DefiningClassessTWO\bin\Debug\netcoreapp2.0\DefiningClassessTWO.deps.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\DefiningClassessTWO\bin\Debug\netcoreapp2.0\DefiningClassessTWO.runtimeconfig.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\DefiningClassessTWO\bin\Debug\netcoreapp2.0\DefiningClassessTWO.runtimeconfig.dev.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\DefiningClassessTWO\bin\Debug\netcoreapp2.0\DefiningClassessTWO.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\DefiningClassessTWO\bin\Debug\netcoreapp2.0\DefiningClassessTWO.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\DefiningClassessTWO\obj\Debug\netcoreapp2.0\DefiningClassessTWO.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\DefiningClassessTWO\obj\Debug\netcoreapp2.0\DefiningClassessTWO.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\DefiningClassessTWO\obj\Debug\netcoreapp2.0\DefiningClassessTWO.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\DefiningClassessTWO\obj\Debug\netcoreapp2.0\DefiningClassessTWO.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\DefiningClassessTWO\obj\Debug\netcoreapp2.0\DefiningClassessTWO.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\DefiningClassessTWO\obj\Debug\netcoreapp2.0\DefiningClassessTWO.pdb

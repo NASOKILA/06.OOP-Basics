@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\DefiningClassesExce\12. Google\bin\Debug\_12.Google.exe.config
+C:\Users\user\Desktop\DefiningClassesExce\12. Google\bin\Debug\_12.Google.exe
+C:\Users\user\Desktop\DefiningClassesExce\12. Google\bin\Debug\_12.Google.pdb
+C:\Users\user\Desktop\DefiningClassesExce\12. Google\obj\Debug\12. Google.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\DefiningClassesExce\12. Google\obj\Debug\12. Google.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\DefiningClassesExce\12. Google\obj\Debug\_12.Google.exe
+C:\Users\user\Desktop\DefiningClassesExce\12. Google\obj\Debug\_12.Google.pdb

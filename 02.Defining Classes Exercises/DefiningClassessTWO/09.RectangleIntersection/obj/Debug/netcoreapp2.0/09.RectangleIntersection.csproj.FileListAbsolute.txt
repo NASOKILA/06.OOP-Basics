@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\09.RectangleIntersection\bin\Debug\netcoreapp2.0\09.RectangleIntersection.deps.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\09.RectangleIntersection\bin\Debug\netcoreapp2.0\09.RectangleIntersection.runtimeconfig.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\09.RectangleIntersection\bin\Debug\netcoreapp2.0\09.RectangleIntersection.runtimeconfig.dev.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\09.RectangleIntersection\bin\Debug\netcoreapp2.0\09.RectangleIntersection.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\09.RectangleIntersection\bin\Debug\netcoreapp2.0\09.RectangleIntersection.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\09.RectangleIntersection\obj\Debug\netcoreapp2.0\09.RectangleIntersection.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\09.RectangleIntersection\obj\Debug\netcoreapp2.0\09.RectangleIntersection.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\09.RectangleIntersection\obj\Debug\netcoreapp2.0\09.RectangleIntersection.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\09.RectangleIntersection\obj\Debug\netcoreapp2.0\09.RectangleIntersection.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\09.RectangleIntersection\obj\Debug\netcoreapp2.0\09.RectangleIntersection.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\2.Defining_Classes_Exce\DefiningClassessTWO\09.RectangleIntersection\obj\Debug\netcoreapp2.0\09.RectangleIntersection.pdb

@@ -1,0 +1,6 @@
+C:\Users\user\Desktop\DefiningClassesExce\4.Opinion_Poll\bin\Debug\4.Opinion_Poll.exe.config
+C:\Users\user\Desktop\DefiningClassesExce\4.Opinion_Poll\bin\Debug\4.Opinion_Poll.exe
+C:\Users\user\Desktop\DefiningClassesExce\4.Opinion_Poll\bin\Debug\4.Opinion_Poll.pdb
+C:\Users\user\Desktop\DefiningClassesExce\4.Opinion_Poll\obj\Debug\4.Opinion_Poll.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\DefiningClassesExce\4.Opinion_Poll\obj\Debug\4.Opinion_Poll.exe
+C:\Users\user\Desktop\DefiningClassesExce\4.Opinion_Poll\obj\Debug\4.Opinion_Poll.pdb

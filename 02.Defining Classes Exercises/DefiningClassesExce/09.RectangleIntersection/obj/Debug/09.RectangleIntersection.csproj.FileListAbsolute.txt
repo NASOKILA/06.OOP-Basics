@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\DefiningClassesExce\09.RectangleIntersection\bin\Debug\09.RectangleIntersection.exe.config
+C:\Users\user\Desktop\DefiningClassesExce\09.RectangleIntersection\bin\Debug\09.RectangleIntersection.exe
+C:\Users\user\Desktop\DefiningClassesExce\09.RectangleIntersection\bin\Debug\09.RectangleIntersection.pdb
+C:\Users\user\Desktop\DefiningClassesExce\09.RectangleIntersection\obj\Debug\09.RectangleIntersection.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\DefiningClassesExce\09.RectangleIntersection\obj\Debug\09.RectangleIntersection.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\DefiningClassesExce\09.RectangleIntersection\obj\Debug\09.RectangleIntersection.exe
+C:\Users\user\Desktop\DefiningClassesExce\09.RectangleIntersection\obj\Debug\09.RectangleIntersection.pdb
