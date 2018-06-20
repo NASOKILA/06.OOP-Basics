@@ -1,0 +1,9 @@
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\12.WorkShop\Forum.Models\bin\Debug\netcoreapp2.0\Forum.Models.deps.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\12.WorkShop\Forum.Models\bin\Debug\netcoreapp2.0\Forum.Models.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\12.WorkShop\Forum.Models\bin\Debug\netcoreapp2.0\Forum.Models.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\12.WorkShop\Forum.Models\obj\Debug\netcoreapp2.0\Forum.Models.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\12.WorkShop\Forum.Models\obj\Debug\netcoreapp2.0\Forum.Models.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\12.WorkShop\Forum.Models\obj\Debug\netcoreapp2.0\Forum.Models.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\12.WorkShop\Forum.Models\obj\Debug\netcoreapp2.0\Forum.Models.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\12.WorkShop\Forum.Models\obj\Debug\netcoreapp2.0\Forum.Models.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\12.WorkShop\Forum.Models\obj\Debug\netcoreapp2.0\Forum.Models.pdb
