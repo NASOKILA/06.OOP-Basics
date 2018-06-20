@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\07.Inheritance\Inheritance\01.SingleInheritance\bin\Debug\netcoreapp2.0\01.SingleInheritance.deps.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\07.Inheritance\Inheritance\01.SingleInheritance\bin\Debug\netcoreapp2.0\01.SingleInheritance.runtimeconfig.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\07.Inheritance\Inheritance\01.SingleInheritance\bin\Debug\netcoreapp2.0\01.SingleInheritance.runtimeconfig.dev.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\07.Inheritance\Inheritance\01.SingleInheritance\bin\Debug\netcoreapp2.0\01.SingleInheritance.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\07.Inheritance\Inheritance\01.SingleInheritance\bin\Debug\netcoreapp2.0\01.SingleInheritance.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\07.Inheritance\Inheritance\01.SingleInheritance\obj\Debug\netcoreapp2.0\01.SingleInheritance.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\07.Inheritance\Inheritance\01.SingleInheritance\obj\Debug\netcoreapp2.0\01.SingleInheritance.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\07.Inheritance\Inheritance\01.SingleInheritance\obj\Debug\netcoreapp2.0\01.SingleInheritance.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\07.Inheritance\Inheritance\01.SingleInheritance\obj\Debug\netcoreapp2.0\01.SingleInheritance.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\07.Inheritance\Inheritance\01.SingleInheritance\obj\Debug\netcoreapp2.0\01.SingleInheritance.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\07.Inheritance\Inheritance\01.SingleInheritance\obj\Debug\netcoreapp2.0\01.SingleInheritance.pdb
