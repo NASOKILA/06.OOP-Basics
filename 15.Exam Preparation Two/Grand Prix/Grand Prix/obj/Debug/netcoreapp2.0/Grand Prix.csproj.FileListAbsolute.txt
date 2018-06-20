@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\14.Exam_Prep_Two\Grand Prix\Grand Prix\bin\Debug\netcoreapp2.0\Grand Prix.deps.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\14.Exam_Prep_Two\Grand Prix\Grand Prix\bin\Debug\netcoreapp2.0\Grand Prix.runtimeconfig.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\14.Exam_Prep_Two\Grand Prix\Grand Prix\bin\Debug\netcoreapp2.0\Grand Prix.runtimeconfig.dev.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\14.Exam_Prep_Two\Grand Prix\Grand Prix\bin\Debug\netcoreapp2.0\Grand Prix.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\14.Exam_Prep_Two\Grand Prix\Grand Prix\bin\Debug\netcoreapp2.0\Grand Prix.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\14.Exam_Prep_Two\Grand Prix\Grand Prix\obj\Debug\netcoreapp2.0\Grand Prix.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\14.Exam_Prep_Two\Grand Prix\Grand Prix\obj\Debug\netcoreapp2.0\Grand Prix.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\14.Exam_Prep_Two\Grand Prix\Grand Prix\obj\Debug\netcoreapp2.0\Grand Prix.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\14.Exam_Prep_Two\Grand Prix\Grand Prix\obj\Debug\netcoreapp2.0\Grand Prix.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\14.Exam_Prep_Two\Grand Prix\Grand Prix\obj\Debug\netcoreapp2.0\Grand Prix.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\14.Exam_Prep_Two\Grand Prix\Grand Prix\obj\Debug\netcoreapp2.0\Grand Prix.csprojResolveAssemblyReference.cache
