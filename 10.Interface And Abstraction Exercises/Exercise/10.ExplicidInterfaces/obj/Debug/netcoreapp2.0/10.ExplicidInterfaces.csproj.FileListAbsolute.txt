@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\10.ExplicidInterfaces\bin\Debug\netcoreapp2.0\10.ExplicidInterfaces.deps.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\10.ExplicidInterfaces\bin\Debug\netcoreapp2.0\10.ExplicidInterfaces.runtimeconfig.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\10.ExplicidInterfaces\bin\Debug\netcoreapp2.0\10.ExplicidInterfaces.runtimeconfig.dev.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\10.ExplicidInterfaces\bin\Debug\netcoreapp2.0\10.ExplicidInterfaces.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\10.ExplicidInterfaces\bin\Debug\netcoreapp2.0\10.ExplicidInterfaces.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\10.ExplicidInterfaces\obj\Debug\netcoreapp2.0\10.ExplicidInterfaces.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\10.ExplicidInterfaces\obj\Debug\netcoreapp2.0\10.ExplicidInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\10.ExplicidInterfaces\obj\Debug\netcoreapp2.0\10.ExplicidInterfaces.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\10.ExplicidInterfaces\obj\Debug\netcoreapp2.0\10.ExplicidInterfaces.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\10.ExplicidInterfaces\obj\Debug\netcoreapp2.0\10.ExplicidInterfaces.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\10.ExplicidInterfaces\obj\Debug\netcoreapp2.0\10.ExplicidInterfaces.pdb

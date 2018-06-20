@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\05.BorderControl\bin\Debug\netcoreapp2.0\05.BorderControl.deps.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\05.BorderControl\bin\Debug\netcoreapp2.0\05.BorderControl.runtimeconfig.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\05.BorderControl\bin\Debug\netcoreapp2.0\05.BorderControl.runtimeconfig.dev.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\05.BorderControl\bin\Debug\netcoreapp2.0\05.BorderControl.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\05.BorderControl\bin\Debug\netcoreapp2.0\05.BorderControl.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\05.BorderControl\obj\Debug\netcoreapp2.0\05.BorderControl.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\05.BorderControl\obj\Debug\netcoreapp2.0\05.BorderControl.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\05.BorderControl\obj\Debug\netcoreapp2.0\05.BorderControl.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\05.BorderControl\obj\Debug\netcoreapp2.0\05.BorderControl.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\05.BorderControl\obj\Debug\netcoreapp2.0\05.BorderControl.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\05.BorderControl\obj\Debug\netcoreapp2.0\05.BorderControl.pdb

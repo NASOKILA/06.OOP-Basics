@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\08.MilitaryElite\bin\Debug\netcoreapp2.0\08.MilitaryElite.deps.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\08.MilitaryElite\bin\Debug\netcoreapp2.0\08.MilitaryElite.runtimeconfig.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\08.MilitaryElite\bin\Debug\netcoreapp2.0\08.MilitaryElite.runtimeconfig.dev.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\08.MilitaryElite\bin\Debug\netcoreapp2.0\08.MilitaryElite.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\08.MilitaryElite\bin\Debug\netcoreapp2.0\08.MilitaryElite.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\08.MilitaryElite\obj\Debug\netcoreapp2.0\08.MilitaryElite.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\08.MilitaryElite\obj\Debug\netcoreapp2.0\08.MilitaryElite.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\08.MilitaryElite\obj\Debug\netcoreapp2.0\08.MilitaryElite.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\08.MilitaryElite\obj\Debug\netcoreapp2.0\08.MilitaryElite.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\08.MilitaryElite\obj\Debug\netcoreapp2.0\08.MilitaryElite.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\08.MilitaryElite\obj\Debug\netcoreapp2.0\08.MilitaryElite.pdb

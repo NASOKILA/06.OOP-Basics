@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\01.IPerson\bin\Debug\netcoreapp2.0\01.IPerson.deps.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\01.IPerson\bin\Debug\netcoreapp2.0\01.IPerson.runtimeconfig.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\01.IPerson\bin\Debug\netcoreapp2.0\01.IPerson.runtimeconfig.dev.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\01.IPerson\bin\Debug\netcoreapp2.0\01.IPerson.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\01.IPerson\bin\Debug\netcoreapp2.0\01.IPerson.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\01.IPerson\obj\Debug\netcoreapp2.0\01.IPerson.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\01.IPerson\obj\Debug\netcoreapp2.0\01.IPerson.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\01.IPerson\obj\Debug\netcoreapp2.0\01.IPerson.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\01.IPerson\obj\Debug\netcoreapp2.0\01.IPerson.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\01.IPerson\obj\Debug\netcoreapp2.0\01.IPerson.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\01.IPerson\obj\Debug\netcoreapp2.0\01.IPerson.pdb

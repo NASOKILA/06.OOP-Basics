@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\03.Ferrari\obj\Debug\netcoreapp2.0\03.Ferrari.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\03.Ferrari\obj\Debug\netcoreapp2.0\03.Ferrari.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\03.Ferrari\obj\Debug\netcoreapp2.0\03.Ferrari.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\03.Ferrari\obj\Debug\netcoreapp2.0\03.Ferrari.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\03.Ferrari\bin\Debug\netcoreapp2.0\03.Ferrari.deps.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\03.Ferrari\bin\Debug\netcoreapp2.0\03.Ferrari.runtimeconfig.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\03.Ferrari\bin\Debug\netcoreapp2.0\03.Ferrari.runtimeconfig.dev.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\03.Ferrari\bin\Debug\netcoreapp2.0\03.Ferrari.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\03.Ferrari\bin\Debug\netcoreapp2.0\03.Ferrari.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\03.Ferrari\obj\Debug\netcoreapp2.0\03.Ferrari.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\09.Interface_And_Abstraction_Exce\Exercise\03.Ferrari\obj\Debug\netcoreapp2.0\03.Ferrari.pdb
