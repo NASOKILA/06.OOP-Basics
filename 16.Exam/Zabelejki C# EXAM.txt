@@ -1,0 +1,88 @@
+
+C# OOP Basics Exam Notes:
+
+Zabelejki za zadacha 1.
+01.Na abstraktnite klasove konstruktura e 'protekted' obache na 	naslednicite mu trqbva da e 'public'
+02.Tam kudeto imame validacii se slaga private set i da si pravim
+	smetkite direktno kato podavame kum bazoviq konstruktor.
+03.Ako v uslovieto pishe 'floating-point number' polzvai 'double'.
+04.V abstracten klas slagai 'private' na vseki set navsqkude i posle 	ako pisne go napravi na protected.
+05.Ako neshto nqma da se promenq ot vunka mu slqgai ili 'private set'
+	samo 'get'
+06.Mojem da slagame 'virtual' i na propertita i da gi promenqme ot 		klasovete deca.
+
+Zabelejki za zadacha 2.
+01.Ako neshto go polzvash samo v toq klas go pravi 'private'.
+02.Polzvai dumichkata 'is' ...  vmesto da .GetType().Name == ...
+	za da sravnqvash klasa 
+
+
+Zabelejki zadacha 4.
+Faktoritata sa vinagi publichni.
+
+
+
+
+parola:
+out_of_mana
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
