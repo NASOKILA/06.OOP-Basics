@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\03.Working_With_Abstraction\WorkingWithAbstraction\1.RhombusOfStars\bin\Debug\netcoreapp2.0\1.RhombusOfStars.deps.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\03.Working_With_Abstraction\WorkingWithAbstraction\1.RhombusOfStars\bin\Debug\netcoreapp2.0\1.RhombusOfStars.runtimeconfig.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\03.Working_With_Abstraction\WorkingWithAbstraction\1.RhombusOfStars\bin\Debug\netcoreapp2.0\1.RhombusOfStars.runtimeconfig.dev.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\03.Working_With_Abstraction\WorkingWithAbstraction\1.RhombusOfStars\bin\Debug\netcoreapp2.0\1.RhombusOfStars.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\03.Working_With_Abstraction\WorkingWithAbstraction\1.RhombusOfStars\bin\Debug\netcoreapp2.0\1.RhombusOfStars.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\03.Working_With_Abstraction\WorkingWithAbstraction\1.RhombusOfStars\obj\Debug\netcoreapp2.0\1.RhombusOfStars.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\03.Working_With_Abstraction\WorkingWithAbstraction\1.RhombusOfStars\obj\Debug\netcoreapp2.0\1.RhombusOfStars.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\03.Working_With_Abstraction\WorkingWithAbstraction\1.RhombusOfStars\obj\Debug\netcoreapp2.0\1.RhombusOfStars.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\03.Working_With_Abstraction\WorkingWithAbstraction\1.RhombusOfStars\obj\Debug\netcoreapp2.0\1.RhombusOfStars.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\03.Working_With_Abstraction\WorkingWithAbstraction\1.RhombusOfStars\obj\Debug\netcoreapp2.0\1.RhombusOfStars.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\03.Working_With_Abstraction\WorkingWithAbstraction\1.RhombusOfStars\obj\Debug\netcoreapp2.0\1.RhombusOfStars.pdb

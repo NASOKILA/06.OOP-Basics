@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\03.Working_With_Abstraction\WorkingWithAbstraction\02.PointInRectangle\bin\Debug\netcoreapp2.0\02.PointInRectangle.deps.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\03.Working_With_Abstraction\WorkingWithAbstraction\02.PointInRectangle\bin\Debug\netcoreapp2.0\02.PointInRectangle.runtimeconfig.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\03.Working_With_Abstraction\WorkingWithAbstraction\02.PointInRectangle\bin\Debug\netcoreapp2.0\02.PointInRectangle.runtimeconfig.dev.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\03.Working_With_Abstraction\WorkingWithAbstraction\02.PointInRectangle\bin\Debug\netcoreapp2.0\02.PointInRectangle.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\03.Working_With_Abstraction\WorkingWithAbstraction\02.PointInRectangle\bin\Debug\netcoreapp2.0\02.PointInRectangle.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\03.Working_With_Abstraction\WorkingWithAbstraction\02.PointInRectangle\obj\Debug\netcoreapp2.0\02.PointInRectangle.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\03.Working_With_Abstraction\WorkingWithAbstraction\02.PointInRectangle\obj\Debug\netcoreapp2.0\02.PointInRectangle.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\03.Working_With_Abstraction\WorkingWithAbstraction\02.PointInRectangle\obj\Debug\netcoreapp2.0\02.PointInRectangle.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\03.Working_With_Abstraction\WorkingWithAbstraction\02.PointInRectangle\obj\Debug\netcoreapp2.0\02.PointInRectangle.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\03.Working_With_Abstraction\WorkingWithAbstraction\02.PointInRectangle\obj\Debug\netcoreapp2.0\02.PointInRectangle.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\03.Working_With_Abstraction\WorkingWithAbstraction\02.PointInRectangle\obj\Debug\netcoreapp2.0\02.PointInRectangle.pdb

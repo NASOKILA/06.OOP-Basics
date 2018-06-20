@@ -1,0 +1,3 @@
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\03.Working_With_Abstraction\WorkingWithAbstraction\WorkingWithAbstraction\obj\Debug\netcoreapp2.0\WorkingWithAbstraction.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\03.Working_With_Abstraction\WorkingWithAbstraction\WorkingWithAbstraction\obj\Debug\netcoreapp2.0\WorkingWithAbstraction.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\03.Working_With_Abstraction\WorkingWithAbstraction\WorkingWithAbstraction\obj\Debug\netcoreapp2.0\WorkingWithAbstraction.AssemblyInfo.cs
