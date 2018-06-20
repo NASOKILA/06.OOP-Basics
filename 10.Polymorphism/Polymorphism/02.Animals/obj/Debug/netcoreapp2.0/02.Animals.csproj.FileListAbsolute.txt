@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\10.Polymorphism\Polymorphism\02.Animals\obj\Debug\netcoreapp2.0\02.Animals.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\10.Polymorphism\Polymorphism\02.Animals\obj\Debug\netcoreapp2.0\02.Animals.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\10.Polymorphism\Polymorphism\02.Animals\obj\Debug\netcoreapp2.0\02.Animals.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\10.Polymorphism\Polymorphism\02.Animals\obj\Debug\netcoreapp2.0\02.Animals.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\10.Polymorphism\Polymorphism\02.Animals\bin\Debug\netcoreapp2.0\02.Animals.deps.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\10.Polymorphism\Polymorphism\02.Animals\bin\Debug\netcoreapp2.0\02.Animals.runtimeconfig.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\10.Polymorphism\Polymorphism\02.Animals\bin\Debug\netcoreapp2.0\02.Animals.runtimeconfig.dev.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\10.Polymorphism\Polymorphism\02.Animals\bin\Debug\netcoreapp2.0\02.Animals.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\10.Polymorphism\Polymorphism\02.Animals\bin\Debug\netcoreapp2.0\02.Animals.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\10.Polymorphism\Polymorphism\02.Animals\obj\Debug\netcoreapp2.0\02.Animals.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\10.Polymorphism\Polymorphism\02.Animals\obj\Debug\netcoreapp2.0\02.Animals.pdb

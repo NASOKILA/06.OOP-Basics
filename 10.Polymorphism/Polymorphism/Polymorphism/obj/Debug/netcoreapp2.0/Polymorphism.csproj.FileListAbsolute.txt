@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\10.Polymorphism\Polymorphism\Polymorphism\bin\Debug\netcoreapp2.0\Polymorphism.deps.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\10.Polymorphism\Polymorphism\Polymorphism\bin\Debug\netcoreapp2.0\Polymorphism.runtimeconfig.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\10.Polymorphism\Polymorphism\Polymorphism\bin\Debug\netcoreapp2.0\Polymorphism.runtimeconfig.dev.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\10.Polymorphism\Polymorphism\Polymorphism\bin\Debug\netcoreapp2.0\Polymorphism.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\10.Polymorphism\Polymorphism\Polymorphism\bin\Debug\netcoreapp2.0\Polymorphism.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\10.Polymorphism\Polymorphism\Polymorphism\obj\Debug\netcoreapp2.0\Polymorphism.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\10.Polymorphism\Polymorphism\Polymorphism\obj\Debug\netcoreapp2.0\Polymorphism.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\10.Polymorphism\Polymorphism\Polymorphism\obj\Debug\netcoreapp2.0\Polymorphism.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\10.Polymorphism\Polymorphism\Polymorphism\obj\Debug\netcoreapp2.0\Polymorphism.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\10.Polymorphism\Polymorphism\Polymorphism\obj\Debug\netcoreapp2.0\Polymorphism.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\10.Polymorphism\Polymorphism\Polymorphism\obj\Debug\netcoreapp2.0\Polymorphism.pdb
