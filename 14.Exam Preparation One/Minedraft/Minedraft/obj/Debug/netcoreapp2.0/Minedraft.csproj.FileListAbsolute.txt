@@ -1,0 +1,11 @@
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\13.Exam_Prep\Minedraft\Minedraft\obj\Debug\netcoreapp2.0\Minedraft.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\13.Exam_Prep\Minedraft\Minedraft\obj\Debug\netcoreapp2.0\Minedraft.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\13.Exam_Prep\Minedraft\Minedraft\obj\Debug\netcoreapp2.0\Minedraft.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\13.Exam_Prep\Minedraft\Minedraft\obj\Debug\netcoreapp2.0\Minedraft.AssemblyInfo.cs
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\13.Exam_Prep\Minedraft\Minedraft\bin\Debug\netcoreapp2.0\Minedraft.deps.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\13.Exam_Prep\Minedraft\Minedraft\bin\Debug\netcoreapp2.0\Minedraft.runtimeconfig.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\13.Exam_Prep\Minedraft\Minedraft\bin\Debug\netcoreapp2.0\Minedraft.runtimeconfig.dev.json
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\13.Exam_Prep\Minedraft\Minedraft\bin\Debug\netcoreapp2.0\Minedraft.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\13.Exam_Prep\Minedraft\Minedraft\bin\Debug\netcoreapp2.0\Minedraft.pdb
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\13.Exam_Prep\Minedraft\Minedraft\obj\Debug\netcoreapp2.0\Minedraft.dll
+C:\Users\user\Desktop\SoftUni\6.C# Fundamentals\OOP Basics\13.Exam_Prep\Minedraft\Minedraft\obj\Debug\netcoreapp2.0\Minedraft.pdb
