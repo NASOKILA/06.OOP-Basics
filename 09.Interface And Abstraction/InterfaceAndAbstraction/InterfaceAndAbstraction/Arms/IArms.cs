@@ -13,6 +13,5 @@ namespace InterfaceAndAbstraction.Arms
         double Weight { get; set; }
 
         string PrintInfo();    
-       
     }
 }
