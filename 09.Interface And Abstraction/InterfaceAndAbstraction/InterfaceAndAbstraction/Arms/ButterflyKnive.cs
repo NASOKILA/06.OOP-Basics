@@ -4,10 +4,8 @@ using System.Text;
 
 namespace InterfaceAndAbstraction.Arms
 {
-    //NASLEDQVA DVA INTERFEISA
     public class ButterflyKnive : IArms, IKnives
     {
-        
         public string Name { get; set; }
 
         public int Bullets { get; set; }

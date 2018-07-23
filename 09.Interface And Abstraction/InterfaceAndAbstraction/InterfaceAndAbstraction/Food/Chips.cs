@@ -6,7 +6,6 @@ namespace InterfaceAndAbstraction.Food
 {
     public class Chips : IFood
     {
-
         public string Name { get; set; }
 
         public decimal Price { get; private set; }

@@ -4,7 +4,6 @@ using System.Text;
 
 namespace InterfaceAndAbstraction.Arms
 {
-    //Nasledqva IPistols koito nasledqva IArms
     public class Barrera : IPistols
     {
         public string Model { get; set; }

@@ -4,8 +4,6 @@ using System.Text;
 
 namespace InterfaceAndAbstraction.Food
 {
-
-    //ZADULJITELNO TRQBVA DA GO IMPLEMENTIRAME avtomatochno VU VSEKI KLAS KOITO SHTE GO POLZVA !!!
     public class Meat : IFood
     {
         public string Name { get; set; }

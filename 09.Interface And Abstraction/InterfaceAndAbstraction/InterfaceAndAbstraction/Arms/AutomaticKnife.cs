@@ -21,7 +21,6 @@ namespace InterfaceAndAbstraction.Arms
             this.Color = color;
         }
 
-
         public string PrintInfo()
         {
             return

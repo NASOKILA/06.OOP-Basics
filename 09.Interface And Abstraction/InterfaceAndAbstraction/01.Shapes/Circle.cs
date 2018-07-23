@@ -8,7 +8,7 @@ public class Circle : IDrawable
     private int Radius { get; set; }
     
     public Circle()
-    { }
+    {}
 
     public Circle(int radius)
     {
@@ -35,11 +35,9 @@ public class Circle : IDrawable
                 {
                     Console.Write(" ");
                 }
-
             }
 
             Console.WriteLine();
         }
     }
 }
-

@@ -10,7 +10,5 @@ namespace InterfaceAndAbstraction.Cars
         {
             Console.WriteLine("BMW started !");
         }
-
-
     }
 }

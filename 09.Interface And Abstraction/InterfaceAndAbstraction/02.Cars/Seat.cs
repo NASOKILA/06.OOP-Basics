@@ -37,6 +37,4 @@ public class Seat : ICar
         
         return result.ToString();
     }
-
 }
-

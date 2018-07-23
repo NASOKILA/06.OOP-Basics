@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-
-
-//MOJEM DA VKLUCHIM I 'Animals'
 using InterfaceAndAbstraction.Animals;
 
 namespace InterfaceAndAbstraction.Food
@@ -22,7 +19,6 @@ namespace InterfaceAndAbstraction.Food
             this.Price = price;
             this.Weight = weight;
         }
-
 
         public void Information()
         {

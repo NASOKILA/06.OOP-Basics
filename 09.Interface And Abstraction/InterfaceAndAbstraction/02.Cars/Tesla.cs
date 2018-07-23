@@ -11,7 +11,6 @@ public class Tesla : IElectricCar
 
     public int Battery { get; set; }
 
-
     public Tesla()
     {}
 
@@ -39,8 +38,6 @@ public class Tesla : IElectricCar
         result.AppendLine($"{this.Start()}");
         result.AppendLine($"{this.Stop()}");
 
-        return result.ToString();
-        
+        return result.ToString();       
     }
 }
-

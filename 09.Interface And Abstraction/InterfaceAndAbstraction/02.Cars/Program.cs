@@ -14,4 +14,3 @@ class Program
         Console.WriteLine(tesla.ToString());
     }
 }
-

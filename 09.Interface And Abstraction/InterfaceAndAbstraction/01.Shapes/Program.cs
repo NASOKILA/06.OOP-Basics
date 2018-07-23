@@ -14,7 +14,5 @@ class Program
 
         circle.Draw();
         rect.Draw();
-
     }
 }
-

@@ -5,7 +5,6 @@ using System.Text;
 
 public class Rectangle : IDrawable
 {
-
     private int width;
 
     private int height;
@@ -21,8 +20,6 @@ public class Rectangle : IDrawable
         get { return height; }
         set { height = value; }
     }
-
-
 
     public Rectangle(int width, int height)
     {
@@ -43,6 +40,4 @@ public class Rectangle : IDrawable
 
         Console.WriteLine(new string('*', this.Width));
     }
-
 }
-

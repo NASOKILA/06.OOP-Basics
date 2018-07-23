@@ -4,7 +4,6 @@ using System.Text;
 
 namespace InterfaceAndAbstraction.Arms
 {
-    //Nasledqva interfeisa IPistol koito nasledqva IArms
     class DeasertEagle : IPistols
     {
         public string Name { get; set; }
