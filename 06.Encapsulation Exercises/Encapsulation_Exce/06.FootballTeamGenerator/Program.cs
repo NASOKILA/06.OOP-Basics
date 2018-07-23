@@ -11,10 +11,9 @@ namespace _06.FootballTeamGenerator
             List<Team> teams = new List<Team>();
 
             string input;
+			
             while ((input = Console.ReadLine()) != "END")
             {
-
-
                 try
                 {
                     string[] tokens = input
@@ -28,6 +27,7 @@ namespace _06.FootballTeamGenerator
                     }
                     
                     string command = tokens[0];
+					
                     string teamName = tokens[1];
 
                     if (command == "Team")
@@ -39,7 +39,6 @@ namespace _06.FootballTeamGenerator
                     }
                     else if (command == "Add")
                     {
-
                         if (!teams.Any(t => t.Name == teamName))
                         {
                             Console.WriteLine($"Team {teamName} does not exist.");
@@ -77,7 +76,6 @@ namespace _06.FootballTeamGenerator
 
                         if (!team.Players.Contains(player))
                             team.AddPlayer(player);
-
                     }
                     else if (command == "Remove")
                     {
@@ -99,11 +97,9 @@ namespace _06.FootballTeamGenerator
 
                         Player player = team.Players.First(p => p.Name == playerName);
                         team.RemovePlayer(player);
-
                     }
                     else if (command == "Rating")
                     {
-
                         if (!teams.Any(t => t.Name == teamName))
                         {
                             Console.WriteLine($"Team {teamName} does not exist.");
@@ -116,18 +112,14 @@ namespace _06.FootballTeamGenerator
                         if (team.Players.Count > 0)
                             rating = team.GetRating();
 
-
                         Console.WriteLine($"{teamName} - {rating}");
                     }
-
                 }
                 catch (Exception e)
                 {
                     Console.WriteLine(e.Message);
                 }
-
             }
-
         }
     }
 }

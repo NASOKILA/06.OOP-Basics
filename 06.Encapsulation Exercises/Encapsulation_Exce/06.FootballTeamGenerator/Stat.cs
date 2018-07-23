@@ -7,7 +7,6 @@ public class Stat
 {
     private const int MIN_STAT_VALUE = 0;
     private const int MAX_STAT_VALUE = 100;
-
     private string name;
     private int valueOfStat;
 
@@ -40,4 +39,3 @@ public class Stat
         this.ValueOfStat = valueOfStat;
     }
 }
-

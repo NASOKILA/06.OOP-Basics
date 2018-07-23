@@ -6,7 +6,6 @@ using System.Text;
 public class Person
 {
     private const int MIN_MONEY = 0;
-
     private string name;
     private decimal money;
 
@@ -36,7 +35,6 @@ public class Person
         }
     }
 
-
     private List<Product> products;
 
     public List<Product> Products
@@ -56,7 +54,4 @@ public class Person
         this.Name = name;
         this.Money = money;
     }
-
-
 }
-

@@ -5,7 +5,6 @@ using System.Text;
 
 public class Topping
 {
-
     private const int MIN_WEIGHT = 1;
     private const int MAX_WEIGHT = 50;
     private const int DEFAULT_MULTIPLIER = 2;
@@ -16,20 +15,14 @@ public class Topping
         ["Veggies"] = (decimal)0.8,
         ["Cheese"] = (decimal)1.1,
         ["Sauce"] = (decimal)0.9
-
     };
-
 
     private decimal weight;
     private string toppingType;
 
-    //IMA SAMO GETTER
     private decimal TypeMultiplier => validTypes[this.ToppingType];
 
-    //IMA SAMO GETTER I E PUBLIC 
     public decimal Calories => DEFAULT_MULTIPLIER * this.Weight * TypeMultiplier;
-
-
 
     public string ToppingType
     {
@@ -42,7 +35,6 @@ public class Topping
             toppingType = value;
         }
     }
-
 
     public decimal Weight
     {
@@ -59,14 +51,9 @@ public class Topping
     public Topping()
     {}
 
-
     public Topping(string toppingType, decimal toppingWeight)
     {
         this.ToppingType = toppingType;
         this.Weight = toppingWeight;
     }
-
-    
-
 }
-

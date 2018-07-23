@@ -22,8 +22,6 @@ namespace _02.ClassBoxDataValidation
             {
                 Console.WriteLine(e.Message);
             }
-
-
         }
     }
 }

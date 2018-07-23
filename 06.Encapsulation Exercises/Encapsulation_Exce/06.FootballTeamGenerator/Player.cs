@@ -8,10 +8,8 @@ public class Player
 {
     private string name;
     private List<Stat> stats;
-
     private double skillLevel { get; set; }
-
-
+	
     public List<Stat> Stats
     {
         get { return stats; }
@@ -22,8 +20,7 @@ public class Player
     {
         get { return name; }
         set
-        {
-            
+        {     
             if (value == null || value == string.Empty || value == " ")
             {
                 throw new ArgumentException("A name should not be empty.");
@@ -46,8 +43,6 @@ public class Player
         getSkillLevel();
     }
 
-
-
     private void getSkillLevel(){
 
          skillLevel = stats
@@ -55,4 +50,3 @@ public class Player
             .Average();
     }
 }
-

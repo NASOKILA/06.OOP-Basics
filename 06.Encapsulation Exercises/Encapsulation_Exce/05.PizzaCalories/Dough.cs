@@ -10,16 +10,12 @@ public class Dough
     private const int MAX_WEIGHT = 200;
     private const int DEFAULT_MULTIPLIER = 2;
 
-    //TOVA IMA SAMO GETTER
     private decimal FlourMultiplier => validFlourTypes[this.FlourType];
 
-    //TOVA IMA SAMO GETTER
     private decimal BakingTechniquesMultiplier => validBakingTechniques[this.BakingTechnique];
 
-    //TOVA IMA SAMO GETTER     SMQTAME KALORIITE  I  E PUBLICHNO
     public decimal Calories 
         => DEFAULT_MULTIPLIER * this.Weight * FlourMultiplier * BakingTechniquesMultiplier;
-
 
     private Dictionary<string, decimal> validFlourTypes = new Dictionary<string, decimal>()
     {
@@ -27,15 +23,12 @@ public class Dough
         ["wholegrain"] = (decimal)1.0
     };
 
-
     private Dictionary<string, decimal> validBakingTechniques = new Dictionary<string, decimal>()
     {
         ["crispy"] = (decimal)0.9,
         ["chewy"] = (decimal)1.1,
         ["homemade"] = (decimal)1.0
     };
-
-
 
     private decimal weight;
     private string flourType;
@@ -55,7 +48,6 @@ public class Dough
         }
     }
 
-
     public string FlourType
     {
         get { return flourType; }
@@ -69,7 +61,6 @@ public class Dough
             flourType = value.ToLower();
         }
     }
-
 
     public decimal Weight
     {
@@ -85,7 +76,6 @@ public class Dough
         }
     }
 
-
     public Dough()
     {}
 
@@ -95,6 +85,4 @@ public class Dough
         this.BakingTechnique = bakingTechnique;
         this.Weight = weight;
     }
-
 }
-

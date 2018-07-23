@@ -43,6 +43,4 @@ public class Product
         this.Name = name;
         this.Cost = cost;
     }
-
 }
-

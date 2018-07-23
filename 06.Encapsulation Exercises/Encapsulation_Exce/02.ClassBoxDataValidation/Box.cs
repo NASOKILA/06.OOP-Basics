@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Text;
 
-
 public class Box
 {
     private decimal length;
@@ -10,7 +9,7 @@ public class Box
     private decimal width;
 
     public Box()
-    { }
+    {}
 
     public Box(decimal length, decimal width, decimal height)
     {
@@ -25,10 +24,8 @@ public class Box
 
             this.height = height;
             if (height <= 0)
-                throw new ArgumentException("Height cannot be zero or negative. ");
-        
+                throw new ArgumentException("Height cannot be zero or negative. ");      
     }
-
 
     public string SurfaceArea()
     {
@@ -47,5 +44,4 @@ public class Box
         decimal volume = length * width * height;
         return $"Volume - {volume:f2}";
     }
-
 }

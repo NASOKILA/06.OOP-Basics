@@ -8,7 +8,6 @@ public class Team
 {
     private string name;
     private List<Player> players;
-
     public int rating { get; set; }
 
     public string Name
@@ -41,14 +40,12 @@ public class Team
         this.Players = new List<Player>();
     }
 
-
     public int GetRating() {
 
         double ratingNotParsed = Math.Round(this.Players.Select(p => p.Stats.Select(s => s.ValueOfStat).Average()).Average());
         this.rating = int.Parse(ratingNotParsed.ToString());
         return rating;
     }
-
 
     public void AddPlayer(Player player) {
         if(!Players.Contains(player))
@@ -60,15 +57,4 @@ public class Team
         if (Players.Contains(player))
             Players.Remove(player);
     }
-
 }
-
-
-
-
-
-
-
-
-
-

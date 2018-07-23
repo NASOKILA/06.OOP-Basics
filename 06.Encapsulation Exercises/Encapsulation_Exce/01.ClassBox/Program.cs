@@ -6,7 +6,6 @@ namespace _01.ClassBox
     {
         static void Main(string[] args)
         {
-
             decimal length = decimal.Parse(Console.ReadLine());
             decimal width = decimal.Parse(Console.ReadLine());
             decimal height = decimal.Parse(Console.ReadLine());
@@ -19,4 +18,3 @@ namespace _01.ClassBox
         }
     }
 }
-

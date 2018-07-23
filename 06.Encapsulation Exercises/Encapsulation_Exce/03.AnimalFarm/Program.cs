@@ -6,7 +6,6 @@ namespace _03.AnimalFarm
     {
         static void Main(string[] args)
         {
-            //NAPRAVENO E V PROEKTA V PAPKA 'Animal' !!!
         }
     }
 }

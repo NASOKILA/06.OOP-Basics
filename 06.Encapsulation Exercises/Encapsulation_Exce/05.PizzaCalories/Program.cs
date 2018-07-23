@@ -7,14 +7,11 @@ namespace _05.PizzaCalories
     {
         static void Main(string[] args)
         {
-
             try
             {
-                //pravim si pizata
                 string pizzaName = Console.ReadLine().Split().ToArray()[1];
                 Pizza pizza = new Pizza(pizzaName);
 
-                //pravim si testoto
                 string[] dougnInput = Console.ReadLine().Split().ToArray();
 
                 string flourType = dougnInput[1];
@@ -23,21 +20,17 @@ namespace _05.PizzaCalories
 
                 Dough dough = new Dough(flourType, bakingTechnique, doughWeight);
 
-                //setvame testoto na pizata
                 pizza.SetDough(dough);
-
 
                 string command;
                 while ((command = Console.ReadLine()) != "END")
                 {
-                    //Pravim si vseki podaden topping
                     string[] toppingInput = command.Split();
                     string toppingType = toppingInput[1];
                     decimal toppingWeight = decimal.Parse(toppingInput[2]);
 
                     Topping topping = new Topping(toppingType, toppingWeight);
                     pizza.AddTopic(topping);
-
                 }
 
                 Console.WriteLine(pizza);
@@ -46,7 +39,6 @@ namespace _05.PizzaCalories
             {
                 Console.WriteLine(e.Message);
             }
-
         }
     }
 }

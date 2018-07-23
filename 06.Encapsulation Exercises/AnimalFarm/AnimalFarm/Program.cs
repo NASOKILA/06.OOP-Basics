@@ -23,8 +23,6 @@
             {
                 Console.WriteLine(e.Message);
             }
-
-
         }
     }
 }

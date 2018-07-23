@@ -18,7 +18,6 @@ public class Box
         this.height = height;
     }
 
-
     public string SurfaceArea() {
         decimal surfaceArea = ((2 * this.length) * this.width) + ((2 * this.length) * this.height) + ((2 * this.width) * this.height);
         return $"Surface Area - {surfaceArea:f2}";
@@ -35,5 +34,4 @@ public class Box
         decimal volume = length * width * height;
         return $"Volume - {volume:f2}";
     }
-
 }

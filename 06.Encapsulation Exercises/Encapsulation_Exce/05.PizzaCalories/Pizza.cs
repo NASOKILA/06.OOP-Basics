@@ -6,7 +6,6 @@ using System.Text;
 
 public class Pizza
 {
-    //fields
     private const int MIN_LENGTH = 1;
     private const int MAX_LENGTH = 15;
 
@@ -18,8 +17,6 @@ public class Pizza
     private Dough dough;
     private List<Topping> toppings;
 
-    
-    //constructors
     public Pizza()
     {
         this.Toppings = new List<Topping>();
@@ -31,23 +28,16 @@ public class Pizza
         this.Name = name;
     }
 
-    //properties
-
     public decimal ToppingCalories
     {
         get
         {
-
             if (this.Toppings.Count == MIN_TOPPINGS) {
                 return 0;
             }
-
-            //Inache da sumira kaloriite
-
-                return this.Toppings.Select(t => t.Calories).Sum();
-
-        }
-        
+            
+			return this.Toppings.Select(t => t.Calories).Sum();
+        }  
     }
 
     private List<Topping> Toppings
@@ -56,13 +46,11 @@ public class Pizza
         set { toppings = value; }
     }
 
-
     private Dough Dough
     {
         get { return dough; }
         set { dough = value; }
     }
-
 
     public string Name
     {
@@ -77,8 +65,7 @@ public class Pizza
             name = value;
         }
     }
-
-    //ako ne e setnato go setvame.  
+  
     public void SetDough(Dough dough) {
 
         if (this.Dough != null)
@@ -97,18 +84,10 @@ public class Pizza
         {
             throw new ArgumentException($"Number of toppings should be in range [0..10].");
         }
-
     }
 
     public override string ToString()
     {
         return $"{this.Name} - {this.ToppingCalories:f2} Calories."; 
     }
-
-
-
 }
-
-
-
-
