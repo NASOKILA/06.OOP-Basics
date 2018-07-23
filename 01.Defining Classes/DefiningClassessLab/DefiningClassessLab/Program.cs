@@ -10,7 +10,6 @@
     {
         static void Main(string[] args)
         {
-
             List<BankAccount> accounts = new List<BankAccount>();
             
             while (true)
@@ -51,20 +50,7 @@
                         TestClient.Print(id, accounts);
                         break;
                 }
-
             }
-
-        }
-        
+        }   
     }
 }
-
-
-
-
-
-
-
-
-
-

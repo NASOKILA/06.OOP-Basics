@@ -36,13 +36,10 @@ public class BankAccount
             this.balance -= amount;
         else
             Console.WriteLine("Insufficient balance");
-
     }
 
-    //override ToString() method
     public override string ToString()
     {
         return $"Account ID{Id}, balance { Balance.ToString("F2") }";
     }
 }
-

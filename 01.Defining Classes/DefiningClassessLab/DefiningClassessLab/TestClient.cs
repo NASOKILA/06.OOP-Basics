@@ -5,7 +5,6 @@ using System.Linq;
 
 public class TestClient
 {
-    
     public static void Print(int id, List<BankAccount> accounts)
     {
         if (accounts.Any(a => a.ID == id))
@@ -20,7 +19,6 @@ public class TestClient
 
     public static void Withdraw(int id, int amount, List<BankAccount> accounts)
     {
-
         if (accounts.Any(a => a.ID == id))
         {
             BankAccount acc = accounts.SingleOrDefault(a => a.ID == id);
@@ -36,7 +34,6 @@ public class TestClient
 
     public static void Deposit(int id, int amount, List<BankAccount> accounts)
     {
-
         if (accounts.Any(a => a.ID == id))
         {
             BankAccount acc = accounts.SingleOrDefault(a => a.ID == id);
@@ -48,7 +45,6 @@ public class TestClient
 
     public static void Create(int id, List<BankAccount> accounts)
     {
-        //Ako ne se sudurja takuv akaunt
         if (!accounts.Any(a => a.ID == id))
         {
             BankAccount acc = new BankAccount();
@@ -57,8 +53,5 @@ public class TestClient
         }
         else
             Console.WriteLine("Account already exists");
-
     }
-
 }
-

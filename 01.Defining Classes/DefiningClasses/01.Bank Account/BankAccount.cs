@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.Text;
 
-//ZA JUDGE MAAME NAMESPACE-a I PISHEM KLASA DA E public
-
 public class BankAccount
 {
     private int id;
@@ -38,10 +36,8 @@ public class BankAccount
             this.balance -= amount;
         else
             Console.WriteLine("Insufficient balance");
-
     }
 
-    //override ToString() method
     public override string ToString()
     {
         return $"Account ID{Id}, balance { Balance.ToString("F2") }";

@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 
-//ZA JUDGE MAHAME NAMESPACE-a
-
 public class Program
 {
     static void Main(string[] args)
@@ -18,16 +16,12 @@ public class Program
 
         int currentId = int.Parse(command[1]);
 
-
         while (command[0] != "End")
-        {
-            
+        {         
             if (command[0] == "Create")
-            {
-            
+            {           
                 if (!accountIds.Contains(currentId))
                 {
-
                     BankAccount newAccount = new BankAccount();
                     newAccount.Id = currentId;
                     newAccount.Balance = 0;
@@ -50,12 +44,9 @@ public class Program
                         .First();
 
                     currentBankAccount.Deposit(amount);
-
                 }
                 else
                     Console.WriteLine("Account does not exist");
-
-
             }
             else if (command[0] == "Withdraw")
             {
@@ -84,17 +75,12 @@ public class Program
                     Console.WriteLine(currentAccount);
                 }
                 else
-                    Console.WriteLine("Account does not exist");
-                
-
+                    Console.WriteLine("Account does not exist");               
             }
-
 
             command = Console.ReadLine()
             .Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries)
             .ToArray();
         }
-
     }
 }
-

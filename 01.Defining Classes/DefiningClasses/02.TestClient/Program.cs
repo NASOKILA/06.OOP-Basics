@@ -14,20 +14,15 @@ public class Program
         List<int> accountIds = new List<int>();
 
         List<BankAccount> bankAccounts = new List<BankAccount>();
-        
-
-
+       
         while (command[0] != "End")
         {
-
             int currentId = int.Parse(command[1]);
 
             if (command[0] == "Create")
             {
-
                 if (!accountIds.Contains(currentId))
                 {
-
                     BankAccount newAccount = new BankAccount();
                     newAccount.Id = currentId;
                     newAccount.Balance = 0;
@@ -54,8 +49,6 @@ public class Program
                 }
                 else
                     Console.WriteLine("Account does not exist");
-
-
             }
             else if (command[0] == "Withdraw")
             {
@@ -71,7 +64,6 @@ public class Program
                 }
                 else
                     Console.WriteLine("Account does not exist");
-
             }
             else if (command[0] == "Print")
             {
@@ -85,15 +77,11 @@ public class Program
                 }
                 else
                     Console.WriteLine("Account does not exist");
-
             }
-
 
             command = Console.ReadLine()
             .Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries)
             .ToArray();
         }
-
     }
 }
-

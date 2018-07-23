@@ -1,11 +1,9 @@
 ﻿using System;
 public class BankAccount
 {
-    //private poleta
     private int id;
     private double balance;
-
-    //public propertita
+	
     public int ID
     {
         get { return this.id; }
@@ -14,7 +12,6 @@ public class BankAccount
         {
             this.id = value;
         }
-
     }
 
     public double Balance
@@ -36,14 +33,12 @@ public class BankAccount
         if (this.balance - amount > 0)
             this.balance -= amount;
         else
-            throw new ArgumentException("Not enougn money !");
-        
+            throw new ArgumentException("Not enougn money !");     
     }
 
     public override string ToString()
     {
         return $"Account { this.ID }, balance {this.Balance}";
     }
-
 }
 

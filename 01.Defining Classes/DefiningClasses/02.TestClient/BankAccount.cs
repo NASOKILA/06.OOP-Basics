@@ -39,10 +39,8 @@ public class BankAccount
 
     }
 
-    //override ToString() method
     public override string ToString()
     {
         return $"Account ID{Id}, balance { Balance.ToString("F2") }";
     }
 }
-
