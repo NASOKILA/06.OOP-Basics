@@ -2,10 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 
-
 public class Rectangle
 {
-
     public int width;
     public int height;
 
@@ -30,4 +28,3 @@ public class Rectangle
         }
     }
 }
-

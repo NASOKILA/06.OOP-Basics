@@ -19,6 +19,4 @@ public class Person
     
     public List<Parent> Parents { get; set; }
         = new List<Parent>();
-    
 }
-

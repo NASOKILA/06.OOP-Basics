@@ -32,7 +32,6 @@
             Console.WriteLine("{0} {1}", basePerson.Name, basePerson.Age);
             Console.WriteLine("{0} {1}", personWithAge.Name, personWithAge.Age);
             Console.WriteLine("{0} {1}", personWithAgeAndName.Name, personWithAgeAndName.Age);
-
         }
     }
 }

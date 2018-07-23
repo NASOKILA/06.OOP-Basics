@@ -15,7 +15,6 @@ public class Rectangle
     }
 
     public string ID { get; set; }
-    
 
     public int Width { get; set; }
 
@@ -25,13 +24,9 @@ public class Rectangle
 
     public bool Intercect(Rectangle rectangle)
     {
-        //If they intercect returns true
         if (rectangle.Coordinates.Any() == Coordinates.Any())
             return true;
         
-
         return false;
     }
-
 }
-

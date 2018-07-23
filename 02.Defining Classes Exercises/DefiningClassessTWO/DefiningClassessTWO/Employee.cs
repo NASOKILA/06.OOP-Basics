@@ -2,17 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 
-
 public class Employee
-{
-    
+{ 
     private string name;
     public string Name
     {
         get { return name; }
         set { name = value; }
     }
-
 
     private decimal salary;
     public decimal Salary
@@ -21,14 +18,12 @@ public class Employee
         set { salary = value; }
     }
 
-
     private string position;
     public string Position
     {
         get { return position; }
         set { position = value; }
     }
-
 
     private Department department;
     public Department Department
@@ -37,7 +32,6 @@ public class Employee
         set { department = value; }
     }
 
-
     private int age;
     public int Age
     {
@@ -45,14 +39,12 @@ public class Employee
         set { age = value; }
     }
 
-
     private string email;
     public string Email
     {
         get { return email; }
         set {  string email = value; }
     }
-
 
     public Employee()
     {}
@@ -66,6 +58,4 @@ public class Employee
         this.email = email;
         this.age = age;
     }
-
 }
-

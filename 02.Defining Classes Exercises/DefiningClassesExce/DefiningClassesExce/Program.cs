@@ -11,7 +11,6 @@
     {
         static void Main(string[] args)
         {
-
             Type personType = typeof(Person);
             PropertyInfo[] properties = personType.GetProperties
                 (BindingFlags.Public | BindingFlags.Instance);
@@ -25,13 +24,9 @@
                 Age = 18
             };
 
-           
             Person stamat = new Person();
             stamat.Name = "Stamat";
-            stamat.Age = 43;
-
-
-                
+            stamat.Age = 43;     
         }
     }
 }

@@ -1,6 +1,5 @@
 ﻿public class Cargo
 {
-
     public Cargo(int cargoWeight, string cargoType)
     {
         CargoWeight = cargoWeight;

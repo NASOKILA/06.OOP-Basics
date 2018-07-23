@@ -43,7 +43,6 @@ public class Program
             Car car = new Car(model, engine, cargo, tires);
 
             cars.Add(car);
-
         }
 
         string cargoTypeToSearch = Console.ReadLine();
@@ -57,12 +56,10 @@ public class Program
             foreach (var car in carsToPrint)
             {
                 Console.WriteLine(car.Model.Name);
-            }
-            
+            }            
         }
         else if (cargoTypeToSearch == "flamable")
         {
-
             List<Car> carsToPrint = cars
                 .Where(c => c.Cargo.CargoType == cargoTypeToSearch
                 && c.Engine.EnginePower > 250).ToList();
@@ -71,11 +68,6 @@ public class Program
             {
                 Console.WriteLine(car.Model.Name);
             }
-
         }
-
-
-
     }
 }
-

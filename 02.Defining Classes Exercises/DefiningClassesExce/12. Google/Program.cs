@@ -6,43 +6,35 @@ public class Program
 {
     static void Main(string[] args)
     {
-
         List<Person> existingPeople = new List<Person>();
 
         while (true)
         {
-
             string[] input = Console.ReadLine().Split(new char[] { ' ' })
                 .ToArray();
 
             if (input[0] == "End")
                 break;
 
-
             string name = input[0];
-
 
             Person person = new Person();
             if (existingPeople.Any(p => p.Name == name))
             {
-                //Ako sushtestvuva
                 person = existingPeople
                     .SingleOrDefault(p => p.Name == name);
-
-
             }
+			
             person.Name = name;
 
             if (input[1] == "company")
             {
-                
                 Company company = new Company();
                 company.CompanyName = input[2];
                 company.Department = input[3];
                 company.Salary = decimal.Parse(input[4]);
 
                 person.Company = company;
-
             }
             else if (input[1] == "car")
             {
@@ -55,7 +47,6 @@ public class Program
                 car.CarSpeed = int.Parse(input[3]);
 
                 person.Car = car;
-
             }
             else if (input[1] == "pokemon")
             {
@@ -65,15 +56,11 @@ public class Program
                     pokemonType = input[3]
                 };
 
-                //Ako ne sushtetvuva takuv pokemon v negovite pokemoni mu go dobavqme
                 if(!person.Pokemons.Any(p => p.pokemonName == input[2] && p.pokemonType == input[3]))
                     person.Pokemons.Add(pokemon);
-
-
             }
             else if (input[1] == "parents")
             {
-
                 DateTime birthDay = DateTime
                     .Parse(input[3]);
 
@@ -83,14 +70,11 @@ public class Program
                     parentBirthday = birthDay
                 };
 
-                //Ako ne go sudurja tozi parent mu go dabavqme
                 if(!person.Parents.Any(p => p.ParentName == input[2] && p.parentBirthday == birthDay))
                     person.Parents.Add(parent);
-
             }
             else if (input[1] == "children")
             {
-
                 DateTime birthDay = DateTime
                     .Parse(input[3]);
                     
@@ -100,16 +84,13 @@ public class Program
                    ChildBirthday = birthDay   
                 };
 
-                //Ako ne go sudurja tozi parent mu go dabavqme
                 if (!person.Children.Any(c => c.ChildName == input[2] && c.ChildBirthday == birthDay))
-                    person.Children.Add(child);
-                
+                    person.Children.Add(child);  
             }
 
             if(!existingPeople.Any(p => p.Name == name))
             existingPeople.Add(person);
         }
-
 
         string persoToPrintStr = Console.ReadLine();
 
@@ -140,7 +121,5 @@ public class Program
         if (personToPrint.Children != null)
             foreach (var c in personToPrint.Children)
                 Console.WriteLine($"{c.ChildName} {c.ChildBirthday.ToString("dd/MM/yyyy")}");
-        
     }
 }
-

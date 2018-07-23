@@ -17,8 +17,7 @@ namespace _05.Date_Modifier
 
             DateTime end = DateTime.Parse(endDate);
 
-            diffOfDays = Math.Abs((start - end).TotalDays);
-            
+            diffOfDays = Math.Abs((start - end).TotalDays);        
         }
     }
 }

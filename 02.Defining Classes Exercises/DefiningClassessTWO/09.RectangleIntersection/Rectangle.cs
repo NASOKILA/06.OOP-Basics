@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Text;
 
-
 public class Rectangle
 {
     public string id;
@@ -35,4 +34,4 @@ public class Rectangle
         }
     }
 }
-
+}

@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Text;
 
-
 public class Trainer
 {
     public string name;
@@ -16,4 +15,3 @@ public class Trainer
         this.pokemons = new List<Pokemon>();
     }
 }
-

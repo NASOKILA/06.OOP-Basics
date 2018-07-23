@@ -33,14 +33,10 @@
                 Person member = new Person();
                 member.name = name;
                 member.age = age;
-
-
                 family.AddMember(member);
             }
 
-
             family.GetOldestMember();
-
         }
     }
 }

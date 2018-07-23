@@ -11,6 +11,4 @@ public class Pokemon
     public string Element { get; set; }
 
     public int Health { get; set; }
-
 }
-

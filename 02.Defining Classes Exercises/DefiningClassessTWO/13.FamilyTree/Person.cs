@@ -2,10 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 
-
 class Person
 {
-
     private string name;
     public string Name
     {
@@ -34,7 +32,6 @@ class Person
         set { parents = value; }
     }
 
-
     public Person()
     {
         this.Children = new List<Person>();
@@ -45,6 +42,4 @@ class Person
     {
         return $"{this.Name} {this.Birthday}";
     }
-
 }
-

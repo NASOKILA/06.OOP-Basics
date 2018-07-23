@@ -4,8 +4,6 @@ using System.Text;
 
 class DateModifier
 {
-
-
     public string FindDeference(string dateOne, string dateTwo) {
 
         DateTime parsedDateOne = Convert.ToDateTime(dateOne);

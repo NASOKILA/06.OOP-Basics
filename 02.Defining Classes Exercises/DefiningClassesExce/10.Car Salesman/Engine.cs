@@ -13,8 +13,6 @@ public class Engine
 
     public string EngineEfficiency { get; set; }
 
-
-
     public override string ToString()
     {
         return $"  {EngineModel}:" + Environment.NewLine  
@@ -22,5 +20,4 @@ public class Engine
              + $"    Displacement: {EngineDisplacement}" + Environment.NewLine
              + $"    Efficiency: {EngineEfficiency}";
     }
-
 }

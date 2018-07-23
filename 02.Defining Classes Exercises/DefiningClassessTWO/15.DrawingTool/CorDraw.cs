@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-
 public class CorDraw
 {
-
     public Rectangle rectangle;
+	
     public Square square;
 
     public CorDraw(Rectangle rectangle)
@@ -19,4 +18,3 @@ public class CorDraw
         this.square = square;
     }
 }
-

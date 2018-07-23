@@ -12,7 +12,6 @@
         this.age = age;
     }
 
-
     public Person(string name, int age)
         :this(age)
     {
@@ -40,12 +39,4 @@
             this.age = value;
         }
     }
-
 }
-
-
-
-
-
-
-

@@ -5,12 +5,10 @@ using System.Text;
 
 public class Person
 {
-    //fields
     string name;
 
     int age;
 
-    //properties
     public int Age
     {
         get
@@ -35,8 +33,6 @@ public class Person
         }
     }
 
-    //constructors
-
     public Person()
     {
         name = "No name";
@@ -53,4 +49,3 @@ public class Person
         this.name = name;
     }
 }
-

@@ -16,9 +16,9 @@ public class Program
         DateModifier dateModifier = new DateModifier();
 
         dateModifier.CalculateDays(startDate, endDate);
+		
         var result = dateModifier.diffOfDays;
 
         Console.WriteLine(result);
     }
 }
-

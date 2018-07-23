@@ -8,11 +8,9 @@ public class Program
 {
     static void Main(string[] args)
     {
-
         List<Pokemon> pokemons = new List<Pokemon>();
 
         List<Trainer> trainers = new List<Trainer>();
-
 
         while (true)
         {
@@ -28,9 +26,9 @@ public class Program
                 Element = input[2],
                 Health = int.Parse(input[3])
             };
+			
             pokemons.Add(pokemon);
             
-
             if (!trainers.Any(t => t.Name == input[0]))
             {
 
@@ -41,21 +39,16 @@ public class Program
 
                 trainer.Pokemons.Add(pokemon);
                 trainers.Add(trainer);
-
             }
             else
             {
-                //ako sushtestvuva traniora
                 Trainer currentTrainer = trainers
                     .SingleOrDefault(t => t.Name == input[0]);
 
-                //ako ne sudurja pokemona mu go dobavqme
                 if(!currentTrainer.Pokemons.Contains(pokemon))
                     currentTrainer.Pokemons.Add(pokemon);
-            }
-            
+            }      
         }
-
 
         while (true)
         {
@@ -75,7 +68,6 @@ public class Program
                         {
                             if (pok.Health - 10 < 0)
                             {
-                                //pokemon dies
                                 t.Pokemons.Remove(pok);
                             }
                             else
@@ -96,7 +88,6 @@ public class Program
                         {
                             if (pok.Health - 10 < 0)
                             {
-                                //pokemon dies
                                 t.Pokemons.Remove(pok);
                             }
                             else
@@ -117,7 +108,6 @@ public class Program
                         {
                             if (pok.Health - 10 < 0)
                             {
-                                //pokemon dies
                                 t.Pokemons.Remove(pok);
 
                                 if (t.Pokemons.Count == 0)
@@ -129,15 +119,12 @@ public class Program
                     }
                 }
             }
-            
         }
         
         foreach (var t in trainers.OrderByDescending(t => t.NumberOfBadges))
         {
             Console.WriteLine($"{t.Name} {t.NumberOfBadges} {t.Pokemons.Count}");
         }
-
-
     }
 }
 

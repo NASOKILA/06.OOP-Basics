@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Text;
 
-
 public class Engine
 {
     public string model;
@@ -37,4 +36,3 @@ public class Engine
         this.efficiency = efficiency;
     }
 }
-

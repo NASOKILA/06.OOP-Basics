@@ -47,50 +47,33 @@ public class Program
             {
                 if (input[4].Length > 5)
                 {
-                    //Znachi e imeila
-
                     string email = input[4];
                     emp.Email = email;
                 }
                 else
                 {
-                    //Znachi e age
-
                     int age = int.Parse(input[4]);
                     emp.Age = age;
                 }
-
             }
-
-
 
             if (departments.Any(d => d.Name == department))
             {
-                //Ako veche ima takuv department s takova ime
-                //vzimame tozi department i mu dobavqme employee-to
                 Department currentDep = departments
                     .SingleOrDefault(d => d.Name == department);
 
-
-                //proverqvame dali sudurja takov employee
                 if(!currentDep.employees.Any(e => e.Name == name && e.Salary == salary && e.Position == position))
                     currentDep.AddEmployee(emp);
-
             }
             else
             {
-                //Ako nqma go suzdavame i go slagame
-
                 Department dept = new Department();
                 dept.Name = department;
                 dept.AddEmployee(emp);
                 departments.Add(dept);
             }
-
         }
 
-
-        // get department with highest average salry
         Department depWithHishestSalary = departments
             .OrderByDescending(d => d.employees.Select(e => e.Salary).Average())
             .First();
@@ -99,8 +82,6 @@ public class Program
         foreach (var e in depWithHishestSalary.employees.OrderByDescending(e => e.Salary))
         {
             Console.WriteLine($"{e.Name} {e.Salary} {e.Email} {e.Age}");
-        }
-        
+        }      
     }
 }
-

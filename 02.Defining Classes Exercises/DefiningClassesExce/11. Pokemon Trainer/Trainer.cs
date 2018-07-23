@@ -22,7 +22,5 @@ public class Trainer
 
     public int NumberOfBadges { get; set; }
 
-    public List<Pokemon> Pokemons { get; set; }
-            
+    public List<Pokemon> Pokemons { get; set; }      
 }
-

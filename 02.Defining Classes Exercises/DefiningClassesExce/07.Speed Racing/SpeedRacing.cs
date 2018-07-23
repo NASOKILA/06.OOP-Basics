@@ -12,8 +12,6 @@ public class SpeedRacing
 
         for (int i = 0; i < n; i++)
         {
-            // <Model> <FuelAmount> <FuelConsumptionFor1km>
-
             string[] input = Console.ReadLine()
                 .Split(new char[] { ' ' })
                 .ToArray();
@@ -31,13 +29,10 @@ public class SpeedRacing
 
             if(!cars.Any(c => c.model == model))
                 cars.Add(car);
-
-            
         }
 
         while (true)
         {
-            //Drive <CarModel>  <amountOfKm>
             string[] commandInput = Console.ReadLine()
                 .Split(new char[] { ' ' })
                 .ToArray();
@@ -60,19 +55,15 @@ public class SpeedRacing
                 car.distanceTraveled = car.distanceTraveled + amountOfKm;
                 
                 car.fuelAmount = 
-                    car.fuelAmount - (car.fuelCunsumptionPerKm * amountOfKm);
-                
+                    car.fuelAmount - (car.fuelCunsumptionPerKm * amountOfKm);            
             }
             else
                 Console.WriteLine("Insufficient fuel for the drive");
-
         }
 
         foreach (var c in cars)
         {
             Console.WriteLine($"{c.model} {c.fuelAmount:f2} {c.distanceTraveled}");
-        }
-        
+        }     
     }
 }
-

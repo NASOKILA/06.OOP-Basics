@@ -9,13 +9,13 @@ public class Program
 {
     static void Main(string[] args)
     {
-
         int[] input = Console.ReadLine()
             .Split(' ')
             .Select(int.Parse)
             .ToArray();
 
         int rectanglesNum = input[0];
+	
         int intercectionsNum = input[1];
 
         List<Rectangle> recs = new List<Rectangle>();
@@ -51,10 +51,8 @@ public class Program
             recs.Add(rect);
         }
 
-
         for (int i = 0; i < intercectionsNum; i++)
         {
-
             string[] pairs = Console.ReadLine().Split(' ').ToArray();
 
             string rectOneId = pairs[0];
@@ -71,10 +69,6 @@ public class Program
                 Console.WriteLine("true");
             else
                 Console.WriteLine("false");
-
         }
-
-
     }
 }               
-

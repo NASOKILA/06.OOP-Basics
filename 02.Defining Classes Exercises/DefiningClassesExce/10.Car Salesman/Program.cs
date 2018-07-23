@@ -30,30 +30,25 @@ public class Program
             {
                 if (engineInput[2].Length == 1)
                 {
-                    //znachi e efficiency
                     engine.EngineEfficiency = engineInput[2];
                 }
                 else
                 {
-                    //znachi e diplacement
                     engine.EngineDisplacement = engineInput[2];
                 }
-                
             }
             else if (engineInput.Length == 4)
             {
                 engine.EngineDisplacement = engineInput[2];
                 engine.EngineEfficiency = engineInput[3];
             }
-
-
+			
             engines.Add(engine);
         }
 
         int numOfCars = int.Parse(Console.ReadLine());
         for (int i = 0; i < numOfCars; i++)
         {
-
             string[] carInput = Console.ReadLine()
                 .Split(' ')
                 .ToArray();
@@ -70,20 +65,15 @@ public class Program
             {
                 if (carInput[2].Any(e => Char.IsDigit(e)))
                 {
-                    //ako sudurja chislo znachi e weight
                     car.Weight = carInput[2];
                 }
                 else
                 {
-                    //ako ne znachi e color
                     car.Color = carInput[2];
                 }
             }
             else if (carInput.Length == 4)
             {
-
-                //ako duljinata si e 4 si gi setvame i dvete
-
                 if (carInput[2].Any(e => Char.IsDigit(e)))
                 {
                     car.Weight = carInput[2];
@@ -94,10 +84,8 @@ public class Program
                     car.Weight = carInput[3];
                     car.Color = carInput[2];
                 }
-
-
             }
-
+			
             cars.Add(car);
         }
 
@@ -105,17 +93,6 @@ public class Program
         {
             var result = c.ToString();
             Console.WriteLine(result);
-        }
-        
-
+        }     
     }
 }
-
-
-
-
-
-
-
-
-

@@ -4,7 +4,6 @@ using System.Text;
 
 public class Square
 {
-
     public int size;
 
     public Square(int size)
