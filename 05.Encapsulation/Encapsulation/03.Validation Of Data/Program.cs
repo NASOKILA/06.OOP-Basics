@@ -7,8 +7,6 @@ namespace _03.Validation_Of_Data
     {
         static void Main(string[] args)
         {
-
-
             var lines = int.Parse(Console.ReadLine());
             var persons = new List<Person>();
             for (int i = 0; i < lines; i++)
@@ -26,8 +24,7 @@ namespace _03.Validation_Of_Data
                 catch (Exception e)
                 {
                     Console.WriteLine(e.Message);
-                }
-                
+                }   
             }
             var bonus = decimal.Parse(Console.ReadLine());
             persons.ForEach(p => p.IncreaseSalary(bonus));

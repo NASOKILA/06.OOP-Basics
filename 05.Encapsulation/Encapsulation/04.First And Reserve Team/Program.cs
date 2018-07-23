@@ -29,17 +29,8 @@ namespace _04.First_And_Reserve_Team
                 Person person = new Person(firstName, lastName, age, salary);
                 team.AddPlayer(person);
             }
-
-            
+   
             team.Print();
-
-
-            //team.ReserveTeam = new List<Person>();         //TO E SAMO REAONLY TOVA NE E POZVOLENO
-
-            //team.FirstTeam.Clear();   //MOJEM DA IZVIKAME .Clear() I POSLE .AddPlayer() I DA DOBAVQME PLAYERI
-            //ZA DA SE ZASHTITTIM OT TOVA MOJEM DA MAHNEM PUBLIC POLEtATA I DA SI NAPRAVIM PUBLIC READONLY COLLECTION
-            //I POSLE NQMA DA MOJEM DA IZVIKAME .Clear();
-
         }
     }
 }

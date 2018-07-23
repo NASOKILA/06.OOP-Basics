@@ -33,9 +33,7 @@ public class Person
     }
     
     public Person()
-    {
-
-    }
+    {}
     
     public Person(string firstName, string lastName, int age)
     {
@@ -43,6 +41,4 @@ public class Person
         this.lastName = lastName;
         this.age = age;
     }
-
 }
-

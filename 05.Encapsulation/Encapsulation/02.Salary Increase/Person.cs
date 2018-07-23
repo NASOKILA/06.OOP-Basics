@@ -10,7 +10,6 @@ public class Person
     private string lastName;
     private decimal salary;
 
-
     public int Age
     {
         get { return age; }
@@ -35,12 +34,8 @@ public class Person
         set { salary = value; }
     }
 
-    
-
     public Person()
-    {
-
-    }
+    {}
 
     public Person(string firstName, string lastName, int age, decimal salary)
     {
@@ -62,6 +57,4 @@ public class Person
         else
             this.salary *= decimal.Parse(("1." + (bonus/2).ToString()));
     }
-    
 }
-

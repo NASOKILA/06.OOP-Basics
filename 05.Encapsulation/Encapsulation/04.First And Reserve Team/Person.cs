@@ -4,7 +4,6 @@ using System.Text;
 
 public class Person
 {
-
     const decimal MIN_SALARY = 460;
     const int MIN_AGE = 1;
     const int MIN_NAME_LENGTH = 3;
@@ -14,7 +13,6 @@ public class Person
     private string lastName;
     private decimal salary;
 
-
     public string FirstName
     {
         get { return firstName; }
@@ -22,10 +20,8 @@ public class Person
         {
             firstName = value;
 
-            //Polzvame '?' za da ne ni grumne v sluchi che firstName ni e null
             if (this.firstName?.Length < MIN_NAME_LENGTH || this.firstName == null)
                 throw new ArgumentException("First name cannot contain fewer than 3 symbols!");
-
         }
     }
 
@@ -34,11 +30,9 @@ public class Person
         get { return lastName; }
         set
         {
-            lastName = value;
-            //Polzvame '?' za da ne ni grumne v sluchi che firstName ni e null
+            lastName = value;         
             if (this.lastName?.Length < MIN_NAME_LENGTH || this.lastName == null)
                 throw new ArgumentException("Last name cannot contain fewer than 3 symbols!");
-
         }
     }
 
@@ -47,35 +41,27 @@ public class Person
         get { return salary; }
         set
         {
-            //V KONSTRUKTORA E VALIDACIQTA
             salary = value;
         }
     }
-
 
     public int Age
     {
         get { return age; }
         set
         {
-            //VALIDACIQTA E V KONSTRUKTORA
             age = value;
         }
     }
 
-
-
     public Person()
-    {
-
-    }
+    {}
 
     public Person(string firstName, string lastName, int age, decimal salary)
     {
         this.FirstName = firstName;
         this.LastName = lastName;
 
-        //Validaciqta moje i da se napravi tuka V SETERA A MOJE I V OTDELEN METOD !
         this.age = age;
         if (this.age <= MIN_AGE)
             throw new ArgumentException("Age cannot be zero or a negative integer!");
@@ -83,7 +69,6 @@ public class Person
         this.salary = salary;
         if (this.salary < MIN_SALARY)
             throw new ArgumentException("Salary cannot be less than 460 leva!");
-
     }
 
     public override string ToString()
@@ -98,5 +83,4 @@ public class Person
         else
             this.salary *= decimal.Parse(("1." + (bonus / 2).ToString()));
     }
-
 }

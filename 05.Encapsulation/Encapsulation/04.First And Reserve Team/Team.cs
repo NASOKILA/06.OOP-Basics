@@ -9,20 +9,17 @@ public class Team
     private List<Person> firstTeam;
     private List<Person> reserveTeam;
 
-
     public string Name
     {
         get { return name; }
         set { name = value; }
     }
     
-    //ReadOnly
     public List<Person> FirstTeam
     {
         get { return firstTeam; }
     }
 
-    //ReadOnly
     public List<Person> ReserveTeam
     {
         get { return reserveTeam; }
@@ -46,13 +43,9 @@ public class Team
             this.reserveTeam.Add(person);
     }
 
-
     public void Print()
     {
         Console.WriteLine($"First team has {FirstTeam.Count} players.");
         Console.WriteLine($"Last team has {ReserveTeam.Count} players.");
     }
-    
-
 }
-

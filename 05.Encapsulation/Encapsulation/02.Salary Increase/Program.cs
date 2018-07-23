@@ -22,7 +22,6 @@ namespace _02.Salary_Increase
             var bonus = decimal.Parse(Console.ReadLine());
             persons.ForEach(p => p.IncreaseSalary(bonus));
             persons.ForEach(p => Console.WriteLine(p.ToString()));
-
         }
     }
 }
