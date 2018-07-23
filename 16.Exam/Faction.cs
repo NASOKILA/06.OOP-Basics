@@ -5,10 +5,8 @@ using System.Text;
 namespace DungeonsAndCodeWizards
 {
     public enum Faction
-    {
-        
+    {       
         CSharp,
-        Java
-            
+        Java           
     }
 }

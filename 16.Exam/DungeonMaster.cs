@@ -11,14 +11,12 @@ namespace DungeonsAndCodeWizards
     {
         public DungeonMaster()
         {
-
             this.CharactersFactory = new CharacterFactory();
             this.ItemsFactory = new ItemFactory();
             this.Party = new List<Character>();
             this.ItemPool = new List<Item>();
             this.LastSurvivourRounds = 0;
         }
-
 
         public int LastSurvivourRounds { get; set; }
         public List<Character> Party { get; set; }
@@ -30,11 +28,11 @@ namespace DungeonsAndCodeWizards
 
         public string JoinParty(string[] args)
         {
-
             string faction = args[0];
+			
             string characterType = args[1];
+			
             string name = args[2];
-
 
             Character character = CharactersFactory.CreateCharacter(faction, characterType, name);
 
@@ -45,10 +43,8 @@ namespace DungeonsAndCodeWizards
 
         public string AddItemToPool(string[] args)
         {
-
             string itemName = args[0];
             
-
             Item item = ItemsFactory.CreateItem(itemName);
             
             this.ItemPool.Add(item);
@@ -60,7 +56,6 @@ namespace DungeonsAndCodeWizards
         {
             string name = args[0];
 
-            //get the character
             Character character = Party.FirstOrDefault(c => c.Name == name);
 
             if (character == null)
@@ -73,23 +68,21 @@ namespace DungeonsAndCodeWizards
                 throw new InvalidOperationException("No items left in pool!");
             }
 
-
             Item lastItem = ItemPool.Last();
 
             character.ReceiveItem(lastItem);
 
             var type = lastItem.GetType().Name;
 
-            return $"{character.Name} picked up {type}!";
-            
+            return $"{character.Name} picked up {type}!";          
         }
 
         public string UseItem(string[] args)
         {
             string charName = args[0];
+			
             string itemName = args[1];
 
-            //get character
             Character character = Party.
                 FirstOrDefault(c => c.Name == charName);
 
@@ -98,8 +91,6 @@ namespace DungeonsAndCodeWizards
                 throw new ArgumentException($"Character {charName} not found!");
             }
 
-
-            //get item from their bag
             Item item = character.Bag.GetItem(itemName);
 
             character.UseItem(item);
@@ -110,7 +101,9 @@ namespace DungeonsAndCodeWizards
         public string UseItemOn(string[] args)
         {
             string giverName = args[0];
+			
             string receiverName = args[1];
+			
             string itemName = args[2];
 
             Character giver = Party.FirstOrDefault(c => c.Name == giverName);
@@ -127,20 +120,19 @@ namespace DungeonsAndCodeWizards
                 throw new ArgumentException($"Character {receiverName} not found!");
             }
 
-
-            //get item from their bag
             Item item = giver.Bag.GetItem(itemName);
 
             giver.UseItemOn(item, receiver);
 
             return $"{giverName} used {itemName} on {receiverName}.";
-
         }
 
         public string GiveCharacterItem(string[] args)
         {
             string giverName = args[0];
+			
             string receiverName = args[1];
+			
             string itemName = args[2];
 
             Character giver = Party.FirstOrDefault(c => c.Name == giverName);
@@ -157,8 +149,6 @@ namespace DungeonsAndCodeWizards
                 throw new ArgumentException($"Character {receiverName} not found!");
             }
 
-
-            //get item from their bag
             Item item = giver.Bag.GetItem(itemName);
 
             receiver.ReceiveItem(item);
@@ -168,7 +158,6 @@ namespace DungeonsAndCodeWizards
 
         public string GetStats()
         {
-
             List<Character> orderedCharacters = this.Party
                 .OrderByDescending(c => c.IsAlive)
                 .ThenByDescending(c => c.Health)
@@ -191,11 +180,12 @@ namespace DungeonsAndCodeWizards
 
         public string Attack(string[] args)
         {
-
             string attackerName = args[0];
+			
             string receiverName = args[1];
 
             Character attacker = Party.FirstOrDefault(c => c.Name == attackerName);
+			
             Character receiver = Party.FirstOrDefault(c => c.Name == receiverName);
 
             if (attacker == null)
@@ -208,14 +198,13 @@ namespace DungeonsAndCodeWizards
                 throw new ArgumentException($"Character {receiverName} not found!");
             }
 
-            //ako ne e warrior
             var type = attacker.GetType().Name;
+			
             if (type != "Warrior")
             {
                 throw new ArgumentException($"{attacker.Name} cannot attack!");
             }
 
-            
             Warrior attackerWarior = (Warrior)attacker;
 
             attackerWarior.Attack(receiver);
@@ -238,9 +227,11 @@ namespace DungeonsAndCodeWizards
         public string Heal(string[] args)
         {
             string healerName = args[0];
+			
             string healingReceiverName = args[1];
 
             Character healer = Party.FirstOrDefault(c => c.Name == healerName);
+			
             Character receiver = Party.FirstOrDefault(c => c.Name == healingReceiverName);
 
             if (healer == null)
@@ -253,14 +244,12 @@ namespace DungeonsAndCodeWizards
                 throw new ArgumentException($"Character {healingReceiverName} not found!");
             }
 
-            //ako ne e healer
             var type = healer.GetType().Name;
 
             if (type != "Cleric")
             {
                 throw new ArgumentException($"{healerName} cannot heal!");
             }
-
 
             Cleric healerParsed = (Cleric)healer;
 
@@ -271,7 +260,6 @@ namespace DungeonsAndCodeWizards
             sb.Append($"{healer.Name} heals {receiver.Name} for {healer.AbilityPoints}! {receiver.Name} has {receiver.Health} health now!");
 
             return sb.ToString().Trim();
-
         }
 
         public string EndTurn(string[] args)
@@ -279,19 +267,15 @@ namespace DungeonsAndCodeWizards
             List<Character> aliveCharacters = this.Party
                 .Where(c => c.IsAlive == true).ToList();
 
-
-
             if (aliveCharacters.Count == 0 || aliveCharacters.Count == 1)
             {
                 this.LastSurvivourRounds++;
             }
 
-
             StringBuilder sb = new StringBuilder();
 
             foreach (Character charact in aliveCharacters)
             {
-
                 double healthBeforeRest = charact.Health;
 
                 charact.Rest();
@@ -301,10 +285,8 @@ namespace DungeonsAndCodeWizards
                 sb.AppendLine($"{charact.Name} rests ({healthBeforeRest} => {currentHealth})");
             }
 
-
             return sb.ToString().Trim();
         }
-
 
         public bool IsGameOver()
         {
@@ -313,6 +295,5 @@ namespace DungeonsAndCodeWizards
 
             return false;
         }
-
     }
 }

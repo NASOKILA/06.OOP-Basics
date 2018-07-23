@@ -8,10 +8,7 @@ namespace DungeonsAndCodeWizards.Factories
     public class CharacterFactory
     {
         public Character CreateCharacter(string faction, string characterType, string name)
-        {
-            
-            
-
+        {     
             if (faction != "CSharp" && faction != "Java")
             {
                 throw new ArgumentException($"Invalid faction \"{ faction }\"!");
@@ -24,7 +21,6 @@ namespace DungeonsAndCodeWizards.Factories
                 fact = Faction.Java;
             }
 
-
             if (characterType == "Warrior")
             {
                 return new Warrior(name, fact);
@@ -36,10 +32,7 @@ namespace DungeonsAndCodeWizards.Factories
             else
             {
                 throw new ArgumentException($"Invalid character type \"{ characterType }\"!");
-            }
-
-            
+            }        
         }
-
     }
 }

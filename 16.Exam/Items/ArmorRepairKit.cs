@@ -9,8 +9,7 @@ namespace DungeonsAndCodeWizards.Items
     {
         public ArmorRepairKit() 
             : base(10)
-        {
-        }
+        {}
 
         public override void AffectCharacter(Character character)
         {
@@ -18,8 +17,5 @@ namespace DungeonsAndCodeWizards.Items
 
             character.Armor = character.BaseArmor;
         }
-
-
-
     }
 }

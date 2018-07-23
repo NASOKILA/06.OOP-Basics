@@ -6,16 +6,12 @@ namespace DungeonsAndCodeWizards
 {
 	public class StartUp
 	{
-		// DO NOT rename this file's namespace or class name.
-		// However, you ARE allowed to use your own namespaces (or no namespaces at all if you prefer) in other classes.
 		public static void Main(string[] args)
 		{
-
             DungeonMaster dungeonMaster = new DungeonMaster();
 
             while (true)
             {
-
                 string inputCommand = Console.ReadLine();
                 if (string.IsNullOrEmpty(inputCommand))
                 {
@@ -32,7 +28,6 @@ namespace DungeonsAndCodeWizards
                 string command = input[0];
 
                 string[] inputToPass = input.Skip(1).ToArray();
-
 
                 try
                 {
@@ -56,8 +51,6 @@ namespace DungeonsAndCodeWizards
                     {
                         Console.WriteLine(dungeonMaster.UseItemOn(inputToPass));
                     }
-
-
                     else if (command == "GiveCharacterItem")
                     {
                         Console.WriteLine(dungeonMaster.GiveCharacterItem(inputToPass));
@@ -70,7 +63,6 @@ namespace DungeonsAndCodeWizards
                     {
                         Console.WriteLine(dungeonMaster.Attack(inputToPass));
                     }
-
                     else if (command == "Heal")
                     {
                         Console.WriteLine(dungeonMaster.Heal(inputToPass));
@@ -83,21 +75,18 @@ namespace DungeonsAndCodeWizards
                     {
                         Console.WriteLine(dungeonMaster.IsGameOver());
                     }
-
                 }
                 catch (Exception e)
                 {
-
                     if(e.GetType().Name == "ArgumentException")
                         Console.WriteLine("Parameter Error: " + e.Message);
                     else
                         Console.WriteLine("Invalid Operation: " + e.Message);
-
                 }
             }
+			
             Console.WriteLine($"Final stats:");
-            Console.WriteLine( dungeonMaster.GetStats()); 
-            
+            Console.WriteLine( dungeonMaster.GetStats());        
         }
 	}
 }

@@ -6,27 +6,19 @@ namespace DungeonsAndCodeWizards
 {
     public abstract class Character
     {
-
-
-        
-
         protected Character(string name,
             double health, double armor,
             double abilityPoints, Bag bag, Faction faction)
         {
             this.Name = name;
-
             this.BaseHealth = health;
             this.Health = health;
             this.AbilityPoints = abilityPoints;
             this.Bag = bag;
-            this.Faction = faction;
-            
+            this.Faction = faction;           
             this.BaseArmor = armor;
-
             this.Armor = armor;
-            this.Status = "Alive";
-            
+            this.Status = "Alive";        
         }
         
         private string name;
@@ -53,7 +45,6 @@ namespace DungeonsAndCodeWizards
             get { return health; }
             set
             {
-
                 if (value < 0)
                 {
                     value = 0;
@@ -62,13 +53,11 @@ namespace DungeonsAndCodeWizards
                 {
                     value = this.BaseHealth;
                 }
-
-
+				
                 health = value;
             }
         }
         
-
         public Faction Faction { get; private set; }
 
         public double BaseArmor { get; private set; }
@@ -92,7 +81,6 @@ namespace DungeonsAndCodeWizards
             }
         }
 
-
         public string Status { get; set; }
 
         public double AbilityPoints { get; private set; }
@@ -103,7 +91,6 @@ namespace DungeonsAndCodeWizards
 
         virtual public double RestHealMultiplier { get; private set; } = 0.2;
 
-        // EXAMPLE: Health: 100, Armor: 30, Hit Points: 40  Health: 90, Armor: 0
         public void TakeDamage(double hitPoints)
         {
             if (!this.IsAlive)
@@ -111,11 +98,9 @@ namespace DungeonsAndCodeWizards
                 throw new InvalidOperationException("Must be alive to perform this action!");
             }
 
+            double originalHitPoints = hitPoints; 
 
-            double originalHitPoints = hitPoints; //5
-
-            //5          //15
-            originalHitPoints = hitPoints - this.Armor; //-10
+            originalHitPoints = hitPoints - this.Armor; 
 
             if (this.Armor - hitPoints < 0)
             {
@@ -123,17 +108,13 @@ namespace DungeonsAndCodeWizards
             }
             else
             {
-                //15          //5
-                this.Armor -= hitPoints; //10
-
+                this.Armor -= hitPoints; 
             }
-
 
             if (originalHitPoints > 0)
             {
                 this.Health -= originalHitPoints;
             }
-
 
             if (this.Health < 0)
             {
@@ -179,13 +160,5 @@ namespace DungeonsAndCodeWizards
         public void ReceiveItem(Item item) {
             this.Bag.AddItem(item);
         }
-
-        
     }
 }
-
-
-
-
-
-

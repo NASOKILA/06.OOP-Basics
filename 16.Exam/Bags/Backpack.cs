@@ -8,9 +8,6 @@ namespace DungeonsAndCodeWizards.Bags
     {
         public Backpack() 
             : base(100)
-        {
-        }
-        
-
+        {}
     }
 }

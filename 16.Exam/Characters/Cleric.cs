@@ -9,14 +9,12 @@ namespace DungeonsAndCodeWizards.Characters
     {
         public Cleric(string name, Faction faction) 
             : base(name, 50, 25, 40, new Backpack(), faction)
-        {
-        }
+        {}
 
         public override double RestHealMultiplier => 0.5;
 
         public void Heal(Character character)
         {
-
             if (this.IsAlive == true && character.IsAlive == true)
             {
                 if (this.Faction != character.Faction)
@@ -25,9 +23,7 @@ namespace DungeonsAndCodeWizards.Characters
                 }
 
                 character.Health += this.AbilityPoints; 
-
             }
-
         }
     }
 }

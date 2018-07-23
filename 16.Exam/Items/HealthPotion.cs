@@ -9,8 +9,7 @@ namespace DungeonsAndCodeWizards.Items
     {
         public HealthPotion() 
             : base(5)
-        {
-        }
+        {}
 
         public override void AffectCharacter(Character character)
         {

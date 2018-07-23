@@ -13,7 +13,6 @@ namespace DungeonsAndCodeWizards.Characters
 
         public void Attack(Character character)
         {
-
             if (this.IsAlive == true && character.IsAlive == true)
             {
                 if (character == this)
@@ -26,12 +25,8 @@ namespace DungeonsAndCodeWizards.Characters
                     throw new ArgumentException($"Friendly fire! Both characters are from {this.Faction.ToString()} faction!");
                 }
 
-
                 character.TakeDamage(this.AbilityPoints);
-
             }
-
         }
-
     }
 }

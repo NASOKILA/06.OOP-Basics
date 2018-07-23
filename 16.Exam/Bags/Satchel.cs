@@ -8,7 +8,6 @@ namespace DungeonsAndCodeWizards.Bags
     {
         public Satchel() 
             : base(20)
-        {
-        }
+        {}
     }
 }

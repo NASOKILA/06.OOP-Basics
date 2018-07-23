@@ -9,8 +9,7 @@ namespace DungeonsAndCodeWizards.Items
     {
         public PoisonPotion()
             : base(5)
-        {
-        }
+        {}
 
         public override void AffectCharacter(Character character)
         {
@@ -22,7 +21,6 @@ namespace DungeonsAndCodeWizards.Items
             {
                 character.IsAlive = false;
             }
-
         }
     }
 }

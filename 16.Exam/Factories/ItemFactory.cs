@@ -7,10 +7,8 @@ namespace DungeonsAndCodeWizards.Factories
 {
     public class ItemFactory
     {
-
         public Item CreateItem(string itemName)
         {
-
             if (itemName == "HealthPotion")
             {
                 return new HealthPotion();
@@ -26,9 +24,7 @@ namespace DungeonsAndCodeWizards.Factories
             else
             {
                 throw new ArgumentException($"Invalid item \"{itemName}\"!");
-            }
-
-            
+            }            
         }
     }
 }
