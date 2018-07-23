@@ -17,6 +17,4 @@ public class Citizen: IEntity
         this.Age = age;
         this.Id = id;
     }
-
 }
-

@@ -11,4 +11,3 @@ public interface ICommando : ISpecialisedSoldier
 
     void CompleteMission(string missionComplete);
 }
-

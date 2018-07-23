@@ -9,10 +9,10 @@ namespace _05.BorderControl
     {
         static void Main(string[] args)
         {
-
             List<IEntity> robotsOrCitizens = new List<IEntity>();
 
             string command;
+			
             while ((command = Console.ReadLine()) != "End")
             {
                 var tokens = command
@@ -21,18 +21,15 @@ namespace _05.BorderControl
 
                 if (tokens.Count == 2)
                 {
-                    //robot 
                     Robot robot = new Robot(tokens[0], tokens[1]);
                     robotsOrCitizens.Add(robot);
 
                 }
                 else if (tokens.Count == 3)
                 {
-                    //chovek
                     Citizen citizen = new Citizen(tokens[0], int.Parse(tokens[1]), tokens[2]);
                     robotsOrCitizens.Add(citizen);
                 }
-                
             }
 
             string fakeId = Console.ReadLine();
@@ -41,8 +38,7 @@ namespace _05.BorderControl
             {
                 if(item.Id.EndsWith(fakeId))
                     Console.WriteLine(item.Id);
-            }
-            
+            }     
         }
     }
 }

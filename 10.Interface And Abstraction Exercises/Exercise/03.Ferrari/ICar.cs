@@ -12,6 +12,4 @@ public interface ICar
     string Break();
 
     string Accelerate();
-    
 }
-

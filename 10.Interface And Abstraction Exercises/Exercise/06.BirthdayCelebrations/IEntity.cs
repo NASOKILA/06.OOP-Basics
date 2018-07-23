@@ -9,4 +9,3 @@ public interface IEntity
 
     string Birthdate { get; set; }
 }
-

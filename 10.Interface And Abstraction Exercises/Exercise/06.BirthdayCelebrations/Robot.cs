@@ -17,6 +17,4 @@ public class Robot : IEntity
         this.Model = model;
         this.Birthdate = string.Empty;
     }
-
 }
-

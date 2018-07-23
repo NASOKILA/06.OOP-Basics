@@ -23,6 +23,4 @@ public class Citizen : IPerson, IIdentifiable, IBirthable
         this.Id = id;
         this.Birthdate = birthdate;
     }
-
 }
-

@@ -20,6 +20,4 @@ public class Citizen: IEntity
         this.Id = id;
         this.Birthdate = birthdate;
     }
-
 }
-

@@ -3,10 +3,8 @@ using System.Collections.Generic;
 using System.Text;
 
 
-//TOVA E ABSTRAKTEN KLAS I TOI NI E BAZOV 
 public abstract class Soldier : ISoldier
 {
-    //Shte mojem da polzvame tozi konstruktor navsqkude
     public Soldier(int id, string firstName, string lastname)
     {
         this.Id = id;
@@ -25,4 +23,3 @@ public abstract class Soldier : ISoldier
         return $"Name: {this.FirtName} {this.LastName} Id: {this.Id}";
     }
 }
-

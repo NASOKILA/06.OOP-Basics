@@ -17,6 +17,4 @@ public class Citizen : IPerson
         this.Name = name;
         this.Age = age;
     }
-
 }
-

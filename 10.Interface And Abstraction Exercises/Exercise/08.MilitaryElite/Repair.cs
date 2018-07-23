@@ -20,6 +20,4 @@ public class Repair : IRepair
     {
         return $"Part Name: {this.PartName} Hours Worked: {this.HoursWorked}";
     }
-
 }
-

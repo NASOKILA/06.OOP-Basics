@@ -21,7 +21,6 @@ public class Citizen: IEntity, IBuyer
         this.Age = age;
         this.Id = id;
         this.Birthdate = birthdate;
-
         this.Food = 0;
     }
 
@@ -30,4 +29,3 @@ public class Citizen: IEntity, IBuyer
         return this.Food += 10;
     }
 }
-

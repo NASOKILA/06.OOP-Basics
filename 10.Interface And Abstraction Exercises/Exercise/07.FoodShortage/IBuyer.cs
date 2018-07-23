@@ -9,4 +9,3 @@ public interface IBuyer : IEntity
 
     int BuyFood();
 }
-

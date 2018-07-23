@@ -20,6 +20,4 @@ public class Pet : IPets
         this.Birthdate = birthdate;
         this.Id = null;
     }
-
 }
-

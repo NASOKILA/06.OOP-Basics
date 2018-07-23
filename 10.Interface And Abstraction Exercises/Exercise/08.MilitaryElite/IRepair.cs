@@ -9,4 +9,3 @@ public interface IRepair
 
     int HoursWorked { get; }
 }
-

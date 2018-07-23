@@ -31,7 +31,4 @@ public class Ferrari : ICar
     {
         return $"{this.Model}/{this.Break()}/{this.Accelerate()}/{this.Driver}";
     }
-
-
 }
-

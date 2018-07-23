@@ -5,14 +5,9 @@ using System.Text;
 
 public class Engineer : SpecialisedSoldier, IEngineer
 {
-
-
-    //Shte go polzvame tova za da setvame chrez nego i da pulnim publichnoto
     private ICollection<IRepair> repairs;
-
-
-    //Kastvame go kum IReadOnlyCollection<IRepair> za da setnem repair na Repair:
-    public IReadOnlyCollection<IRepair> Repairs => (IReadOnlyCollection<IRepair>)repairs;
+	
+	public IReadOnlyCollection<IRepair> Repairs => (IReadOnlyCollection<IRepair>)repairs;
 
     public Engineer(int id, string firstName, string lastName, 
         decimal salary, string corps) 
@@ -25,8 +20,6 @@ public class Engineer : SpecialisedSoldier, IEngineer
     {
         repairs.Add(repair);
     }
-
-
 
     public override string ToString()
     {
@@ -41,10 +34,6 @@ public class Engineer : SpecialisedSoldier, IEngineer
             stringBuilder.AppendLine($"  {@repair.ToString()}");
         }
 
-        return stringBuilder.ToString().TrimEnd(); //TrimEnd() NAKRAQ E VAJNO !!!!!!!
-    }
-
-
-
+        return stringBuilder.ToString().TrimEnd();
+	}
 }
-

@@ -6,11 +6,10 @@ class StartUp
 {
     static void Main(string[] args)
     {
-
-
         List<ISoldier> soldiers = new List<ISoldier>();
 
         string command = string.Empty;
+		
         while ((command = Console.ReadLine()) != "End")
         {
             var tokens = command
@@ -23,12 +22,9 @@ class StartUp
             string lastName = tokens[3];
             decimal salary = decimal.Parse(tokens[4]);
 
-            //Pravim si promenliva v koqto da si vkarvame voinicite
-            //Znaem che ISoldier e nasleden iterfeis ot vsichki voinici
             ISoldier soldier = null;
             try
             {
-
                 switch (soldierType)
                 {
                     case "Private":
@@ -38,13 +34,10 @@ class StartUp
 
                     case "LeutenantGeneral":
 
-                        //Pravim si leitananta:
                         var lieutenant = new LeutenantGeneral(id, firstName, lastName, salary);
 
-                        //Dobavqme mu 
                         for (int i = 5; i < tokens.Count; i++)
                         {
-                            //vzimame si private i go dobavqme v spisuka s privates na leitananta
                             int privateId = int.Parse(tokens[i]);
                             ISoldier @private = soldiers.First(p => p.Id == privateId);
                             lieutenant.AddPrivate(@private);
@@ -76,13 +69,10 @@ class StartUp
 
                         string engineerCorps = tokens[5];
 
-                        //Pravim si leitananta:
                         var engineer = new Engineer(id, firstName, lastName, salary, engineerCorps);
 
-                        //Dobavqme mu 
                         for (int i = 6; i < tokens.Count; i++)
                         {
-                            //Dobavqme mu Repairs na Enjinera
                             string partName = tokens[i];
                             int hoursWorked = int.Parse(tokens[++i]);
                             IRepair repair = new Repair(partName, hoursWorked);
@@ -100,25 +90,16 @@ class StartUp
 
                     default:
                         throw new ArgumentException("Invalid soldier type !");
-
                 }
 
                 soldiers.Add(soldier);
-
             }
-            catch //(Exception e)
-            {
-                //Console.WriteLine(e.Message);
-            }
-            
+            catch 
+            {}    
         }
-
-
         foreach (var s in soldiers)
         {
             Console.WriteLine(s);
         }
-
     }
 }
-

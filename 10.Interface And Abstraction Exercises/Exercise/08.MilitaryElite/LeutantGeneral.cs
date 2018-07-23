@@ -5,16 +5,13 @@ using System.Text;
 
 public class LeutenantGeneral : Private, ILeutantGeneral
 {
-    //Shte setvame i hte dobavqme v nego
     private ICollection<ISoldier> privates;
 
-    //TRQBVA DA GO CASTNEM KUM IReadOnlyCollection<ISoldier>
     public IReadOnlyCollection<ISoldier> Privates => (IReadOnlyCollection<ISoldier>)this.privates;
 
     public LeutenantGeneral(int id, string firstName, string lastName, decimal salary)
         :base(id, firstName, lastName, salary)
     {
-        //mojem da slagame mnogo voinici
         privates = new List<ISoldier>();
     }
 
@@ -36,8 +33,6 @@ public class LeutenantGeneral : Private, ILeutantGeneral
             stringBuilder.AppendLine($"  {@private.ToString()}");
         }
 
-        return stringBuilder.ToString().TrimEnd(); //TrimEnd() NAKRAQ E VAJNO !!!!!!!
+        return stringBuilder.ToString().TrimEnd(); 
     }
-
 }
-

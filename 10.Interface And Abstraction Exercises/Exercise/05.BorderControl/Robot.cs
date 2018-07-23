@@ -14,6 +14,4 @@ public class Robot : IEntity
         this.Id = id;
         this.Model = model;
     }
-
 }
-

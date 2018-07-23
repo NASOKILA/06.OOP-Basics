@@ -6,4 +6,3 @@ public interface IBrowsing
 {
     string Brawsing();
 }
-

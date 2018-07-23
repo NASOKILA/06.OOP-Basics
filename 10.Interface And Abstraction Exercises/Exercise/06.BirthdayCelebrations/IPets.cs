@@ -5,7 +5,5 @@ using System.Text;
 
 public interface IPets : IEntity
 {
-    string Name { get; set; }
-    
+    string Name { get; set; } 
 }
-

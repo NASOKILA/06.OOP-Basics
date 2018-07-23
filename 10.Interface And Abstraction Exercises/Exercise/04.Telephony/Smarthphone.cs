@@ -22,14 +22,11 @@ public class Smarthphone : ICalling, IBrowsing
         set { website = value; }
     }
 
-
     public Smarthphone()
     {}
     
-
     public string Brawsing()
     {
-
         string result = this.Website.Any(e => Char.IsDigit(e))
             ? $"Invalid URL!"
             : $"Browsing: {this.Website}!";
@@ -39,13 +36,10 @@ public class Smarthphone : ICalling, IBrowsing
         
     public string Calling()
     {
-
         string result = this.Number.All(e => Char.IsDigit(e))
             ? $"Calling... {this.Number}"
             : $"Invalid URL!";
 
         return result;
     }
-    
 }
-

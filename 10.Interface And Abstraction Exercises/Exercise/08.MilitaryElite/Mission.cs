@@ -9,23 +9,17 @@ public class Mission : IMission
     {
         this.CodeName = codeName;
 
-        //Parsvame si string v Enum i ako ne e validen hvurlqme exception
-        //ko e si go setvame
         ParseState(state);
     }
 
     private void ParseState(string state)
     {
-        //try parse   // SUS true SLED state IGNORIRAME CASEING
         bool validState = Enum.TryParse(typeof(MissionState), state, out object outState);
 
-        //Ako nqmame takuv state shte vhurlim exception
         if (!validState)
             throw new ArgumentException("Invalid State");
 
-        //Ako imame si go setvame 
         this.State = (MissionState)outState;
-
     }
 
     public string CodeName { get; private set; }
@@ -45,7 +39,4 @@ public class Mission : IMission
     {
         return $"Code Name: {this.CodeName} State: {this.State.ToString()}";
     }
-
-
 }
-

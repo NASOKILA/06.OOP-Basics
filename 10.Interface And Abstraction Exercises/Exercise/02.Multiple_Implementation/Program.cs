@@ -15,7 +15,5 @@ class Program
 
         Console.WriteLine(identifiable.Id);
         Console.WriteLine(birthable.Birthdate);
-
     }
 }
-

@@ -5,4 +5,3 @@ using System.Text;
 
 public interface IPets : IEntity
 {}
-

@@ -29,8 +29,6 @@ namespace _04.Telephony
                 smarthphone.Website = website;
                 Console.WriteLine(smarthphone.Brawsing());
             }
-
-
         }
     }
 }

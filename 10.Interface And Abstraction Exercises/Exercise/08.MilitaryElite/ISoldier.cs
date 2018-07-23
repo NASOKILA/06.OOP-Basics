@@ -10,6 +10,4 @@ public interface ISoldier
     string FirtName { get; }
 
     string LastName { get; }
-    
 }
-

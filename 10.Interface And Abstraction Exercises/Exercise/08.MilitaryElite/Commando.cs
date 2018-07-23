@@ -6,7 +6,6 @@ using System.Text;
 
 public class Commando : SpecialisedSoldier, ICommando
 {
-
     public ICollection<IMission> missions;
 
     public IReadOnlyCollection<IMission> Missions => (IReadOnlyCollection<IMission>)missions;
@@ -17,8 +16,6 @@ public class Commando : SpecialisedSoldier, ICommando
         missions = new List<IMission>();
     }
 
-
-    
     public void AddMission(IMission mission)
     {
         this.missions.Add(mission);
@@ -26,20 +23,14 @@ public class Commando : SpecialisedSoldier, ICommando
 
     public void CompleteMission(string missionCodeName)
     {
-        //Vzimame si pravilnata misiq
         IMission mission = this.Missions.FirstOrDefault(e => e.CodeName == missionCodeName);
 
-        //Ako q nqma vhurlqme exception
         if (mission == null)
             throw new ArgumentException("Mission not found!");
 
-        //Ako q ima i izvikvame Complete() metoda
         mission.Complete();
-
     }
-
-
-
+	
     public override string ToString()
     {
         StringBuilder stringBuilder = new StringBuilder();
@@ -53,9 +44,6 @@ public class Commando : SpecialisedSoldier, ICommando
             stringBuilder.AppendLine($"  {@mission.ToString()}");
         }
 
-        return stringBuilder.ToString().TrimEnd(); //TrimEnd() NAKRAQ E VAJNO !!!!!!!
+        return stringBuilder.ToString().TrimEnd(); 
     }
-
-
 }
-

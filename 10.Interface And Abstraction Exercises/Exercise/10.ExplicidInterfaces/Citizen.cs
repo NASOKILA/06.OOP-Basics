@@ -11,15 +11,12 @@ public class Citizen : IPerson, IResident
 
     public int Age { get; set; }
 
-
     public Citizen(string name, string country, int age)
     {
         this.Name = name;
         this.Country = country;
         this.Age = age;
     }
-
-    //PRAVIM DVATA METODA GetName() DA VRUSHTAT RAZLICHNI REZULTATI.
 
     string IResident.GetName() {
 
@@ -30,8 +27,4 @@ public class Citizen : IPerson, IResident
     {
         return $"{this.Name}";
     }
-
-    
-
 }
-

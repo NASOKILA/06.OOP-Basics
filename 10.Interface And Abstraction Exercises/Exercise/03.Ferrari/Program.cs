@@ -13,4 +13,3 @@ class Program
         Console.WriteLine(ferrari.ToString());
     }
 }
-
