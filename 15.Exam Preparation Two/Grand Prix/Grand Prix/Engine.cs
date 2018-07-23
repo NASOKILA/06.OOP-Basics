@@ -6,7 +6,6 @@ using System.Text;
 
 public class Engine
 {
-
     public Engine(RaceTower raceTower)
     {
         this.raceTower = raceTower;
@@ -17,8 +16,6 @@ public class Engine
 
     public void Run()
     {
-
-        //You should stop reading the input when drivers complete all laps.
         while (true)
         {
 
@@ -42,10 +39,8 @@ public class Engine
             {
                 string result = raceTower.CompleteLaps(methodArgs);
 
-                //Ako nqmame izprevarvaniq i nqmame greshka
                 if (string.IsNullOrWhiteSpace(result))
-                    Console.WriteLine(result);
-                
+                    Console.WriteLine(result);              
             }
             else if (command == "Box")
             {
@@ -61,4 +56,3 @@ public class Engine
         }
     }
 }
-

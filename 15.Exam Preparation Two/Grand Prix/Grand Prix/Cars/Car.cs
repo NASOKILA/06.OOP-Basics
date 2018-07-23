@@ -15,6 +15,7 @@ public class Car
     private int hp;
     private double fuelAmount;
     private Tyre tyre;
+	
     const int FUEL_TANK_MAXIMUM_CAPACITY = 160;
 
     public int Hp
@@ -27,13 +28,10 @@ public class Car
     {
         get { return fuelAmount; }
         set
-        {
-            //If fuel amount drops below 0 liters you should throw an exception 
+        { 
             if (value < 0)
                 throw new ArgumentException("Out of fuel");
-
-            /*If you are given more fuel than needed you should fill up 
-             the tank to the maxiumum and nothing else happens.*/
+			
             if (value > FUEL_TANK_MAXIMUM_CAPACITY)
                 fuelAmount = FUEL_TANK_MAXIMUM_CAPACITY;
             else
@@ -46,7 +44,4 @@ public class Car
         get { return tyre; }
         set { tyre = value; }
     }
-
-
 }
-

@@ -15,7 +15,5 @@ public class Program
 
         Engine engine = new Engine(raceTower);
         engine.Run();
-
     }
 }
-

@@ -6,7 +6,6 @@ using System.Text;
 
 public class DriverFactory
 {
-
     public Driver CreateDriver(List<string> commandArgs)
     {
         string type = commandArgs[0];
@@ -27,9 +26,6 @@ public class DriverFactory
         else if (type == "Endurance")
             return new EnduranceDriver(name, driverCar);
         
-        throw new ArgumentException("Invalid Driver Type");
-        
+        throw new ArgumentException("Invalid Driver Type");     
     }
-
 }
-

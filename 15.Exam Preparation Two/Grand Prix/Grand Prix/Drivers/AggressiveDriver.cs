@@ -10,7 +10,4 @@ public class AggressiveDriver : Driver
     {
         this.Speed *= 1.3;
     }
-
-    
 }
-

@@ -17,4 +17,3 @@ public class TyreFactory
         throw new ArgumentException("Invalid Tyre Type");
     }
 }
-

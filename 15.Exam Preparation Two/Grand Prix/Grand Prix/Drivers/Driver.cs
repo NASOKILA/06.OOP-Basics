@@ -6,19 +6,16 @@ using System.Text;
 public abstract class Driver
 {
 
-    //konstruktura na private klasovete trqbva da e protected
     protected Driver(string name, Car car,
         double fuelConsumptionPerKm)
     {
         this.Name = name;
-        this.TotalTime = 0d; //slagame 'd' nakraq za da e double
+        this.TotalTime = 0d; 
         this.Car = car;
         this.FuelConsumptionPerKm = fuelConsumptionPerKm;
         this.Speed = (this.car.Hp + car.Tyre.Degradation) / car.FuelAmount;
         this.IsRacing = true;
-
     }
-
 
     public bool IsRacing { get; set; }
     private string FailureReason { get; set; }
@@ -30,7 +27,6 @@ public abstract class Driver
     private double fuelConsumptionPerKm;
     private double speed;
     
-
     public string Name
     {
         get { return name; }
@@ -71,7 +67,4 @@ public abstract class Driver
         this.IsRacing = false;
         this.FailureReason = message;
     }
-
-    
 }
-

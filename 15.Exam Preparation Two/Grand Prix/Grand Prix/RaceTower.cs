@@ -6,16 +6,15 @@ using System.Text;
 
 public class RaceTower
 {
-
     public RaceTower()
     {
         this.drivers = new List<Driver>();
         this.FailedDrivers = new Stack<Driver>();
         this.driverFactory = new DriverFactory();
         this.tyreFactory = new TyreFactory();
-        this.Weather = "Sunny"; //Rainy, Foggy
+        this.Weather = "Sunny"; 
 
-        this.CurrentLap = 0; //zapochva ot 0
+        this.CurrentLap = 0; 
     }
 
     private string Weather;
@@ -24,7 +23,6 @@ public class RaceTower
 
     private DriverFactory driverFactory;
     private TyreFactory tyreFactory;
-
 
     private double TrackLegth { get; set; }
     private int CurrentLap { get; set; }
@@ -40,17 +38,13 @@ public class RaceTower
 
     public void RegisterDriver(List<string> commandArgs)
     {
-
         try
         {
             Driver driver = driverFactory.CreateDriver(commandArgs);
             this.drivers.Add(driver);
         }
         catch (Exception)
-        {
-            //AKO IMAME NQKAKVA GRESHKA NE TRQBVA DA PRAVIM NISHTO
-        }
-
+        {}
     }
 
     public void DriverBoxes(List<string> commandArgs)
@@ -59,10 +53,8 @@ public class RaceTower
         string driverName = commandArgs[1];
         Driver driver = this.drivers.SingleOrDefault(d => d.Name == driverName);
 
-        //prikachvame 20 sekundi na shofiora
         driver.TotalTime += 20;
 
-        //Ako nqma takuv driver
         if (driver == null)
             throw new ArgumentException("Driver Not Found !!!!!");
 
@@ -78,7 +70,6 @@ public class RaceTower
             double fuelToFill = double.Parse(commandArgs[2]);
             driver.Car.FuelAmount += fuelToFill;
         }
-
     }
 
     public string CompleteLaps(List<string> commandArgs)
@@ -89,10 +80,8 @@ public class RaceTower
         if (numberOfLaps > this.LapsNumber - this.CurrentLap)
             throw new ArgumentException($"There is no time! On lap {numberOfLaps}.");
 
-
         for (int lap = 0; lap < numberOfLaps; lap++)
-        {
-            
+        {       
             for (int index = 0; index < this.drivers.Count; index++)
             {
                 Driver driver = drivers[index];
@@ -103,27 +92,24 @@ public class RaceTower
 
                     driver.Car.FuelAmount -= (this.TrackLegth * driver.FuelConsumptionPerKm);
 
-                    driver.Car.Tyre.CompleteLap(); //tova veche go imame napraveno
+                    driver.Car.Tyre.CompleteLap(); 
                 }
                 catch (Exception e)
                 {
                     driver.Fail(e.Message);
-                    this.FailedDrivers.Push(driver); //pulnim si steka sus izgubili shofiori
-                    this.drivers.Remove(driver); //Obache go mhame ot originalniq spisuk
+                    this.FailedDrivers.Push(driver); 
+                    this.drivers.Remove(driver); 
                 }
             }
 
             this.CurrentLap++;
 
-
-            //Podrejdame gi ot posledniq do purviq
             var orderedDrivers = drivers.OrderByDescending(d => d.TotalTime).ToList();
 
             for (int i = 0; i < orderedDrivers.Count - 1; i++)
             {
                 Driver overTakingDriver = orderedDrivers[i];
-                Driver targetDriver = orderedDrivers[i + 1];  //sledvashtiq e targeta VURTIM DO Length -1
-
+                Driver targetDriver = orderedDrivers[i + 1]; 
                 bool overtakeSuccessful = this.TryOvertake(overTakingDriver, targetDriver);
 
                 if (overtakeSuccessful)
@@ -133,34 +119,26 @@ public class RaceTower
                 }
                 else
                 {
-                    //ako e krashnal
                     if (!overTakingDriver.IsRacing)
                     {
-                        //go slagame pri zagubenqcite i go mahame ot nashiq masiv s shofiori
                         this.FailedDrivers.Push(overTakingDriver);
-                        orderedDrivers.Remove(overTakingDriver);
-                        
+                        orderedDrivers.Remove(overTakingDriver);  
                     }
-
                 }
             }
         }
 
-
         if (IsRaceOver)
         {
-            //Print the winner on the console
             Driver winner = this.getRaceWinner();
             sb.AppendLine($"{winner.Name} wins the race for {winner.TotalTime:f3} seconds.");
         }
 
         return sb.ToString().TrimEnd();
-
     }
 
     private bool TryOvertake(Driver overTakingDriver, Driver targetDriver)
     {
-
         double timeDiff = overTakingDriver.TotalTime - targetDriver.TotalTime;
 
         if (timeDiff <= 3)
@@ -168,13 +146,12 @@ public class RaceTower
             if (overTakingDriver is AggressiveDriver &&
                 overTakingDriver.Car.Tyre is UltrasoftTyre)
             {
-                //krashva
                 if (this.Weather == "Foggy")
                 {
                     overTakingDriver.Fail("Crush");
                     return false;
                 }
-                //result = true;
+				
                 overTakingDriver.TotalTime -= 3;
                 targetDriver.TotalTime += 3;
                 return true;
@@ -182,14 +159,12 @@ public class RaceTower
             else if (overTakingDriver is EnduranceDriver &&
                 overTakingDriver.Car.Tyre is HardTyre)
             {
-                //krashva
                 if (this.Weather == "Rainy")
                 {
                     overTakingDriver.Fail("Crush");
                     return false;
                 }
 
-                //result = true;
                 overTakingDriver.TotalTime -= 3;
                 targetDriver.TotalTime += 3;
                 return true;
@@ -209,8 +184,6 @@ public class RaceTower
 
     public string GetLeaderboard()
     {
-        //TODO: Add some logic here …
-
         StringBuilder sb = new StringBuilder();
         sb.AppendLine($"Lap {this.CurrentLap}/{this.LapsNumber}");
 
@@ -222,6 +195,7 @@ public class RaceTower
         {
             sb.AppendLine($"{positions++} {driver.Name} {driver.ToString()}");
         }
+		
         return sb.ToString().TrimEnd();
     }
 
@@ -240,6 +214,4 @@ public class RaceTower
         Driver winner = this.drivers.OrderByDescending(d => d.TotalTime).First();
         return winner;
     }
-
 }
-
