@@ -6,7 +6,6 @@ using System.Text;
 
 public class Human
 {
-
     const int MIN_FIRST_NAME_LENGTH = 4;
     const int MIN_LAST_NAME_LENGTH = 3;
 
@@ -58,4 +57,3 @@ public class Human
         }
     }
 }
-

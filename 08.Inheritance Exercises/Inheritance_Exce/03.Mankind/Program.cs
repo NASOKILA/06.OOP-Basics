@@ -15,7 +15,6 @@ class Program
 
         try
         {
-
             string studentFirstName = firstLine[0];
             string studentLastName = firstLine[1];
             string studentFacultyNumber = firstLine[2];
@@ -31,13 +30,9 @@ class Program
             Console.WriteLine(student);
             Console.WriteLine();
             Console.WriteLine(worker);
-
         }
         catch (ArgumentException e) {
             Console.WriteLine(e.Message);
         }
-
-
     }
 }
-

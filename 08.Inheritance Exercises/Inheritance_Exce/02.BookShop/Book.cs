@@ -6,14 +6,12 @@ using System.Text;
 
 public class Book
 {
-
     const int MIN_PRICE = 0;
     const int MIN_TITLE_LENGTH = 3;
 
     private string title;
     private string author;
     private decimal price;
-
 
     public Book()
     {}
@@ -66,11 +64,6 @@ public class Book
     
     public override string ToString()
     {
-        //Sus this.GetType().Name vzimame imeto na klasa
         return $"Type: {this.GetType().Name}\nTitle: {this.Title}\nAuthor: {this.Author}\nPrice: {this.Price:f2}".TrimEnd();
     }
-
 }
-
-
-

@@ -14,7 +14,6 @@ namespace _04.OnlineRadioDB
 
             for (int i = 0; i < n; i++)
             {
-
                 try
                 {
                     string[] songDetails = Console.ReadLine()
@@ -26,9 +25,7 @@ namespace _04.OnlineRadioDB
 
                     string[] time = songDetails[2]
                         .Split(new string[] { ":" }, StringSplitOptions.RemoveEmptyEntries)
-                        .ToArray();
-
-                   
+                        .ToArray();                 
 
                     int minutes = int.Parse(time[0]);
                     int seconds = int.Parse(time[1]);
@@ -38,12 +35,10 @@ namespace _04.OnlineRadioDB
 
                     songsList.Add(song);
                     Console.WriteLine("Song added.");
-
                 }
                 catch (ArgumentException e) {
                     Console.WriteLine(e.Message);
-                }
-                
+                }            
             }
 
             PrintPlaylistSummary(songsList);
@@ -65,6 +60,5 @@ namespace _04.OnlineRadioDB
 
             Console.WriteLine($"Playlist length: {hours}h {minutes}m {seconds}s");
         }
-
     }
 }

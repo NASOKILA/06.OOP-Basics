@@ -7,7 +7,6 @@ namespace _05.MordorsCruelPlan
     {
         static void Main(string[] args)
         {
-
             var input = Console.ReadLine()
                 .Split(new string[] {" ", ","},StringSplitOptions.RemoveEmptyEntries)
                 .ToArray();
@@ -20,7 +19,6 @@ namespace _05.MordorsCruelPlan
             MoodFactory moodFactory = new MoodFactory(points);
 
             Console.WriteLine(moodFactory.Mood);
-
         }
 
         private static int GetPoints(string food, int points)
@@ -40,9 +38,7 @@ namespace _05.MordorsCruelPlan
             else
                 points -= (int)FoodFactory.Else;
 
-
             return points;
-
         }
     }
 }

@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Text;
 
 
-
 public enum FoodFactory
 {
     Cram = 2,
@@ -14,4 +13,3 @@ public enum FoodFactory
     Mushrooms = 10,
     Else = 1 
 }
-

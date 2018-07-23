@@ -49,7 +49,6 @@ public class Worker: Human
         return (WeekSalary / (decimal)((decimal)5 * (decimal)WorkHoursPerDay));
     }
 
-
     public override string ToString()
     {
         StringBuilder result = new StringBuilder();
@@ -60,11 +59,6 @@ public class Worker: Human
         result.AppendLine($"Hours per day: {this.WorkHoursPerDay:f2}");
         result.AppendLine($"Salary per hour: {CalculateMoneyEarnPerHour():f2}");
 
-        //TRIM END E HUBAVO DA SE SLAGA ZASHTOTO STRINGBUILDERA OSTAVA PONQKOGA PRAZNI RAZTOQNIQ NAKRAQ.
         return result.ToString().TrimEnd();
     }
-
 }
-
-
-

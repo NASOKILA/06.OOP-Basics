@@ -25,6 +25,4 @@ public class Artist
             name = value;
         }
     }
-
 }
-

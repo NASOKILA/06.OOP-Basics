@@ -6,12 +6,11 @@ class Program
 {
     static void Main(string[] args)
     {
-
         string command;
+		
         while ((command = Console.ReadLine()) != "Beast!")
         {
             try {
-
                 string[] input = command.Split().ToArray();
 
                 string[] secondLine =
@@ -64,17 +63,11 @@ class Program
                     }
                     else
                         throw new ArgumentException("Invalid input!");
-
-
                 }
-
             }
             catch (Exception e) {
                 Console.WriteLine(e.Message);
-            }
-           
-            
+            }      
         }
     }
 }
-

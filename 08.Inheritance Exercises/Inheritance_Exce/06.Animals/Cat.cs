@@ -5,7 +5,6 @@ using System.Text;
 
 public class Cat : Animal
 {
-
     public Cat(string name, int age, string gender)
         :base(name, age, gender)
     {}
@@ -14,6 +13,4 @@ public class Cat : Animal
     {
         return "Meow meow";
     }
-
 }
-

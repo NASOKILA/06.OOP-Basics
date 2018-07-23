@@ -5,7 +5,6 @@ using System.Text;
 
 public class Song
 {
-
     const int MIN_SONG_NAME_LENGTH = 3;
     const int MAX_SONG_NAME_LENGTH = 30;
 
@@ -30,7 +29,6 @@ public class Song
         this.Minutes = minutes;
         this.Seconds = seconds;
     }
-
 
     public string Name
     {
@@ -73,8 +71,4 @@ public class Song
         get { return artist; }
         set { artist = value; }
     }
-
 }
-
-
-

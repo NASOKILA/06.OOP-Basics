@@ -4,7 +4,6 @@ using System.Text;
 
 public class Person
 {
-
     const int MIN_NAME_LENGTH = 3;
     const int MIN_AGE = 0;
 
@@ -48,11 +47,8 @@ public class Person
         }
     }
 
-
     public override string ToString()
     {
         return $"Name: {this.Name}, Age: {this.Age}";
     }
-
 }
-

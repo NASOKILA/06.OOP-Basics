@@ -5,11 +5,9 @@ using System.Text;
 
 public class Animal : ISoundProducable
 {
-
     private string name;
     private int age;
     private string gender;
-
 
     public Animal()
     { }
@@ -63,7 +61,6 @@ public class Animal : ISoundProducable
         }
     }
 
-
     public override string ToString()
     {
         return $"{Name} {Age} {Gender}";
@@ -72,5 +69,4 @@ public class Animal : ISoundProducable
     public virtual string ProduceSound() {
         return "NOISE";
     }
-
 }
