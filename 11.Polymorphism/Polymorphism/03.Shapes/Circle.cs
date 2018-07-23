@@ -41,6 +41,4 @@ public class Circle : Shape
     {
         return base.Draw() + this.GetType().Name; 
     }
-
 }
-

@@ -7,8 +7,6 @@ namespace Polymorphism
     {
         static void Main(string[] args)
         {
-
-            /*
             
 
             //NAI VAJNOTO !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -93,19 +91,11 @@ namespace Polymorphism
 
             IAnimal person3 = new Person(5);
             person3.Reproduce();
-            Console.WriteLine(((Person)person3).Age); //ZA DA POLZVAME .Age OT IAnimal TRQBVA DA GO KASTNEM KUM 'Person' !!!!
-
-            //Ne stawa zashtoto Mammal() e abstrakten klas. 
-            //IAnimal person4 = new Mammal();
-
-
+            Console.WriteLine(((Person)person3).Age); 
+			
             Console.WriteLine();
-            //Mojem da polzvame i vsichko ot Cat() klasa
             IAnimal cat = new Cat(20);
-            //TOV E POLIMORFISUM
-
-
-            //MOJEM VSICHKI DA GI NABUTAME V EDIN SPISUK:
+  
             List<IAnimal> animals = new List<IAnimal>();
             animals.Add(person);
             animals.Add(cat);
@@ -116,165 +106,34 @@ namespace Polymorphism
                 animal.Reproduce();
                 animal.PersonalInfo();
 
-                //SOFT CAST : 'as' KEYWORD !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-                //kastvame animal kum Person
                 Person animalAsPerson = animal as Person;
 
-                // 'is' KEYWORD !!!!!!!!!!!!!!!!!!!!!
-                //Proverqvame dali e ot tip Person
                 if (animalAsPerson is Person)
                     Console.WriteLine("SOFT CAST 'as' AND 'is' KEYWORDS: " + animalAsPerson.Age);
                 Console.WriteLine("-----------------------");
             }
 
-
-            /*
-            Ideqta e da imame obsht interfeis koito da se implementira ot drugi klasove.
-            Polymorfizma e DA MOJEM DA POLZVAME TEZI KLASOVE CHREZ SAMIQ INTERFEIS.
-
-             
-
-             Koga da polzvame 'abstract' i koga 'interface' ?
-                Polzvame abstract samo kogato iskame da vmuknem i nqkakva logika vuv vseku edin Child klas !
-                Inache ako nqma da vmukvame nikakva logika si polzvame interfeis.
-                
-                NAI DOBRATA PRAKTIKA E DA POLZVAME I DVETE:
-                    PRAVIM SI ABSTRAKTEN KLAS KOITO DA IMPLEMENTIRA EDIN ILI POVECHE INTERFEISI !
-             */
-
-            /*
-             Hiding Methods - SKriVANE NA METoDI
-                AKO IMAME SKRIVANE NA DVA MEtoDA SE VZIMA PO DEFaUlt PURVIQ T.E. TOZI KOIto E PO NA GORE V IERARHIQTA.
-                TOZI PROBLEM SE OPRAVQ CHREZ 'override' PREZAPISVANE, NO METODA TRQBVA DA E 'virtual' ILI 'abstract' !!! 
-             
-             */
-
-            /*
-             02. Types of polymorphisum:
-             
-                01.Runtime Polymorphism:
-                    Polzvame abstrakten klas za BAZOV KLAS 
-                    Abstraktnite klasove ne mogat da se inicializirat
-                    ABSTRAKTNIQ KLAS E KATO INTERFEIS, ZADULJITELNO DECATA MU TRQBVA DA IMAT KONSTRUKTOR
-                        I AKO IMA ABSTRAKTNI METODI TO DECATA TRQBVA DA GI IMAT SUSHTO.
-                    Abstraktniq metod NQMA TQLO(BODY), toi samo se definira i posle se pishe tqloto v decata na abstraktniq klas.
-                    Abstraktniq metod jivee SAMO V ABSTRAKTEN KLAS !!!
-
-             */
-
-
-
-
-            //MNOOOOOOOOOOOOOOGO VAJNOOOOOOOOOOOOOOOOO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-            //'static' - statichen metod e metod koito NE se izvikva ot obekt (instanciq na klas) sledovatelno NQMA KONTEXT !!!
-            //dokato 'non-static' e metod koito SE izvikva ot obekt (instanciq na klas) I IMA KONTEXT !!!
-
-
             Console.WriteLine();
-            Console.WriteLine("Method overloading :");
-            /*
-             Method overloading:
-                Mojem da imame mnogo metodi s edno i sushto ime koito da priemat 
-                razlichen tip i broi parametri, i da se izvikva pravilniq metod 
-                v zavisimost kakvi i kolko parametura sa podadeni !!!!!!!
-            Mojem i da razmestim parametrite.   
-            TOVA SE NARICHA METHOD OVERLOADING !!!!!
-               
-            
-
-            VAJNO!OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO!!!!!!!!!!!!!!!!!!
-            TOVA SE NARICHA I:
-                02. CompileTime Polymorphisum !!!!!!!!!!!!!!
-             */
-
-
-
-
+            Console.WriteLine("Method overloading :");   
             Console.WriteLine(Add(5, 10));
             Console.WriteLine(Add(5, 5, 5));
             Console.WriteLine(Add(1.25, 6.6, 10.5));
-
-            //VAJNOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-            //S 'params double[] nums' NIE KAZVAME CHE MOJE DA PODAVAME RAZLICHEN BROI PARAMETRI NA FUNKCIQTA !!!
             Console.WriteLine(Add(4.5, 6.1, 97.1, 71.12));
-
-
-            /*
-             Kak raboti Method overloading ? 
-                Trqbva signaturata na metodite da e ralichna !
-                    SIGNATURA - Tova e IMETO I PARAMETRITE NA METODA, Primerno: Add(int a, int b, int c)
-                
-                Ako primerno imame int Add(int a, int b)  I  int Add(int a, int b) NQMA DA STANE
-                01.Toest trqbva da smenim i tiput ne samo na metoda no i na parametrite.
-                02.Mojem da smenqme tiput na argumentite
-                03.Mojem da smenqme i podredbata na argumentite no NE E PREPORUCHITELNO
-             
-                CONTRUCTORS CAN BE OVERLOADED!
-             */
-
-
-
             Console.WriteLine();
             Console.WriteLine("Factory Class:");
 
-            /*
-             Kakvo e Factory Class ? 
-                Klas koiot moje da suzdava instancii na drugi klasove
-                MNOGO E UDOBNO ZA POLZVANE ZASHTOTO MOJESH DA IMASH 
-                EDIN KLAS KOITO DA SUZDVA OBEKTI OT DRUGI MNOGO KLASOVE !!!!!!!!
-             
-             */
             DogFactory dogFactory = new DogFactory();
             Dog gafy = dogFactory.CreateDog("Gafy", 9);
             Console.WriteLine(gafy);
 
             Console.WriteLine();
             Console.WriteLine("Dinamichen polymorfisum:");
-            /*
-             Dinamichen polymorohysum:
-                
-                Polzvame 'virtual' za dadeni metodi koito po nadolo mojem da gi prezapisvame !
-             */
-
+           
             Rectangle rect = new Rectangle(15, 5);
             Console.WriteLine(rect.CalculateArea());
 
             Square square = new Square(15, 5);
-            Console.WriteLine(square.CalculateArea());
-
-
-
-
-
-            /*
-             
-             NAI VAJNOTOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-                V EDIN INTERFEIS ABSOLUTNO VSICHKO E ABSTRAKTNO!
-                DOKATO V EDIN ABSTRAKTEN KLAS METODITE PRIMERNO TRQBVA DA 
-                GI DEFINIRAME KATO ABSTRAKTNI NO MOJE I DA NE SA ABSTRAKTNI.
-             
-             
-             */
-
-            //VAJnooooooooooooooooooooooooo!!!!!!!!!!!!!!!!!!!!!!!!!!
-                //V abstrakten klas mojem da slagame Access Modifieri : public, private, protected
-                //dokato v interfeisa vsichko e public 
-                //mojem da imame i konstruktori poleta metodi i propertita
-
-
-
-            /*
-             Prezapisvane na metodi:
-                Mojem da prezapisvame metod koito veche e prezapisan vednuj !!!!!!!!!!!!!!!!
-                t.e. metodi koito veche imat 'override' !!!!
-
-                'private' i 'static' metodi NE moje da se prezapisvat:
-                    'private' zashtoto ne moje da se dostupi za da se prezapishe !!!
-                    'static' zashtoto nqma kontext t.e. nqma ot kakvo da go prezapishem !!!
-             */
-
-
-
+            Console.WriteLine(square.CalculateArea()); 
         }
 
         public static int Add(int a, int b)
@@ -292,7 +151,6 @@ namespace Polymorphism
             return a + b + c;
         }
 
-        //Sus 'params' pravim taka che metoda da priema neznaen broi parametri !!!!!  
         public static double Add(params double[] nums)
         {
             double sum = 0;
@@ -301,7 +159,6 @@ namespace Polymorphism
 
             return sum;
         }
-
     }
 
     public class Rectangle
@@ -335,13 +192,12 @@ namespace Polymorphism
             var area = this.SideA * this.SideB;
             return area;
         }
-
     }
 
     public class Square : Rectangle
     {
         public Square(int sideA, int sideB)
-            : base(sideA, sideA) //Podavame mu dva puti SideA za da go izlujem
+            : base(sideA, sideA) 
         { }
 
         public override double CalculateArea()
@@ -350,8 +206,6 @@ namespace Polymorphism
             var area = this.SideA * this.SideA;
             return area;
         }
-
-
     }
 
     public class DogFactory {
@@ -365,7 +219,6 @@ namespace Polymorphism
 
     public class Dog
     {
-
         public Dog(string name, int age)
         {
             this.Age = age;
@@ -394,7 +247,6 @@ namespace Polymorphism
         }
     }
 
-
     public interface IAnimal
     {
         void Reproduce();
@@ -414,8 +266,6 @@ namespace Polymorphism
         }
     }
 
-    //VAJNOOOOOOO !!!!!!!!!!!!!!!!!!!!!!!!
-    //V C# 'OBJECT' E NAI BAZOVIQ KLAS KOITO VSICHKI KLASOVE NASLEDQVAT AVTOMATICHNO.
     public class Person : IAnimal
     {
         public int Age { get; set; }
@@ -435,7 +285,6 @@ namespace Polymorphism
             Console.WriteLine($"I am a Person and I Can Reroduce !");
         }
 
-
         public void PersonalInfo()
         {
             Console.WriteLine($"I am a Person and I am {this.Age} years old.");
@@ -443,12 +292,10 @@ namespace Polymorphism
 
         public override string ToString()
         {
-            return base.ToString(); //Cukni F12 vurhu 'base.' I SHTE VIDISH CHE NAI BAZOVIQ KLAS E 'Object'.
+            return base.ToString(); 
         }
-
     }
 
-    //Kotkata nasledqva IAnimal
     public class Cat : IAnimal
     {
         public int Age { get; set; }
@@ -468,8 +315,6 @@ namespace Polymorphism
             Console.WriteLine($"I am a Cat and I am {this.Age} years old.");
         }
 
-        //KAKVO E SKRIVANE ?
-        //Imame Dva Reproduce() metoda i ediniq se SKRIVA
         public void Reproduce()
         {
             Console.WriteLine("I am a Cat and I can reproduce");
@@ -479,9 +324,8 @@ namespace Polymorphism
     public sealed class Car
     {}
 
-    public class BMW //: Car   NE MOJEM DA NASLEDIM 'sealed' KLAS Car
+    public class BMW
     {
-        //sus 'sealed' mu kazvame che decata na tozi klas ne mogat da prezapisvat tozi metod !!!
         public sealed override string ToString()
         {
             return "I am driving ..."; 
@@ -489,8 +333,5 @@ namespace Polymorphism
     }
 
     public class BMW150 : BMW
-    {
-        //NE NI DAVA DA PREZAPISHEM ToString() METODA !
-    }
-
+    {}
 }

@@ -10,7 +10,5 @@ class Program
 
         Console.WriteLine(cat.ExplainSelf());
         Console.WriteLine(dog.ExplainSelf());
-
     }
 }
-

@@ -1,7 +1,4 @@
 ﻿
-
-
-
 public class MathOperations
 {
     public MathOperations()
@@ -21,7 +18,4 @@ public class MathOperations
     {
         return a + b + c;
     }
-
-
-
 }

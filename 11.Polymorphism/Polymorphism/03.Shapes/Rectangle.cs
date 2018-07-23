@@ -6,6 +6,7 @@ using System.Text;
 public class Rectangle : Shape
 {
     private const int MIN_WIDTH = 0;
+	
     private const int MIN_HEIGHT = 0;
 
     public Rectangle(double height, double width)
@@ -56,6 +57,4 @@ public class Rectangle : Shape
     {
         return base.Draw() + this.GetType().Name;
     }
-    
 }
-

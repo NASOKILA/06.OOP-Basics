@@ -9,8 +9,6 @@ public class Dog : Animal
         :base(name, favoriteFood)
     {}
 
-
-
     public override string ExplainSelf()
     {
         StringBuilder sb = new StringBuilder();
@@ -21,4 +19,3 @@ public class Dog : Animal
         return sb.ToString().TrimEnd();
     }
 }
-

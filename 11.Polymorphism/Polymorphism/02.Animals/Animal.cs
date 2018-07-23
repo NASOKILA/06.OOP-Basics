@@ -18,6 +18,4 @@ public class Animal
     {
         return $"I am {this.Name} and my fovourite food is {this.FavoriteFood}";
     }
-
 }
-

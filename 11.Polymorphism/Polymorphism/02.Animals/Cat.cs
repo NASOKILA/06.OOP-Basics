@@ -18,6 +18,4 @@ public class Cat : Animal
 
         return sb.ToString().TrimEnd();
     }
-
 }
-

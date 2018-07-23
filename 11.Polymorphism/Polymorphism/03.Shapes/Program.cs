@@ -6,8 +6,8 @@ namespace _03.Shapes
     {
         static void Main(string[] args)
         {
-            Shape rect = new Rectangle(5, 5); // polimorphism
-            Shape circle = new Circle(5); // polimorphism
+            Shape rect = new Rectangle(5, 5);
+            Shape circle = new Circle(5); 
 
             Console.WriteLine(rect.CalculateArea());
             Console.WriteLine(rect.CalculatePerimeter());
@@ -16,7 +16,6 @@ namespace _03.Shapes
             Console.WriteLine(circle.CalculateArea());
             Console.WriteLine(circle.CalculatePerimeter());
             Console.WriteLine(circle.Draw());
-
         }
     }
 }
