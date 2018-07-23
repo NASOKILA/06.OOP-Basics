@@ -92,5 +92,4 @@ namespace P02_CarsSalesman
             }
         }
     }
-
 }

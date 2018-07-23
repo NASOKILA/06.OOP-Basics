@@ -4,7 +4,6 @@ using System.Text;
 
 public class Car
 {
-
     private string model;
     private Engine engine;
     private Cargo cargo;
@@ -33,13 +32,8 @@ public class Car
         get { return tiresList; }
         set { tiresList = value; }
     }
-
-
-
     public Car()
-    {
-
-    }
+    {}
 
     public Car(string model, Engine engine, Cargo cargo, List<Tire> tiresList)
     {
@@ -48,5 +42,4 @@ public class Car
         this.Cargo = cargo;
         this.TiresList = tiresList;
     }
-
 }

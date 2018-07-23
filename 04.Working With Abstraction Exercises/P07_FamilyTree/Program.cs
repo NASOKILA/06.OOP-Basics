@@ -8,10 +8,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Store ppl with full information
         var people = new List<Person>();
 
-        // Store string for ppl with partial information for later use
         var storePeople = new List<string>();
 
         var person = Console.ReadLine();
@@ -23,7 +21,7 @@ class Program
             var info = inputLine.Split(new string[] { " - " },StringSplitOptions.RemoveEmptyEntries)
                 .ToArray();
 
-            if (info.Length == 1) // Full person information given
+            if (info.Length == 1) 
             {
                 var lastIndexOfSpace = inputLine.LastIndexOf(" ", StringComparison.Ordinal);
 
@@ -42,7 +40,6 @@ class Program
             inputLine = Console.ReadLine();
         }
 
-        // We will see what we have in storePeople for our parent/children relations
         foreach (var storePerson in storePeople)
         {
             Person parent;
@@ -50,22 +47,22 @@ class Program
 
             var info = Regex.Split(storePerson, " - ");
 
-            if (info[0].Contains('/') && info[1].Contains('/')) // Both inputs are dates of birthday
+            if (info[0].Contains('/') && info[1].Contains('/')) 
             {
                 var parentBirhtday = info[0];
                 var childrenBirthday = info[1];
 
                 parent = people
-                        .First(p => p.Birthday.Equals(parentBirhtday)); // We searcg for the current person in our list
+                        .First(p => p.Birthday.Equals(parentBirhtday));
                 children = people
-                        .First(p => p.Birthday.Equals(childrenBirthday)); // We searcg for the current person in our list
+                        .First(p => p.Birthday.Equals(childrenBirthday)); 
             }
-            else if (info[0].Contains('/') || info[1].Contains('/')) // One of the inputs is date
+            else if (info[0].Contains('/') || info[1].Contains('/'))
             {
                 var name = string.Empty;
                 var birthday = string.Empty;
 
-                if (info[0].Contains('/')) // First is date
+                if (info[0].Contains('/')) 
                 {
                     birthday = info[0];
                     name = info[1];
@@ -75,7 +72,7 @@ class Program
                     children = people
                         .First(p => p.Name.Equals(name));
                 }
-                else // Second is date
+                else 
                 {
                     birthday = info[1];
                     name = info[0];
@@ -86,7 +83,7 @@ class Program
                         .First(p => p.Name.Equals(name));
                 }
             }
-            else // Both are names
+            else 
             {
                 var parentName = info[0];
                 var childrenName = info[1];
@@ -110,7 +107,6 @@ class Program
 
         Person ourPerson;
 
-        // Chech if the info for our person is Name or Date
         if (person.Contains('/'))
         {
             ourPerson = people.First(p => p.Birthday.Equals(person));

@@ -29,6 +29,4 @@ public class Tire
         this.Pressure = pressure;
         this.Age = age;
     }
-
 }
-

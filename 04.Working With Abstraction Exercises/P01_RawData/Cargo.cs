@@ -21,15 +21,11 @@ public class Cargo
     }
 
     public Cargo()
-    {
-
-    }
+    {}
 
     public Cargo(int cargoWeight, string cargoType)
     {
         this.CargoWeight = cargoWeight;
         this.CargoType = cargoType;
     }
-
 }
-

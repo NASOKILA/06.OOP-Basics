@@ -17,7 +17,6 @@ namespace P06_Sneaking
             int[] samPosition = new int[2];
             FindSamPosition(samPosition);
             IterateMoves(moves, samPosition);
-
         }
 
         private static void IterateMoves(char[] moves, int[] samPosition)

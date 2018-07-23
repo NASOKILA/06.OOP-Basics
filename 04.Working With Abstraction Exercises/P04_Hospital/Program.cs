@@ -9,7 +9,8 @@ namespace P04_Hospital
         public static void Main()
         {
             Dictionary<string, List<string>> doktors = new Dictionary<string, List<string>>();
-            Dictionary<string, List<List<string>>> departments = new Dictionary<string, List<List<string>>>();
+            
+			Dictionary<string, List<List<string>>> departments = new Dictionary<string, List<List<string>>>();
 
             string command = Console.ReadLine();
 
@@ -30,7 +31,6 @@ namespace P04_Hospital
 
                 command = Console.ReadLine();
             }
-
         }
 
         private static void CheckCommandAndPrint(Dictionary<string, List<string>> doktors, Dictionary<string, List<List<string>>> departments, string[] args)
@@ -62,7 +62,6 @@ namespace P04_Hospital
 
                 command = Console.ReadLine();
             }
-
         }
 
         private static void ParseCommand(string command, out string departament, out string firstName, out string lastName, out string pacient, out string fullName)

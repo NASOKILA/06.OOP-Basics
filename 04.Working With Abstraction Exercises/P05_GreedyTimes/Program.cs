@@ -39,17 +39,13 @@ namespace P05_GreedyTimes
 
                 string item = string.Empty;
 
-                //get item method
                 item = GetItem(name, item);
 
-                //invalidItem or bag is Full
                 if (item == "")
                     continue;
                 else if (input < bag.Values.Select(x => x.Values.Sum()).Sum() + count)
                     continue;
 
-
-                //CheckBagCapacityOfItem
                 switch (item)
                 {
                     case "Gem":
@@ -96,8 +92,6 @@ namespace P05_GreedyTimes
                         break;
                 }
 
-
-                //FillBag
                 FillTheBag(bag, ref gold, ref stones, ref cash, name, count, item);
             }
         }
