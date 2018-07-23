@@ -11,4 +11,3 @@ class Program
         puppy.Weep();
     }
 }
-

@@ -10,4 +10,3 @@ public class Puppy : Dog
         Console.WriteLine("weeping...");
     }
 }
-

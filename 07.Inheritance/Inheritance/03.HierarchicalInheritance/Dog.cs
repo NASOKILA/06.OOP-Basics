@@ -9,6 +9,4 @@ public class Dog: Animal
     {
         Console.WriteLine("barking...");
     }
-
 }
-
