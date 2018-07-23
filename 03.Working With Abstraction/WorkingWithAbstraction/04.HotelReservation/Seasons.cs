@@ -10,4 +10,3 @@ public enum Seasons:int
     Winter = 3,
     Summer = 4
 }
-

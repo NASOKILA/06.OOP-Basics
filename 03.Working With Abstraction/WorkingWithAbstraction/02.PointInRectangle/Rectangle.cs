@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Text;
 
-
 public class Rectangle
 {
     private Point topLeft;
@@ -13,7 +12,6 @@ public class Rectangle
         get { return topLeft; }
         set { topLeft = value; }
     }
-
     
     public Point BottomRight
     {
@@ -21,11 +19,8 @@ public class Rectangle
         set { bottomRight = value; }
     }
 
-
     public Rectangle()
-    {
-
-    }
+    {}
 
     public Rectangle(Point topLeft, Point bottomRight)
     {
@@ -44,6 +39,4 @@ public class Rectangle
 
         return result;
     }
-
 }
-

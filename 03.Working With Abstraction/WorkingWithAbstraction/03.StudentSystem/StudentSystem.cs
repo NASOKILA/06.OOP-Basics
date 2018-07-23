@@ -19,7 +19,6 @@ public class StudentSystem
             var student = new Student(name, age, grade, comment);
             studentsList[name] = student;
         }
-
     }
 
     public void ShowStudent(string name)
@@ -32,9 +31,5 @@ public class StudentSystem
     }
 
     public void ParseCommand(string command)
-    {
-
-    }
-
+    {}
 }
-

@@ -21,7 +21,6 @@ public class PriceCalcultor
         price = decimal.Parse(info[0]);
         days = int.Parse(info[1]);
 
-        //PASRVAME STRINGOVETE KUM ENUMITE KOITO SME NAPRAVILI
         season = Enum.Parse<Seasons>(info[2]);
         discountType = DiscountType.None;
         
@@ -30,20 +29,11 @@ public class PriceCalcultor
     }
 
     public string CalculateTotalPrice()
-    {
-            
+    {          
         decimal result = (days * price) * (int)season;
         decimal discountPercentage = ((decimal)100 - (int)discountType) / 100;
         result = result * discountPercentage;
 
         return result.ToString("F2");
     }
-
-
 }
-
-
-
-
-
-

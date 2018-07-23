@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Text;
 
-
 public class Point
 {
     private int x;
@@ -12,7 +11,6 @@ public class Point
         get { return x; }
         set { x = value; }
     }
-
 
     private int y;
 
@@ -32,6 +30,4 @@ public class Point
         this.X = x;
         this.Y = y;
     }
-
 }
-

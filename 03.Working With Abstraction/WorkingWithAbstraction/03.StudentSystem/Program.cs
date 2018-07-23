@@ -5,7 +5,6 @@ class Program
 {
     static void Main(string[] args)
     {
-
         StudentSystem studentSystem = new StudentSystem();
 
         string input;
@@ -30,14 +29,11 @@ class Program
             {
                 studentSystem.ShowStudent(name);
             }
-
         }
-
     }
 
     public static string GetComment(double grade)
     {
-
         string result = "";
 
         if (grade >= 5.00)
@@ -50,4 +46,3 @@ class Program
         return result;
     }
 }
-

@@ -6,7 +6,6 @@ class Program
 {
     static void Main(string[] args)
     {
-
         int[] points = Console.ReadLine()
             .Split()
             .Select(int.Parse)
@@ -36,23 +35,8 @@ class Program
 
             Point point = new Point(x, y);
 
-            //Polzvame metod koito ne ni interesuva kak e napraven t.e. ABTRAKTEN METOD
-            //Kakto i klasa Rectangle ne ni interesuva kak e napraven nie samo go polzvame
-            //TOVA SE NARICHA ABSTRAKCIQ t.e. NE NI INTERESUVA KAK E NAPRAVENO.
             bool result = square.Contains(point);
             Console.WriteLine(result);
         }
-
-
-
     }
 }
-
-
-
-
-
-
-
-
-
