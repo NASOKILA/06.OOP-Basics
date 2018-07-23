@@ -22,11 +22,9 @@ class Program
         double truckFuelQuantity = double.Parse(truckInfo[1]);
         double truckLitersPerKm = double.Parse(truckInfo[2]);
 
-
         Car car = new Car(carFuelQuantity, carLitersPerKm);
 
         Truck truck = new Truck(truckFuelQuantity, truckLitersPerKm);
-
 
         int numberOfCommands = int.Parse(Console.ReadLine());
 
@@ -41,12 +39,10 @@ class Program
 
             if (command == "Drive")
             {
-
                 double distanceInKm = double.Parse(commandInput[2]);
 
                 if (vehicle == carName)
-                {
-                    
+                {       
                     bool canTravel = car.FuelQuantity >= (distanceInKm * car.FuelConsumptionInLitersPerKm);
                     if (canTravel)
                         car.Driving(distanceInKm);
@@ -68,14 +64,10 @@ class Program
                     }
                 }
 
-
                 Console.WriteLine($"{vehicle} travelled {distanceInKm} km");
-
-
             }
             else if (command == "Refuel")
             {
-
                 double liters = double.Parse(commandInput[2]);
 
                 if (vehicle == carName)
@@ -86,19 +78,11 @@ class Program
                 {
                     truck.Refueling(liters);
                 }
-
             }
-
         }
-
 
         Console.WriteLine($"Car: {car.FuelQuantity:f2}");
 
         Console.WriteLine($"Truck: {truck.FuelQuantity:f2}");
-
-
-
     }
-
 }
-

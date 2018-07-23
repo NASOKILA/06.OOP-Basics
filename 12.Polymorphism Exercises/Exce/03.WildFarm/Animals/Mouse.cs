@@ -4,15 +4,13 @@ using System.Text;
 
 
 public class Mouse : Mammal
-{
-    
+{   
     public Mouse(string name, double weight, int foodEaten, string livingRegion) 
         : base(name, weight, foodEaten, livingRegion)
     {
         EadableFoods.Add("Fruit");
         EadableFoods.Add("Vegetable");
     }
-
 
     public double EatingIncrement { get; set; } = 0.10;
 
@@ -23,4 +21,3 @@ public class Mouse : Mammal
         return $"Squeak";
     }
 }
-

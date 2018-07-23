@@ -23,4 +23,3 @@ public abstract class Bird : Animal
         return $"{this.GetType().Name} [{this.Name}, {this.WingSize}, {this.Weight}, {this.FoodEaten}]";
     }
 }
-

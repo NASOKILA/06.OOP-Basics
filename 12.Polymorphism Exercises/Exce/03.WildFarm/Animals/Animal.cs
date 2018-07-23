@@ -5,7 +5,6 @@ using System.Text;
 
 public abstract class Animal
 {
-
     public Animal()
     {}
 
@@ -22,13 +21,10 @@ public abstract class Animal
 
     public int FoodEaten { get; set; }
     
-
     public abstract string AskFood();
-
 
     public override string ToString()
     {
         return base.ToString();
     }
 }
-

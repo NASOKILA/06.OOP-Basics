@@ -24,10 +24,7 @@ public class Truck : IVehicle
 
     public void Refueling(double liters)
     {
-        //When its refueled it keeps only 95% of the given fuelQuantity
         double FivePercent = (liters / 20);
         this.FuelQuantity += (liters - FivePercent);
-        
     }
 }
-

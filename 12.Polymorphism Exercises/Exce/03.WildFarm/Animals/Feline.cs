@@ -22,7 +22,4 @@ public abstract class Feline : Mammal
     {
         return $"{this.GetType().Name} [{this.Name}, {this.Breed}, {this.Weight}, {this.LivingRegion}, {this.FoodEaten}]";
     }
-
-   
 }
-

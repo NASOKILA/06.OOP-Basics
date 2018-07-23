@@ -23,4 +23,3 @@ public abstract class Mammal : Animal
         return $"{this.GetType().Name} [{this.Name}, {this.Weight}, {this.LivingRegion}, {this.FoodEaten}]";
     }
 }
-

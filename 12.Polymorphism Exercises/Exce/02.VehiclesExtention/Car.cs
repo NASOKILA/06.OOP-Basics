@@ -5,10 +5,8 @@ using System.Text;
 
 public class Car : IVehicle
 {
-
     public Car(double fuelQuantity, double fuelConsumptionInLitersPerKm, double tankCapacity)
     {
-
         if (fuelQuantity > tankCapacity)
             fuelQuantity = 0;
 
@@ -39,4 +37,3 @@ public class Car : IVehicle
         }
     }
 }
-

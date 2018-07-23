@@ -19,8 +19,6 @@ public class Car : IVehicle
     public void Driving(double distanceInKm)
     {
         this.FuelQuantity -= (distanceInKm * this.FuelConsumptionInLitersPerKm);
-            //CAR_FUEL_CONSUMPTION_INCREMENT;
-        //to do more
     }
 
     public void Refueling(double liters)
@@ -28,4 +26,3 @@ public class Car : IVehicle
         this.FuelQuantity += liters;
     }
 }
-

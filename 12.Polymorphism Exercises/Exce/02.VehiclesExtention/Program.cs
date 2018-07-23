@@ -7,8 +7,6 @@ namespace _02.VehiclesExtention
     {
         static void Main(string[] args)
         {
-
-            //INPUT
             string[] carInfo = Console.ReadLine()
                  .Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
                  .ToArray();
@@ -37,18 +35,10 @@ namespace _02.VehiclesExtention
             double busLitersPerKm = double.Parse(busInfo[2]);
             double busTankCapacity = double.Parse(busInfo[3]); 
 
-
-
-
-            //CREATE THE OBJECTS
             Car car = new Car(carFuelQuantity, carLitersPerKm, carTankCapacity);
             Truck truck = new Truck(truckFuelQuantity, truckLitersPerKm, truckTankCapacity);
             Bus bus = new Bus(busFuelQuantity, busLitersPerKm, busTankCapacity);
 
-
-
-
-            //COMMANDS
             int numberOfCommands = int.Parse(Console.ReadLine());
 
             for (int i = 0; i < numberOfCommands; i++)
@@ -62,12 +52,10 @@ namespace _02.VehiclesExtention
 
                 if (command == "Drive")
                 {
-
                     double distanceInKm = double.Parse(commandInput[2]);
 
                     if (vehicle == carName)
                     {
-
                         bool carTravel = car.FuelQuantity >= (distanceInKm * car.FuelConsumptionInLitersPerKm);
                         if (carTravel)
                             car.Driving(distanceInKm);
@@ -100,19 +88,14 @@ namespace _02.VehiclesExtention
                         }
                     }
 
-
                     Console.WriteLine($"{vehicle} travelled {distanceInKm} km");
-
-
                 }
                 else if (command == "Refuel")
                 {
-
                     double liters = double.Parse(commandInput[2]);
 
                     if (vehicle == carName)
                     {
-
                         if ((liters + car.FuelQuantity) > car.TankCapacity)
                         {
                             Console.WriteLine($"Cannot fit {liters} fuel in the tank");
@@ -139,7 +122,6 @@ namespace _02.VehiclesExtention
 
                         bus.Refueling(liters);
                     }
-
                 }
                 else if (command == "DriveEmpty")
                 {
@@ -160,11 +142,8 @@ namespace _02.VehiclesExtention
                         }
                     }
                 }
-
             }
 
-
-            //RESULT 
             Console.WriteLine($"Car: {car.FuelQuantity:f2}");
 
             Console.WriteLine($"Truck: {truck.FuelQuantity:f2}");

@@ -15,4 +15,3 @@ public interface IVehicle
 
     void Refueling(double fuelAmount);
 }
-

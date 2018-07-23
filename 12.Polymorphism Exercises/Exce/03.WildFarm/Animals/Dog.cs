@@ -5,7 +5,6 @@ using System.Text;
 
 public class Dog : Mammal
 {
-    
     public Dog(string name, double weight, int foodEaten, string livingRegion) 
         : base(name, weight, foodEaten, livingRegion)
     {
@@ -20,11 +19,4 @@ public class Dog : Mammal
     {
         return $"Woof!";
     }
-
-    /*
-    public override string ToString()
-    {
-        return $"{} [{}, {}, {}, {}]"; 
-    }*/
 }
-

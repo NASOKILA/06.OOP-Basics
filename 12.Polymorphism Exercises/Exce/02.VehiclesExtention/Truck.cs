@@ -5,10 +5,8 @@ using System.Text;
 
 public class Truck : IVehicle
 {
-
     public Truck(double fuelQuantity, double fuelConsumptionInLitersPerKm, double tankCapacity)
     {
-
         if (fuelQuantity > tankCapacity)
             fuelQuantity = 0;
 
@@ -35,13 +33,8 @@ public class Truck : IVehicle
         }
         else
         {
-            //When its refueled it keeps only 95% of the given fuelQuantity
             double FivePercent = (liters / 20);
             this.FuelQuantity += (liters - FivePercent);
         }
     }
-    
-
-
 }
-
