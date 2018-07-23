@@ -8,7 +8,6 @@ public class ProviderFactory
 
     public Provider CreateProvider(List<string> arguments)
     {
-
         string type = arguments[0];
         string id = arguments[1];
         double energyOutput = double.Parse(arguments[2]);
@@ -28,4 +27,3 @@ public class ProviderFactory
         return result;
     }
 }
-

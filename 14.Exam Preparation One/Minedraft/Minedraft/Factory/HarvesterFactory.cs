@@ -27,4 +27,3 @@ public class HarvesterFactory
         return result;
     }
 }
-

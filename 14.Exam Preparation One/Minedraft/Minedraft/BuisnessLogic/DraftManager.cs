@@ -6,7 +6,6 @@ using System.Text;
 
 public class DraftManager
 {
-
     public DraftManager()
     {
         this.workingMode = "Full";  //“Half Mode”, “Energy Mode”
@@ -47,11 +46,10 @@ public class DraftManager
     public string Day()
     {
 
-        //zapazvame si sumata na energiqta
         double dayEnergyProvided = providers
                .Select(p => p.EnergyOutput).Sum();
 
-        this.totalEnergyStored += dayEnergyProvided; //total energy
+        this.totalEnergyStored += dayEnergyProvided; 
 
         double dayEnergyRequired = -1;
         double dayMinedOre = -1;
@@ -138,7 +136,5 @@ public class DraftManager
         sb.AppendLine($"Total Energy Stored: {this.totalEnergyStored}");
         sb.AppendLine($"Total Mined Plumbus Ore: {this.totalMinedPlumbus}");
         return sb.ToString().TrimEnd();
-    }
-    
+    }   
 }
-

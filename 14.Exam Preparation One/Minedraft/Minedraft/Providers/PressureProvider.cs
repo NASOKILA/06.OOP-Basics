@@ -7,9 +7,5 @@ public class PressureProvider : Provider
 {
     public PressureProvider(string id, double energyOutput)
         : base(id, (energyOutput + (energyOutput / 2)))
-    {
-        //PRAVIM SI SMETKITE DOKATO GI PODAVAME KUM BAZOVIQ KONSTRUKTOR
-    }
-
+    {}
 }
-

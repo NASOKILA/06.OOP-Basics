@@ -10,8 +10,6 @@ class Program
         
         while (true)
         {
-
-
             try
             {
                 var input = Console.ReadLine()
@@ -47,14 +45,11 @@ class Program
                     Console.WriteLine(draft.ShutDown());
                     Environment.Exit(0);
                 }
-
             }
             catch (Exception e)
             {
                 Console.WriteLine(e.Message);
             }
-
         }    
     }
 }
-

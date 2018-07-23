@@ -9,7 +9,6 @@ public abstract class Harvester : Unit
     private const int MIN_ENERGY_REQUIREMENT = 0;
     private const int MAX_ENERGY_REQUIREMENT = 20000;
 
-    //Na abstraktnite klasove konstrukturite trqbva da sa PROTECTED zashtotonqma smisul da moje da se dostupqt otvun
     protected Harvester(string id, double oreOutput, double energyRequirement)
         : base(id)
     {
@@ -43,6 +42,4 @@ public abstract class Harvester : Unit
             energyRequirement = value;
         }
     }
-    
 }
-
