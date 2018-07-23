@@ -11,13 +11,10 @@
     {
         public string Username { get; private set; }
         
-        //Not part of the interface, needed only for inner usage
         private string Password { get; set; }
 
-        //Not part of the interface, needed only for inner usage
         private bool Error { get; set; }
 
-        //all commands for the login controller
         private enum Command {
             ReadUsername,
             ReadPassword,
@@ -25,22 +22,17 @@
             Back
         }
 
-        //its clear what it does it resets the username and pasword fields and sets error to false
         private void ResetLogin() {
             this.Error = false;
             this.Username = string.Empty;
             this.Password = string.Empty;
         }
 
-
-        //konstruktura prosto resetva poletata kato izvikva ResetLogin
         public LogInController()
         {
             this.ResetLogin();
         }
 
-        
-        //Izpulnqva komandata v zavisimost kakva e tq
         public MenuState ExecuteCommand(int index)
         {
             switch ((Command)index)
@@ -52,8 +44,7 @@
                     ReadPassword();
                     return MenuState.Login;
                 case Command.LogIn:
-                    //Log in user
-                    //Opitvame da lognem usera, ako stane vrushtame success message ako ne Error:
+				
                     var userLoggedIn = UserService.TryLoginUser(Username, Password);
 
                     if (userLoggedIn)
@@ -68,8 +59,6 @@
             }
         }
 
-        //izvikva se ot RenderCurrentView() main controllera,
-        //metoda vrushta view
         public IView GetView(string userName)
         {
             return new LogInView(this.Error, this.Username, this.Password.Length);
@@ -86,7 +75,5 @@
             this.Username = ForumViewEngine.ReadRow();
             ForumViewEngine.HideCursor();
         }
-
-
     }
 }

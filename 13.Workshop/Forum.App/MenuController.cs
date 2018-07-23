@@ -12,7 +12,6 @@
     internal class MenuController
     {
         private const int DEFAULT_INDEX = 0;
-
         private IController[] controllers;
         private Stack<int> controllerHistory;
         private int currentOptionIndex;
@@ -35,7 +34,6 @@
 
         private int CurrentControllerIndex => this.controllerHistory.Peek();
 
-        //vhurlq exception
         private IController CurrentController => this.controllers[this.controllerHistory.Peek()];
 
         internal ILabel CurrentLabel => this.CurrentView.Buttons[currentOptionIndex];
@@ -142,16 +140,12 @@
 
         private bool RedirectToMenu(MenuState newState) {
 
-            //if incoming state is different from the current one
             if (this.State != newState) {
                 
-                //push the newState into controllerHistory, 
                 this.controllerHistory.Push((int)newState);
 
-                //call RenderView and 
                 this.RenderCurrentView();
 
-                //return true
                 return true;
             }
 
@@ -165,55 +159,44 @@
 
         private void RedirectToAddReply()
         {
-            //vzimame nastoqshtiq kontroller
             var postDetaisController = (PostDetailsController)this.CurrentController;
 
-            //vzemame reply kontrollera
             var addReplyController = (AddReplyController)this.controllers[(int)MenuState.AddReply];
 
-            //setvame idto na posta
             addReplyController.SetPostId(postDetaisController.PostId);
 
-            //redirektvame
             RedirectToMenu(MenuState.AddReplyToPost);
 
         }
 
         private void LogOut()
         {
-            this.Username = string.Empty; //chistim poleto username
-            this.LogOutUser(); //logoutvame usera
-            this.RenderCurrentView(); //renderirame sushtoto view
+            this.Username = string.Empty; 
+            this.LogOutUser(); 
+            this.RenderCurrentView(); 
         }
 
-        //pishem si metoda za da ne vrushta greshka
         private void SuccessfulLogin()
         {
             this.Username = ((IReadUserInfoController)CurrentController).Username;
-            LogInUser(); //izvikvame LogInUser() metoda
-            RedirectToMenu(MenuState.Main); // I redirektvame kum Meniuto
+            LogInUser(); 
+            RedirectToMenu(MenuState.Main); 
         }
 
         private void ViewPost()
         {
-            //Vzimame si kategoriqta
             var categoryController = (CategoryController)this.CurrentController;
             var categoryId = categoryController.CategoryId;
 
-            //zarejdame postovete i gi offsetvame
             var posts = PostService.GetPostsByCategory(categoryId).ToArray();
 
-            //izchislqvame indexa
             var postIndex = categoryController.CurrentPage * CategoryController.PAGE_OFFSET + this.currentOptionIndex;
 
-            //namirame si posta polzvaiki indexa
             var post = posts[postIndex - 1];
 
-            //podavame go na Post Controllera
             var postDetailsController = (PostDetailsController)this.controllers[(int)MenuState.ViewPost];
             postDetailsController.SetPostId(post.Id);
 
-            //redirektvame kum ViewPost
             RedirectToMenu(MenuState.ViewPost);
         }
 
@@ -221,33 +204,25 @@
         {
             var categoriesContoller = (CategoriesController)this.CurrentController;
 
-            //smqtame indexa na koq stranica da se otvorqt kategoriite
             int categoryIndex = categoriesContoller.CurrentPage * CategoriesController.PAGE_OFFSET +
                 this.currentOptionIndex;
 
-            //setvame mu kategoriqta
             var categoryCtrlr = (CategoryController)this.controllers[(int)MenuState.OpenCategory];
             categoryCtrlr.SetCategory(categoryIndex);
 
-            //i redirektvame kum meniuto na Open Category
             this.RedirectToMenu(MenuState.OpenCategory);
         }
 
         private void AddPost()
         {
-            //vzimame si Add post controller
             var addPostController = (AddPostController)this.CurrentController;
 
-            //vzimame id-to na posta
             var postId = addPostController.Post.PostId;
 
-            //vzimame postViewera
             var postViewer = (PostDetailsController)this.controllers[(int)MenuState.ViewPost];
 
-            //setvame id-to na posta
             postViewer.SetPostId(postId);
 
-            //resetvame posta
             addPostController.ResetPost();
 
             this.controllerHistory.Pop();
@@ -262,10 +237,8 @@
             this.forumViewer.RenderView(this.CurrentView);
         }        
 
-        //promenqme LoginUsera na sus slednoto, celta e da se lognem
         private void LogInUser()
         {
-            //tursim kontrollera koito moje da ni logne
             foreach (var controller in controllers)
             {
                 if (controller is IUserRestrictedController userRestrictedController)
@@ -275,10 +248,8 @@
             }
         }
 
-        //tuk logoutvame usera 
         private void LogOutUser()
         {
-            //tursim kontrollera koito moje da ni logOutne
             foreach (var controller in controllers)
             {
                 if (controller is IUserRestrictedController userRestrictedController)
@@ -287,7 +258,5 @@
                 }
             }
         }
-
-
     }
 }

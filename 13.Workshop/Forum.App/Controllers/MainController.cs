@@ -15,14 +15,11 @@
 
         public bool LoggedInUser { get; private set; }
 
-        //izvikva se ot RenderCurrentView() main controllera,
-        //metoda vrushta view
         public IView GetView(string userName)
         {
             return new MainView(userName);
         }
 
-        
         public MenuState ExecuteCommand(int index)
         {      
             if (LoggedInUser)

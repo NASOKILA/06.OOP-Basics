@@ -11,8 +11,6 @@
 
     public class AddReplyController : IController
     {
-
-        //opisvame si komandite v kontrollera
         private enum Command { Write, Post };
         
         private static int centerTop = Position.ConsoleCenter().Top;
@@ -35,15 +33,12 @@
 
             this.TextArea = new TextArea(centerLeft - 18, centerTop + contentLength - 7,
                 TEXT_AREA_WIDTH, TEXT_AREA_HEIGHT, POST_MAX_LENGTH);
-
         }
         
         private PostViewModel postViewModel;
         
         public AddReplyController()
-        {
-
-        }
+        {}
 
         private const int TEXT_AREA_WIDTH = 37;
         private const int TEXT_AREA_HEIGHT = 6;
@@ -60,7 +55,6 @@
                     return MenuState.AddPost;
                 case Command.Post:
 
-                    //Opitvame se da adnem posta i ako ne uspeem setvame Error na true i Rirendvame
                     var replyAdded = PostService.TrySaveReply(Reply, postViewModel.PostId);
                     if (!replyAdded)
                     {
@@ -80,12 +74,9 @@
 
         }
 
-
-        //metod za setvame na post id
         public void SetPostId(int postId)
         {
             postViewModel = PostService.GetPostViewModel(postId);   
         }
-
     }
 }

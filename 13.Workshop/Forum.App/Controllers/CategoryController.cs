@@ -11,9 +11,8 @@
     public class CategoryController : IController, IPaginationController
     {
         public const int PAGE_OFFSET = 10;
+		
         private const int COMMAND_COUNT = PAGE_OFFSET + 3;
-
-        //opisvame si vuzmojnite komandi !!!
         private enum Command { Back = 0, ViewPost = 1, PreviousPage = 11, NextPage = 12 };
         
         public CategoryController()

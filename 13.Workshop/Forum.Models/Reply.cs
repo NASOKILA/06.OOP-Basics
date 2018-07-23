@@ -6,7 +6,6 @@ namespace Forum.Models
 {
     public class Reply
     {
-
         public Reply(int id, string content, int authorId, int postId)
         {
             this.Id = id;
@@ -14,7 +13,6 @@ namespace Forum.Models
             this.AuthorId = authorId;
             this.PostId = postId;
         }
-
 
         public int Id { get; set; }
 

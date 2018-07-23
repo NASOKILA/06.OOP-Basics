@@ -66,6 +66,7 @@
                 ForumViewEngine.DrawTextArea(this);
                 return true;
             }
+			
             return false;
         }
 
@@ -115,6 +116,5 @@
             }
             this.lines = StringProcessor.Split(this.Text);
         }
-
     }
 }

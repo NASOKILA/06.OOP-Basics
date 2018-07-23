@@ -8,9 +8,6 @@ namespace Forum.App
 {
     public class ForumData
     {
-        //this class is a holder of all our data so far
-
-        //Pri suzdavaneto na konstruktura nie izvikvame Load() metodite ot DataMappera.
         public ForumData()
         {
             this.Users = DataMapper.LoadUsers();
@@ -27,17 +24,12 @@ namespace Forum.App
 
         public List<Reply> Replies { get; set; }
 
-
-        //method to save the changes made on our collections:
         public void SaveChanges()
         {
             DataMapper.SaveUsers(this.Users);
             DataMapper.SavePosts(this.Posts);
             DataMapper.SaveReplies(this.Replies);
             DataMapper.SaveCategories(this.Categories);
-
         }
-
-
     }
 }

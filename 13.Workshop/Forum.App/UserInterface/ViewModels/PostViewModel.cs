@@ -10,7 +10,6 @@
     {
         private const int LINE_LENGHT = 37;
 
-        //vzimame si vsichko keto ni e nujno v konstruktura
         public PostViewModel(Post post)
         {
             Author = UserService.GetUser(post.AuthorId).Username;
@@ -32,7 +31,6 @@
 
             IList<string> lines = new List<string>();
 
-            //vzimame vseki 37mi sinvol
             for (int i = 0; i < content.Length; i += LINE_LENGHT)
             {
                 char[] row = contentChars.Skip(i).Take(LINE_LENGHT).ToArray();
@@ -54,13 +52,5 @@
         public IList<string> Content { get; set; }
 
         public IList<ReplyViewModel> Replies { get; set; }
-
     }
 }
-
-
-
-
-
-
-

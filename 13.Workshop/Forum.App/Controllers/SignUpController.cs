@@ -15,10 +15,8 @@
         public string Username { get; set; }
         public string Password { get; set; }
 
-        //tuk error mesage ni e string vmesto bool
         private string ErrorMessage { get; set; }
 
-        //pravim si enum za vsichki komandi koito se polzvat v toziz kontroller
         private enum Command {
             ReadUsername,
             ReadPassword,
@@ -26,7 +24,6 @@
             Back
         }
 
-        //Pravim si enum i za statusite
         public enum SignUpStatus
         {
             Success,
@@ -34,15 +31,12 @@
             UsernameTaken
         }
 
-        //resetva vsichki poleta
         private void ResetSignUp() {
             Username = string.Empty;
             Password = string.Empty;
             ErrorMessage = string.Empty;
         }
 
-
-        //Izpulnqva komandata v zavisimost kakva e tq
         public MenuState ExecuteCommand(int index)
         {
             switch ((Command)index)
@@ -55,8 +49,6 @@
                     return MenuState.Signup;
                 case Command.SignUp:
 
-                    //opitvame da Registrirame noviq user i ako ne stane vrushtame greshka
-
                     var signedUpUser = UserService.TrySignUpUser(this.Username, this.Password);
 
                     switch (signedUpUser) {
@@ -64,12 +56,10 @@
                             return MenuState.SuccessfulLogIn;
                         case SignUpStatus.DetailsError:
 
-                            //setvame si Error da e DETAILS_ERROR i go vrushtame
                             ErrorMessage = DETAILS_ERROR;
                             return MenuState.Error;
                         case SignUpStatus.UsernameTaken:
 
-                            //setvame si Error da e USERNAME_TAKEN_ERROR i go vrushtame
                             ErrorMessage = USERNAME_TAKEN_ERROR;
                             return MenuState.Error;
                     }
@@ -81,7 +71,6 @@
                 default:
                     throw new NotSupportedException();
             }
-
         }
 
         public IView GetView(string userName)

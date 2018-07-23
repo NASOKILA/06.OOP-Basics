@@ -6,7 +6,6 @@ namespace Forum.Models
 {
     public class Post
     {
-        //Polzvame kombinaciq ot ICollection<> IEnumerable<> i List<> za da mojem da vzemem samo tova koeto ni e nujno
         public Post(int id, string title, string content, int categoryId, int authorId, IEnumerable<int> replies)
         {
             this.Id = id;

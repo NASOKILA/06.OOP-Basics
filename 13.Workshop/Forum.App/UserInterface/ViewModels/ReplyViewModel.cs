@@ -21,8 +21,6 @@
             Content = GetLines(reply.Content);
         }
 
-
-
         public string Author { get; set; }
 
         public IList<string> Content { get; set; }
@@ -33,7 +31,6 @@
 
             IList<string> lines = new List<string>();
 
-            //vzimame vseki 37mi sinvol
             for (int i = 0; i < content.Length; i += LINE_LENGHT)
             {
                 char[] row = contentChars.Skip(i).Take(LINE_LENGHT).ToArray();
